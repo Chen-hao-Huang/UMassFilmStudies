@@ -98,6 +98,39 @@ footer {
 
 /* Responsive Styles */
 
+.navbar-logo {
+  float: left;
+  height: 40px;
+
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+.navbar-logo:hover,
+.navbar-logo:focus {
+  text-decoration: none;
+}
+.navbar-logo > img {
+  display: block;
+}
+@media (min-width: 768px) {
+  .navbar > .container .navbar-logo,
+  .navbar > .container-fluid .navbar-logo {
+    margin-left: -15px;
+  }
+}
+
+@media (max-width: 370px) {
+    .navbar-brand {display: none;  }
+  
+}
+
+@media (max-width: 120px) {
+    .navbar-logo {display: none;  }
+  
+}
+
+
 @media(max-width:991px) {
     .customer-img,
     .img-related {

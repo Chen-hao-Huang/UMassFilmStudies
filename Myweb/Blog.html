@@ -43,8 +43,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">logo </a>
-              
+                <a href="index.html" class="navbar-logo"><img src='icons/favicon.ico'  href="index.html" alt="Icon" > </a>
                 <a class="navbar-brand" href="index.html">Interdepartmental Program in Film Studies</a>
 
             </div>
@@ -159,12 +158,57 @@
                 </ol>
             </div>
             </div>
+            
         </div>
-    
+             
+    <div class="container">
+            <form>
+               <div class="form-group col-sm-4">
+                <label for="EventName">Event Name</label>
+                <input type="text" class="form-control" id="EventName" aria-describedby="EventNameHelp" >
+              </div>
+              <div class="form-group col-sm-4">
+                <label for="InputEmail1">Email address</label>
+                <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" >
+                
+              </div>
+           
+              <div class="form-group col-sm-4">
+                <label for="Catagory">Catagory</label>
+                <select class="form-control" id="Catagory">
+                  <option>Film Screening</option>
+                  <option>Talk</option>
+                  <option>something</option>
+                  <option>Social</option>
+                </select>
+              </div>
+              <div class="form-group  col-sm-12">
+                <label for="Details">Details</label>
+                <textarea class="form-control" id="Details" rows="3"></textarea>
+              </div>
+              <div class="form-group col-sm-4">
+                <label for="InputFile">Flyers</label>
+                <input type="file" class="form-control-file" id="InputFile" aria-describedby="fileHelp">
+                <small id="fileHelp" class="form-text text-muted">Any pics?</small>
+              </div>
+            
+              <div class="form-group col-xs-12 col-md-6">
+                  <label for="datetime" class="col-form-label">Date and time</label>
+                  <div >
+                    <input class="form-control" type="datetime-local"  id="datetime">
+                  </div>
+                </div>
+                
+              <button type="submit" class="btn btn-primary col-sm-12 col-xs-12">Submit</button>
+            </form>
+        
+    </div>
 
-   
+
 
         <!-- Footer -->
+        <br>
+        <br>
         <footer class="navbar-fixed-bottom">
             <div class="row">
                 <div class="col-lg-12">
