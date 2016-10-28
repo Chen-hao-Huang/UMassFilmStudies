@@ -51,6 +51,7 @@ header.carousel .fill {
 }
 
 
+
 /* 404 Page Styles */
 
 .error-404 {
@@ -102,7 +103,7 @@ footer {
   float: left;
   height: 40px;
 
-  padding: 15px 15px;
+  padding: 10px 10px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -138,7 +139,9 @@ footer {
     }
 }
 
-@media (min-width: 768px) {ul.nav li.dropdown:hover > ul.dropdown-menu {
+@media (min-width: 768px) {
+   
+    ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;    
 }
 }
