@@ -50,6 +50,9 @@ header.carousel .fill {
         background-color: #f5f5f5;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
 
 
 /* 404 Page Styles */
@@ -111,6 +114,10 @@ footer {
 .navbar-logo:focus {
   text-decoration: none;
 }
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
 .navbar-logo > img {
   display: block;
 }
