@@ -16,7 +16,7 @@ html,body
 }
 
 body {
-    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .img-portfolio {
@@ -47,18 +47,18 @@ header.carousel .fill {
 }
 
 .blackbackground{
-        background-color: #f5f5f5;
+        background-color: #ffffff;
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #ffffff;
+    color:#f5f5f5;
 }
 
 /* staff pages cars*/
 body {
     padding: 20px;
     font-family: 'Open Sans', sans-serif;
-    background-color: #f7f7f7;
+    background-color: #f5f5f5;
 }
 
 .lib-panel {
@@ -172,15 +172,17 @@ footer {
 
 
 
-/* Responsive Styles */
+/* navbar Styles */
+.navbar {min-height:70px !important}
+.navbar-nav > li > a {padding-top:25px !important;}
+
+
+
 
 .navbar-logo {
   float: left;
-  height: 40px;
-
-  padding: 20px 20px;
-  font-size: 18px;
-  line-height: 20px;
+ 
+  padding: 15px 15px;
 }
 .navbar-logo:hover,
 .navbar-logo:focus {
@@ -189,10 +191,15 @@ footer {
 .navbar-inverse .navbar-brand {
     color: white;
 }
+ul.nav a:hover { color: #e02323 !important; }
 
 .navbar-logo > img {
   display: block;
 }
+
+
+/* Responsive Styles */
+
 @media (min-width: 768px) {
   .navbar > .container .navbar-logo,
   .navbar > .container-fluid .navbar-logo {
@@ -201,7 +208,7 @@ footer {
 }
 
 @media (max-width: 479px) {
-    .navbar-brand {display: none;  }
+    .navbar-logo {display: none;  }
 
 }
 
@@ -213,6 +220,18 @@ footer {
 }
 
 
+@media (max-width: 279px) {
+    .navbar-brand {display: none;  }
+    .navbar-logo {display: block;  }
+
+}
+
+
+@media (max-width: 143px) {
+    .navbar-brand {display: none;  }
+    .navbar-logo {display: none;  }
+
+}
 @media(max-width:991px) {
     .customer-img,
     .img-related {
@@ -221,13 +240,17 @@ footer {
 }
 
 @media (min-width: 768px) {
-
+ .navbar-brand {display: none;  }
+    .navbar-logo {display: block;  }
      .dropdown:hover .dropdown-menu {
         display: block;
     }
 
 }
 
+@media (min-width: 992px) {
+    .navbar-brand {display: block;  }
+}
 
 @media(max-width:767px) {
     .img-portfolio {
