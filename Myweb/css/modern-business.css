@@ -12,7 +12,7 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 body {
@@ -178,7 +178,7 @@ footer {
   float: left;
   height: 40px;
 
-  padding: 10px 10px;
+  padding: 20px 20px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -202,14 +202,14 @@ footer {
 
 @media (max-width: 479px) {
     .navbar-brand {display: none;  }
-  
+
 }
 
 
 
 @media (max-width: 120px) {
     .navbar-logo {display: none;  }
-  
+
 }
 
 
@@ -221,11 +221,11 @@ footer {
 }
 
 @media (min-width: 768px) {
-   
+
      .dropdown:hover .dropdown-menu {
         display: block;
     }
-    
+
 }
 
 
