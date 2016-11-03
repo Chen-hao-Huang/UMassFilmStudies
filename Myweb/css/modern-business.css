@@ -15,6 +15,12 @@ html,body
     overflow-x: hidden;
 }
 
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
@@ -26,11 +32,18 @@ body {
 .img-hover:hover {
     opacity: 0.8;
 }
+.img-circle{
+    border-radius:5px 5px 5px 5px;
+    
+}
+ 
+/*profile card*/
+
 
 /* Home Page Carousel */
 
 header.carousel {
-    height: 80%;
+    height: 100%;
 }
 
 header.carousel .item,
