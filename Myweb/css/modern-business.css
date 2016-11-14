@@ -500,9 +500,15 @@ header.navbar-fixed-bottom{
 .navbar {min-height:70px !important}
 .navbar-nav > li > a {padding-top:25px !important;}
 
-
-
-
+.navbar-toggle {
+        margin-top: 20px;
+}
+.navbar-nav > li > a {
+    text-align: center;
+}
+.dropdown-menu>li>a {
+     text-align: center;
+}
 .navbar-logo {
   float: left;
  
