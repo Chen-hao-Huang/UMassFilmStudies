@@ -509,8 +509,8 @@ header.navbar-fixed-bottom{
     padding: 13px;
 }
 .navbar-nav > li > a {
-    padding-top:25px ;
- padding-bottom: 25px;
+    padding-top:30px ;
+ padding-bottom: 20px;
 }
 
 .navbar-toggle {
