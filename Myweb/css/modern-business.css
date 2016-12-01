@@ -639,6 +639,7 @@ footer.page-footer a {
 
 footer.page-footer .title {
   text-transform: uppercase;
+    color: azure;
 }
 
 footer.page-footer .call-to-action {
@@ -659,6 +660,7 @@ footer.page-footer .social-section {
 footer.page-footer .social-section ul li {
   display: inline-block;
 }
+
 
 /* Responsive Styles */
 
