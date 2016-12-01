@@ -318,7 +318,7 @@ header.navbar-fixed-bottom{
     height: 40px;
     bottom: 0;
     width: 100%;
-   background-color: rgba(245, 245, 245, 0.15);
+   background-color: rgba(245, 245, 245, 0.51);
 }
 .blackbackground{
         background-color: #ffffff;
@@ -553,68 +553,6 @@ ul.nav a:hover { color: #e02323 !important; }
 .navbar-logo > img {
   display: block;
 }
-
-
-/* subpage Styles */
-h1 {
-    font-size:50px;
-}
-.parallax1, .parallax2,.parallax3 {
-    position: relative;
-    opacity: 1;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax1 { 
-    /* The image used */
-    background-image: url("../Pics/index/DSC_0018.JPG");
- 
-    /* Set a specific height */
-    height: 500px; 
-
-}
-.parallax2 { 
-      background-image: url("../Pics/index/SEM_0451.JPG");
-    min-height: 400px;
- 
-}
-
-
-.parallax3 { 
-    /* The image used */
-    background-image: url("../Pics/index/SEM_0788.JPG");
-
-    /* Set a specific height */
-      min-height: 400px;
-      width: 100%;
-
-}
-.parallaxtext{
-    color: #777;
-    text-align:center;
-    padding:50px 80px;text-align: justify;
-}
-
-.caption {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-}
-.caption span.border {
-    background-color: #111;
-    color: #fff;
- 
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-}
-
 
 /* Footer Styles */
 footer.page-footer {
