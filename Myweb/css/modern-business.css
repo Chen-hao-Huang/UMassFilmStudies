@@ -799,6 +799,7 @@ footer.page-footer .social-section ul li {
   .navbar > .container-fluid .navbar-logo {
     margin-left: -15px;
   }
+   
 }
 
 @media (max-width: 479px) {
@@ -855,6 +856,23 @@ footer.page-footer .social-section ul li {
         margin-bottom: 30px;
     }
 }
+@media (min-width: 760px) {
+ .advisingiframe{
+        display: block;
+    }    
+    .advisingbtm{
+        display: none;
+    }
+}
+@media (max-width: 759px) {
+ .advisingiframe{
+        display: none;
+    }    
+    .advisingbtm{
+        display: block;
+    }
+}
+
 
 @media (min-width: 768px) {
  .navbar-brand {display: none;  }
