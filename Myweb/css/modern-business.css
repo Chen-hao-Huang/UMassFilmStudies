@@ -860,8 +860,14 @@ footer.page-footer .social-section ul li {
  .advisingiframe{
         display: block;
     }    
+    .responsiveCal{
+          display: block;
+    }
     .advisingbtm{
         display: none;
+    }
+    .responsiveCalAgenda{
+           display: none;
     }
 }
 @media (max-width: 759px) {
@@ -871,7 +877,16 @@ footer.page-footer .social-section ul li {
     .advisingbtm{
         display: block;
     }
+     .responsiveCal{
+          display: none;
+    }
+    
+     .responsiveCalAgenda{
+           display: block;
+    }
 }
+
+
 
 
 @media (min-width: 768px) {
