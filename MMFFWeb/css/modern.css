@@ -1,4 +1,4 @@
-
+body
 /* Carousel Fading slide */
 .carousel-fade .carousel-inner { 
       
@@ -19,6 +19,9 @@
   .carousel-fade .next.left,
   .carousel-fade .prev.right,
   .carousel-fade .item.active { opacity: 1; }
+.carousel-fade .item >.img{
+    display: none;
+} 
 
   .carousel-fade .active.left,
   .carousel-fade .active.right {
@@ -84,6 +87,7 @@
     padding-bottom: 20px; 
     color: #fff;
     text-align: center;
+    overflow: auto;
     text-shadow: 0 3px 2px rgba(1,1,1,.6);
  
 }.flex-center{
@@ -209,14 +213,12 @@ a:hover {
   transform: translateY(5px);
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
-.mmfflogo{
-    padding: 100px 10px 10px 10px;
-}
 
 
-.item {
-    max-height: 10%;
-    overflow: hidden;
+.carousel-inner>.item>a>img, .carousel-inner>.item>img{
+    width: 100%;
+
+    
 }
 
 
