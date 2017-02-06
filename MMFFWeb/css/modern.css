@@ -15,6 +15,7 @@
   transition-property: opacity;
   }
 
+
   .carousel-fade .next.left,
   .carousel-fade .prev.right,
   .carousel-fade .item.active { opacity: 1; }
@@ -25,6 +26,10 @@
     opacity: 0;
     z-index: 1;
     }
+
+.item > .item.img{
+    display: none;
+}
 
 
 /* Safari Fix */
@@ -208,5 +213,10 @@ a:hover {
     padding: 100px 10px 10px 10px;
 }
 
+
+.item {
+    max-height: 10%;
+    overflow: hidden;
+}
 
 
