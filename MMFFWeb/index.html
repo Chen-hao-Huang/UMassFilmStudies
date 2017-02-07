@@ -47,9 +47,27 @@
     <!-- Navigation -->
     <a href="http://www.umass.edu/film/index.html"><img src="Pics/banner.png" width='100%'></a>
 
-   <div class="row container">
+   <div class="container">
        <br>
+<ul class="nav nav-tabs responsive-tabs">
+    
+    
+  <li class="active"><a href="#">Home <br></a></li>
+  <li><a href="MoreTemplate.html">95 AND 6  <br>TO GO (3/1)</a></li>
+  <li><a href="MoreTemplate.html">Decasia<br>(3/8)</a></li>
+  <li><a href="MoreTemplate.html">Kill the <br>Irishman(3/22)</a></li>
+  <li><a href="MoreTemplate.html">Café Nagler<br>(3/29)</a></li>
+  <li><a href="MoreTemplate.html">Nedar<br>(4/4)</a></li>
+  <li><a href="MoreTemplate.html">The Revolution <br>Won’t Be Televised(4/5)</a></li>
+  <li><a href="MoreTemplate.html">Daughters of <br>the Dust (4/12)</a></li>
+  <li><a href="MoreTemplate.html">Holding Hands <br>with Ilse(4/19)</a></li>
 
+    
+
+</ul>
+       
+       
+       
     </div>
 
 
@@ -83,12 +101,18 @@
               <hr>
             <p>Wed March 1
               <br>Director Present <br><a  target="_blank" href="MoreTemplate.html" class="btn  btn-white-outline hvr-grow-shadow">More</a> </p>
+            
         </div><!-- /.carousel-caption -->
+        <div style="overflow:auto;" class="flex-center carousel-captionVid animated fadeInUp">
+            <iframe src="https://player.vimeo.com/video/185419917?color=638E7C" width="300" height="169" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+          
       </div><!-- /Slide1 -->
 
       <!-- Slide 2 -->
       <div class="item "align="center">
-       <a target="_blank" href="http://billmorrisonfilm.com/feature-length-films/decasia/1"><img src="Pics/decasia%206.jpg" alt="decasia"></a>
+       <a target="_blank" href="http://billmorrisonfilm.com/feature-length-films/decasia/1"><img src="Pics/decasia%206.jpg" alt="decasia">
+          </a>
         <div class="flex-center carousel-caption animated fadeInUp">
           <h3>Decasia</h3>
                <hr>
@@ -121,7 +145,7 @@
          <!-- Slide 5 -->
       <div class="item " align="center">
                 <a target="_blank" href="http://www.imdb.com/title/tt1317484/">
-                    <img src="Pics/nedar%20SMALL.jpg" alt="" width="100%">
+                    <img src="Pics/nedar%20SMALL.jpg" alt="nedar" width="100%">
           </a>
         <div class="flex-center carousel-caption animated fadeInUp">
           <h3>Nedar</h3>
@@ -132,7 +156,7 @@
          <!-- Slide 6 -->
       <div class="item " align="center">
                     <a target="_blank" href="http://boxoffice.hotdocs.ca/WebSales/pages/info.aspx?evtinfo=50818~edeed7b8-5598-4ac6-994a-ca71bc407bc4&epguid=1982376d-17a7-4bb4-9959-f38bb053d10d&">
-                              <img src="Pics/the%20revolution%202.jpg" alt="" width="100%">
+                              <img src="Pics/the%20revolution%202.jpg" alt="therevolution" width="100%">
           </a>
         <div class="flex-center carousel-caption animated fadeInUp">
           <h3>The Revolution Won't Be Televised</h3>
@@ -145,7 +169,7 @@
             <!-- Slide 7 -->
       <div class="item " align="center">
           <a target="_blank" href="https://www.hampshire.edu/news/2016/07/26/holding-hands-with-ilse">
-        <img src="Pics/daughters of the dust.jpg" alt="" width="100%">
+        <img src="Pics/daughters of the dust.jpg" alt="daughtersofthedust" width="100%">
           </a>
         <div class="flex-center carousel-caption animated fadeInUp">
           <h3>Daughters of the Dust</h3>
@@ -157,7 +181,7 @@
       <!-- Slide 8 -->
 <div class="item " align="center">
     <a target="_blank" href="https://www.hampshire.edu/news/2016/07/26/holding-hands-with-ilse">
-  <img src="Pics/holdinghands.jpg" alt="" width="100%">
+  <img src="Pics/holdinghands.jpg" alt="holdinghands" width="100%">
     </a>
   <div class="flex-center carousel-caption animated fadeInUp">
     <h3>Holding Hands with Ilse</h3>
@@ -238,7 +262,23 @@
       ga('create', 'UA-88140222-1', 'auto');
       ga('send', 'pageview');
 
+        $.fn.responsiveTabs = function() {
+  this.addClass('responsive-tabs');
+  this.append($('<span class="glyphicon glyphicon-triangle-bottom"></span>'));
+  this.append($('<span class="glyphicon glyphicon-triangle-top"></span>'));
+
+  this.on('click', 'li.active > a, span.glyphicon', function() {
+    this.toggleClass('open');
+  }.bind(this));
+
+  this.on('click', 'li:not(.active) > a', function() {
+    this.removeClass('open');
+  }.bind(this));
+};
+
+$('.nav.nav-tabs').responsiveTabs();
     </script>
+    
 
 
 </body>
