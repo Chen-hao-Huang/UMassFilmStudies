@@ -1,11 +1,11 @@
 body
 /* Carousel Fading slide */
-.carousel-fade .carousel-inner { 
-      
+.carousel-fade .carousel-inner {
+
     background: #000; }
-.carousel-fade .carousel-control { z-index: 2; }  
+.carousel-fade .carousel-control { z-index: 2; }
 .carousel-fade .item {
- 
+
     width: 100%;
     height: 100%;
   opacity: 0;
@@ -21,7 +21,7 @@ body
   .carousel-fade .item.active { opacity: 1; }
 .carousel-fade .item >.img{
     display: none;
-} 
+}
 
   .carousel-fade .active.left,
   .carousel-fade .active.right {
@@ -83,30 +83,30 @@ body
     top: 30%;
     margin-bottom: 0%;
     z-index: 10;
-    padding-top: 20px; 
-    padding-bottom: 20px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: #fff;
     text-align: center;
     overflow: auto;
     text-shadow: 0 3px 2px rgba(1,1,1,.6);
- 
+
 }.flex-center{
     display: block;
 }
 
 @media (max-width: 768px){
     .carousel-caption {
-    
+
     right: 0%;
     left: 0%;
     top: 0%;
     padding-bottom: 40px;
         overflow: visible;
         font-size: smaller;
-        
+
 }
     .flex-center{
-        
+
     display: block;
     position: relative;
 }
@@ -129,16 +129,16 @@ a.carousel-control.right { right: 0; background: none; border: 0;}
   -moz-transition: all 250ms ease;
   -ms-transition: all 250ms ease;
   -o-transition: all 250ms ease;
-  transition: all 250ms ease;   
+  transition: all 250ms ease;
   /* hardware acceleration causes Bootstrap carousel controlbox margin error in webkit */
   /* Assigning animation to indicator li will make slides flicker */
-  } 
+  }
 
 
 /* Hover animation */
 .carousel:hover .control-box { opacity: 1; }
 .carousel:hover a.carousel-control.left { left: 15px; }
-.carousel:hover a.carousel-control.right { right: 15px; }  
+.carousel:hover a.carousel-control.right { right: 15px; }
 
 
 /* Carouse Indicator */
@@ -218,7 +218,5 @@ a:hover {
 .carousel-inner>.item>a>img, .carousel-inner>.item>img{
     width: 100%;
 
-    
+
 }
-
-
