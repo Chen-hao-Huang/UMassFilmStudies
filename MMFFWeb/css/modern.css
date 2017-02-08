@@ -340,7 +340,7 @@ a:hover {
 .tab-pane { padding: 15px 0; }
 .tab-content{padding:20px}
 
-.card-block{
+.backcard{
     background-color: #638E7C;
     color: white;
     text-align: center;
@@ -349,4 +349,4 @@ a:hover {
     outline-width: 10px;
 
 }
-.card_block > .
+
