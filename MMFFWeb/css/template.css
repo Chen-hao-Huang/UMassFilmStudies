@@ -1,8 +1,13 @@
 body
 
 .page_title{
-  text-align: center;
+    font-size: 35px;
+      background-color: #638E7C;
     color: white;
+    text-align: center;
+    outline-style: double;
+    outline-color: #638E7C;
+    outline-width: 10px;
 }
 
 .film_info{
