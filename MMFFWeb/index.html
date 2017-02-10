@@ -47,19 +47,21 @@
 
    <div class="container">
 
-<ul class="nav nav-tabs responsive-tabs">
+<ul class="topnav" id="myTopnav">
 
 
   <li class="active"><a href="index.html">Home</a></li>
-  <li><a href="95and6togo.html">3/1</a></li>
-  <li><a href="decasia.html">3/8</a></li>
+  <li data-target="#myCarousel" data-slide-to="0"><a>3/1</a></li>
+  <li data-target="#myCarousel" data-slide-to="1"><a>3/8</a></li>
   <li><a href="Killtheirishman.html">3/22</a></li>
   <li><a href="cafenagler.html">3/29</a></li>
   <li><a href="nedar.html">4/4</a></li>
   <li><a href="therevolution.html">4/5</a></li>
   <li><a href="daughters.html">4/12</a></li>
   <li><a href="holdinghands.html">4/19</a></li>
-
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  </li>
 </ul>
 
 
@@ -281,7 +283,16 @@
 $('.nav.nav-tabs').responsiveTabs();
     </script>
 
-
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
 
 </body>
 
