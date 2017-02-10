@@ -34,7 +34,6 @@ body
     display: none;
 }
 
-
 /* Safari Fix */
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
@@ -97,7 +96,7 @@ body
 
 .carousel-captionVid {
     position: absolute;
-  
+
     left: 60%;
     top: 70%;
     margin-bottom: 0%;
@@ -123,7 +122,7 @@ body
 
 }
     .flex-center{
-      
+
     display: block;
     position: relative;
 }
@@ -136,7 +135,7 @@ body
         font-size: smaller;
 
 }
-    
+
 }
 
 
@@ -283,7 +282,7 @@ a:hover {
 }
 .responsive-tabs.nav-tabs > li > a {
   margin-right: 0;
- 
+
 }
 @media (min-width: 768px) {
   .responsive-tabs.nav-tabs > li > a {
