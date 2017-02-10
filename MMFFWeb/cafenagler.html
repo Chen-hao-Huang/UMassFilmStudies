@@ -52,7 +52,7 @@
        <br>
    <div class="container">
 
-     <ul class="nav nav-tabs responsive-tabs">
+     <ul class="topnav" id="myTopnav">
 
 
        <li ><a href="index.html">Home</a></li>
@@ -64,6 +64,9 @@
        <li><a href="therevolution.html">4/5</a></li>
        <li><a href="daughters.html">4/12</a></li>
        <li><a href="holdinghands.html">4/19</a></li>
+       <li class="icon">
+         <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+       </li>
 
      </ul>
 
@@ -140,6 +143,16 @@
 
     </script>
 
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
 
 </body>
 
