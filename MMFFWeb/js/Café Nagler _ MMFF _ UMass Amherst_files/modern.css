@@ -484,11 +484,8 @@ ul.topnav li.icon {display: none;}
 }
 
 @media(min-width:1400px){
-    .Mycontainer{    width: 1400px;
-         margin: auto;
-    }
-    .nav{
-    margin-left: auto;
+    .Mycontainer{ left: 25%;
+ 
     }
 }
 
