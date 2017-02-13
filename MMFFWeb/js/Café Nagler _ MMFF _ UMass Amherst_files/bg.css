@@ -1,0 +1,10 @@
+body,
+html {
+  min-height: 100%;
+}
+
+body {
+  background-image: url(../Pics/MMFF201-web-background-bright.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
