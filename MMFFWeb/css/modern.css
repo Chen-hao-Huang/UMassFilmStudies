@@ -409,16 +409,22 @@ a:hover {
 .tab-content{padding:20px}
 
 .backcard{
-
     background-color: #FFF;
-    color: black;
+    color: #3E4551;
     text-align: center;
     outline-style: double;
     outline-color: #FFF;
     outline-width: 10px;
+    
 
 }
-
+.backcard1{
+     background-color: #638E7C;
+     outline-style: double;
+    outline-color: #638E7C;
+    color: white;
+    outline-width: 10px;
+}
 
 .film_text{
     font-size: 17px;
