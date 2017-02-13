@@ -52,24 +52,21 @@
        <br>
    <div class="container">
 
-     <ul class="topnav" id="myTopnav">
+<ul class="nav nav-tabs responsive-tabs">
+    
+    
+  <li ><a href="index.html"> <br>Home </a></li>
+  <li ><a href="95and6togo.html">95 AND 6  <br>TO GO (3/1)</a></li>
+  <li><a href="decasia.html">Decasia<br> (3/8)</a></li>
+  <li><a href="Killtheirishman.html">Kill the <br>Irishman (3/22)</a></li>
+  <li><a href="cafenagler.html">Café Nagler<br> (3/29)</a></li>
+  <li><a href="nedar.html">Nedar<br> (4/4)</a></li>
+  <li><a href="therevolution.html">The Revolution Won’t<br>Be Televised (4/5)</a></li>
+  <li><a href="daughters.html">Daughters of <br>the Dust (4/12)</a></li>
+  <li  class="active"><a  >Holding Hands <br>with Ilse (4/19)</a></li>
 
-
-       <li ><a href="index.html">Home</a></li>
-       <li><a href="95and6togo.html">3/1</a></li>
-       <li><a href="decasia.html">3/8</a></li>
-       <li><a href="Killtheirishman.html">3/22</a></li>
-       <li><a href="cafenagler.html">3/29</a></li>
-       <li><a href="nedar.html">4/4</a></li>
-       <li><a href="therevolution.html">4/5</a></li>
-       <li><a href="daughters.html">4/12</a></li>
-       <li  class="active"><a href="holdinghands.html">4/19</a></li>
-       <li class="icon">
-         <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
-       </li>
-
-     </ul>
-
+</ul>
+       
 
 
     </div>
@@ -85,13 +82,11 @@
     <div class="card">
       <div class="card-block backcard ">
 
-          <div class="row ">
+          <div class="row vertical-align ">
 
-            <div class="col-md-7 film_text ">
+            <div class="col-md-6 film_text ">
                <a target="blank_" href="http://www.imdb.com/title/tt5143016/"><img src="Pics/holdinghands.jpg" ></a> </div>
-           </div>
-           <br>
-           <div class="row">
+           
                <div class="col-md-6 film_text">
                    <br>
 (2017, dir Abraham Ravett, 93 min) <hr> A film about the search for the German teenage girl who took care of the filmmaker between 1948-1950 in Walbrzch, Poland where he was born. Knowing only her first name and circulating a small photograph taken in 1950 of the two, the director explores the urban landscapes of western Poland and the journey involved in their unexpected reunion that recently took place in Ibbenburen, Germany. Valley Premiere. Introduction by Pooja Rangan (Amherst). The director will be present.           </div>
@@ -100,7 +95,7 @@
     </div>
     </div>
   <br>
-
+    </div>
     <!--Footer-->
 
  <footer class="page-footer ">
@@ -147,6 +142,23 @@
       ga('create', 'UA-88140222-1', 'auto');
       ga('send', 'pageview');
 
+        
+        $.fn.responsiveTabs = function() {
+  this.addClass('responsive-tabs');
+  this.append($('<span class="glyphicon glyphicon-triangle-bottom"></span>'));
+  this.append($('<span class="glyphicon glyphicon-triangle-top"></span>'));
+
+  this.on('click', 'li.active > a, span.glyphicon', function() {
+    this.toggleClass('open');
+      
+  }.bind(this));
+
+  this.on('click', 'li:not(.active) > a', function() {
+    this.removeClass('open');
+  }.bind(this));
+};
+
+$('.nav.nav-tabs').responsiveTabs();
     </script>
 
     <script>

@@ -52,21 +52,19 @@
        <br>
    <div class="container">
 
-<ul class="topnav" id="myTopnav">
+<ul class="nav nav-tabs responsive-tabs" id="myTopnav">
 
 
-  <li ><a href="index.html">Home</a></li>
-  <li><a href="95and6togo.html">3/1</a></li>
-  <li><a href="decasia.html">3/8</a></li>
-  <li  class="active"><a href="Killtheirishman.html">3/22</a></li>
-  <li><a href="cafenagler.html">3/29</a></li>
-  <li><a href="nedar.html">4/4</a></li>
-  <li><a href="therevolution.html">4/5</a></li>
-  <li><a href="daughters.html">4/12</a></li>
-  <li><a href="holdinghands.html">4/19</a></li>
-  <li class="icon">
-    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
-  </li>
+  <li ><a href="index.html"> <br>Home </a></li>
+  <li><a href="95and6togo.html">95 AND 6  <br>TO GO (3/1)</a></li>
+  <li><a href="decasia.html">Decasia<br> (3/8)</a></li>
+  <li  class="active"><a  >Kill the <br>Irishman (3/22)</a></li>
+  <li><a href="cafenagler.html">Café Nagler<br> (3/29)</a></li>
+  <li><a href="nedar.html">Nedar<br> (4/4)</a></li>
+  <li><a href="therevolution.html">The Revolution Won’t<br>Be Televised (4/5)</a></li>
+  <li><a href="daughters.html">Daughters of <br>the Dust (4/12)</a></li>
+  <li><a href="holdinghands.html">Holding Hands <br>with Ilse (4/19)</a></li>
+
 
 </ul>
 
@@ -80,7 +78,7 @@
     <p class="film_info">Directed by Jonathan Hensleigh<br>
 Screening Date: March 22, 2017<br>
  7:30PM, 137 Isenberg SOM<br>
-Run Time: 106 Minutes</p>
+
 
 
 
@@ -90,21 +88,68 @@ Run Time: 106 Minutes</p>
   <div class="card-block backcard ">
 
       <div class="row ">
+             <div class="col-md-6 film_text">
+            
 
-        <div class="col-md-7 film_text ">
+               (2002, dir Bill Morrison, USA, 70 min) <hr> A meditation on life and death, endings and beginnings, this mesmerizing, sublime, hypnotic work is a celebration of cinema, temporality, and the ephemeral. Bill Morrison’s work is a singular, poetic montage of decomposing, found movie footage marked by the swirling abstractions of nitrate emulsion and cut together to the stripped-down rhythm of Michael Gordon’s original modern score.       
+Acclaimed screenwriter Jonathan Hensleigh directs this captivating real-life thriller.
+
+               <p>
+
+          </div>
+          
+
+        <div class="col-md-6 film_text ">
            <a target="blank_"  href="http://billmorrisonfilm.com/feature-length-films/decasia/1"><img src="Pics/killtheirishman/kill-irishman02.jpg" ></a> </div>
-       </div>
-       <br>
-       <div class="row">
-           <div class="col-md-6 film_text">
-               <br>
-(2002, dir Bill Morrison, USA, 70 min) <hr> A meditation on life and death, endings and beginnings, this mesmerizing, sublime, hypnotic work is a celebration of cinema, temporality, and the ephemeral. Bill Morrison’s work is a singular, poetic montage of decomposing, found movie footage marked by the swirling abstractions of nitrate emulsion and cut together to the stripped-down rhythm of Michael Gordon’s original modern score.       </div>
-       </div>
+      
+        
 
-       </div>
+      </div>
+
+   
+          <div class="row vertical-align">
+
+              <div class="col-md-7">
+                  <img src="Pics/killtheirishman/irishman.jpg">
+              </div>
+
+                       <div class="col-md-5 film_text ">
+  <br>
+    <p>Cast<br>
+Ray Stevenson as Danny Greene<br>
+Vincent D'Onofrio[6] as John Nardi<br>
+Val Kilmer as Joe Manditski<br>
+Christopher Walken as Alex "Shondor" Birns</p>          
+
+              
+                <div class="row"> 
+        
+          
+                
+                  
+                  
+
+
+
+                  <hr>
+                  <div class="col-md-8">
+                 <p style="font-size:16px;">?????????????????</p> </div>
+                  <div class="col-md-4">
+
+                  <img src="Pics/killtheirishman/Bart%20Rosenblatt%20panavision.jpg"></div>
 </div>
-</div>
-<br>
+               
+          
+      </div>
+        
+      </div>
+          
+        
+       
+    </div>
+  </div>
+    </div>
+
     <div class="video-container">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/x2zN53Vwnz0" frameborder="0" allowfullscreen></iframe>
     </div>
@@ -155,19 +200,26 @@ Run Time: 106 Minutes</p>
       ga('create', 'UA-88140222-1', 'auto');
       ga('send', 'pageview');
 
+        
+        $.fn.responsiveTabs = function() {
+  this.addClass('responsive-tabs');
+  this.append($('<span class="glyphicon glyphicon-triangle-bottom"></span>'));
+  this.append($('<span class="glyphicon glyphicon-triangle-top"></span>'));
+
+  this.on('click', 'li.active > a, span.glyphicon', function() {
+    this.toggleClass('open');
+      
+  }.bind(this));
+
+  this.on('click', 'li:not(.active) > a', function() {
+    this.removeClass('open');
+  }.bind(this));
+};
+
+$('.nav.nav-tabs').responsiveTabs();
     </script>
 
-    <script>
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-    </script>
-
+  
 </body>
 
 </html>

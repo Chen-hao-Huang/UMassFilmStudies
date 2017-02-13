@@ -52,21 +52,21 @@
        <br>
    <div class="container">
 
-<ul class="topnav" id="myTopnav">
+
+<ul class="nav nav-tabs responsive-tabs" id="myTopnav">
 
 
-  <li ><a href="index.html">Home</a></li>
-  <li><a href="95and6togo.html">3/1</a></li>
-  <li  class="active"><a href="decasia.html">3/8</a></li>
-  <li><a href="Killtheirishman.html">3/22</a></li>
-  <li><a href="cafenagler.html">3/29</a></li>
-  <li><a href="nedar.html">4/4</a></li>
-  <li><a href="therevolution.html">4/5</a></li>
-  <li><a href="daughters.html">4/12</a></li>
-  <li><a href="holdinghands.html">4/19</a></li>
-  <li class="icon">
-    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
-  </li>
+
+  <li ><a href="index.html"> <br>Home </a></li>
+  <li><a href="95and6togo.html">95 AND 6  <br>TO GO (3/1)</a></li>
+  <li  class="active"><a >Decasia<br> (3/8)</a></li>
+  <li><a href="Killtheirishman.html">Kill the <br>Irishman (3/22)</a></li>
+  <li><a href="cafenagler.html">Café Nagler<br> (3/29)</a></li>
+  <li><a href="nedar.html">Nedar<br> (4/4)</a></li>
+  <li><a href="therevolution.html">The Revolution Won’t<br>Be Televised (4/5)</a></li>
+  <li><a href="daughters.html">Daughters of <br>the Dust (4/12)</a></li>
+  <li><a href="holdinghands.html">Holding Hands <br>with Ilse (4/19)</a></li>
+
 
 </ul>
 
@@ -86,15 +86,16 @@ Run Time: 67 Minutes</p>
 <div class="card">
   <div class="card-block backcard ">
 
-      <div class="row ">
+      <div class="row vertical-align ">
 
-        <div class="col-md-7 film_text ">
+
+        <div class="col-md-6 film_text ">
            <a target="blank_" href="http://billmorrisonfilm.com/feature-length-films/decasia/1"><img src="Pics/decasia 6.jpg" ></a> </div>
-       </div>
+      
        <br>
-       <div class="row">
+   
            <div class="col-md-6 film_text">
-               <br>
+           
 (2002, dir Bill Morrison, USA, 70 min) <hr> A meditation on life and death, endings and beginnings, this mesmerizing, sublime, hypnotic work is a celebration of cinema, temporality, and the ephemeral. Bill Morrison’s work is a singular, poetic montage of decomposing, found movie footage marked by the swirling abstractions of nitrate emulsion and cut together to the stripped-down rhythm of Michael Gordon’s original modern score. Live performance by the UMass Amherst
 Symphony Orchestra, Tian Hui Ng conducting.
 In collaboration with the UMass
@@ -105,9 +106,56 @@ Michael Gordon, Tian Hui Ng, and Shawn
 Shimpach.      </div>
        </div>
 
+          <div class=" vertical-align ">
+          <div class="col-md-7 film_text ">
+              <br>
+           <p> Black and white stock footage, much of it scratched or blistered, illustrates a Michael Gordon symphony. A whirling dervish, couples laughing, a soldier trying to take advantage of a flower vendor, a camel caravan moving across the horizon, a single plane and then others, paratroopers in the sky, a mining disaster, a pugilist, nuns and children at a school - some images last a few seconds, others for a minute or more. The scratches, blisters, and bygone look of the footage suggest time's passage. Only the dervish, who begins and ends the film, is intact.<br>
+               <br>
+               Directed by visionary experimental filmmaker Bill Morrison, Decasia is a meditation on old, decaying silent films. With no outside acceleration of the film’s decaying process, Morrison presents a vivid, visually-rich ode to days of filmmaking past.
+
+               <p>
+
+          </div>
+
+          <div class="col-md-5 film_text ">
+             <a href="http://billmorrisonfilm.com/feature-length-films/decasia/1"><img src="Pics/decasia/decasia.jpg" ></a> </div>
+           </div>
+
+          <br>
+          <div class="row vertical-align">
+
+              <div class="col-md-6">
+                  <img src="Pics/decasia/decasia%205%20-%20Copy.jpg">
+              </div>
+              <div class="col-md-6 film_text">
+                  <br>
+                 Synopsis and contextualization of the film provided by critic Jonathan Jones, detailing the backstory of the progress and Morrison’s personal history as a filmmaker. The history of the silent film era and its decline is also discussed throughout the article, giving more clarity to a somewhat puzzling film.
+
+                  <hr>
+                  <div class="col-md-8">
+                 <p style="font-size:16px;">Bill Morrison is an American, New York-based filmmaker and artist. His films often combine rare archival material set to contemporary music, and have been screened in theaters, cinemas, museums, galleries, and concert halls around the world.</p> </div>
+                  <div class="col-md-4">
+                  <img src="Pics/decasia/bill-morrison.jpg"></div>
+          </div>
+      </div>
+          <br>
+           <div class="row vertical-align ">
+               <div class="col-md-4 ">
+                   <div class="center">   Director Bill Morrison will bepresent with conductor Michael Gordon and full UMass Student Orchestra.</div>
+                   
+               </div>
+                 <div class="col-md-8">
+                     
+                     <img src="Pics/decasia/umass-amherst-orchestra.jpg">
+
+               </div>
+          </div>
        </div>
 </div>
 </div>
+
+
+
     <br>
 
     <div class="video-container">
@@ -161,18 +209,27 @@ Shimpach.      </div>
       ga('create', 'UA-88140222-1', 'auto');
       ga('send', 'pageview');
 
+        
+        
+        $.fn.responsiveTabs = function() {
+  this.addClass('responsive-tabs');
+  this.append($('<span class="glyphicon glyphicon-triangle-bottom"></span>'));
+  this.append($('<span class="glyphicon glyphicon-triangle-top"></span>'));
+
+  this.on('click', 'li.active > a, span.glyphicon', function() {
+    this.toggleClass('open');
+      
+  }.bind(this));
+
+  this.on('click', 'li:not(.active) > a', function() {
+    this.removeClass('open');
+  }.bind(this));
+};
+
+$('.nav.nav-tabs').responsiveTabs();
+  
     </script>
 
-    <script>
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-    </script>
 
 </body>
 

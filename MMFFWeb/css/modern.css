@@ -288,6 +288,13 @@ a:hover {
   .responsive-tabs.nav-tabs > li > a {
     margin-right: 4px;
   }
+    
+}
+@media(min-width:992px){
+     .vertical-align{
+        display: flex;
+    align-items: center;
+}
 }
 .responsive-tabs.nav-tabs > li.active {
   display: block;
@@ -353,7 +360,6 @@ a:hover {
 }
 
 
-
 .film_text{
     font-size: 17px;
     text-align: center;
@@ -386,6 +392,7 @@ ul.topnav li a:hover {background-color: #555;}
 ul.topnav li.icon {display: none;}
 
 @media screen and (max-width:680px) {
+
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
     float: right;

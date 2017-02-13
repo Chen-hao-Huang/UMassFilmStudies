@@ -11,7 +11,8 @@
 
     <title>The 24th Annual Massachusetts Multicultural Film Festival | UMass Amherst</title>
 
-    <link rel="stylesheet" href="css/bg.css>"
+
+    <link rel="stylesheet" href="css/bg.css>">
 
     <link rel='shortcut icon' type='image/x-icon' href='icons/favicon.ico' />
     <!-- Bootstrap Core CSS -->
@@ -47,22 +48,21 @@
 
    <div class="container">
 
-<ul class="topnav" id="myTopnav">
+       
+<ul class="nav nav-tabs responsive-tabs">
+    
+    
+  <li class="active"><a> <br>Home </a></li>
+  <li><a href="95and6togo.html">95 AND 6  <br>TO GO (3/1)</a></li>
+  <li><a href="decasia.html">Decasia<br> (3/8)</a></li>
+  <li><a href="Killtheirishman.html">Kill the <br>Irishman (3/22)</a></li>
+  <li><a href="cafenagler.html">Café Nagler<br> (3/29)</a></li>
+  <li><a href="nedar.html">Nedar<br> (4/4)</a></li>
+  <li><a href="therevolution.html">The Revolution Won’t<br>Be Televised (4/5)</a></li>
+  <li><a href="daughters.html">Daughters of <br>the Dust (4/12)</a></li>
+  <li><a href="holdinghands.html">Holding Hands <br>with Ilse (4/19)</a></li>
 
-
-  <li data-target="#myCarousel" data-slide-to="0"><a>3/1</a></li>
-  <li data-target="#myCarousel" data-slide-to="1"><a>3/8</a></li>
-  <li li data-target="#myCarousel" data-slide-to="2"><a>3/22</a></li>
-  <li data-target="#myCarousel" data-slide-to="3"><a>3/29</a></li>
-  <li data-target="#myCarousel" data-slide-to="4"><a>4/4</a></li>
-  <li data-target="#myCarousel" data-slide-to="5"><a>4/5</a></li>
-  <li data-target="#myCarousel" data-slide-to="6"><a>4/12</a></li>
-  <li data-target="#myCarousel" data-slide-to="7"><a href="holdinghands.html">4/19</a></li>
-  <li class="icon">
-    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
-  </li>
-</ul>
-
+       </ul>
 
 
     </div>
@@ -246,7 +246,7 @@
     <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
-        interval: 5000 //changes the speed
+        interval: 50000 //changes the speed
     })
 
 
@@ -272,6 +272,7 @@
 
   this.on('click', 'li.active > a, span.glyphicon', function() {
     this.toggleClass('open');
+      
   }.bind(this));
 
   this.on('click', 'li:not(.active) > a', function() {
