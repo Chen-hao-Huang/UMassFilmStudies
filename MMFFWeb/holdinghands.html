@@ -46,8 +46,18 @@
 <body style="background-color:#7790ad;">
 
     <!-- Navigation -->
-    <a href="http://www.umass.edu/film/index.html"><img src="Pics/MMFF201-web-banner.jpg" width='100%'></a>
+   <map name="map" id="map">
+  <area shape="rect" coords="0,0,3000,1000"
+      href="index.html"
+      alt="MMFF Home"/>
+  <area shape="rect" coords="3100,0,4000,2222"
+      href="http://www.umass.edu/film/index.html"
+      alt="UMass Film Studies"/>
+</map>
 
+<p><img src="Pics/MMFF201-web-banner.jpg" alt="The Giant Prawn at Ballina"
+usemap="#map" width='100%'></p>
+    
 
        <br>
    <div class="container">
@@ -72,7 +82,8 @@
     </div>
 
 
-    <h3 class="page_title">Holding Hands with Ilse</h3>
+    <h3 class="page_title">Holding Hands with Ilse<br><small class ="film_info" >
+    Director Present</small></h3>
     <p class="film_info">Directed by Abraham Ravett<br>
   Screening Date: April 19, 2017<br>
   7:30PM, 137 Isenberg SOM<br>
@@ -85,13 +96,46 @@
           <div class="row vertical-align ">
 
             <div class="col-md-6 film_text ">
-               <a target="blank_" href="http://www.imdb.com/title/tt5143016/"><img src="Pics/holdinghands.jpg" ></a> </div>
+               <a target="blank_" href="https://www.hampshire.edu/news/2016/07/26/holding-hands-with-ilse
+"><img src="Pics/holdinghandswithilse/11061668_473112702860424_1309742761664106900_o.jpg" ></a> </div>
            
                <div class="col-md-6 film_text">
                    <br>
 (2017, dir Abraham Ravett, 93 min) <hr> A film about the search for the German teenage girl who took care of the filmmaker between 1948-1950 in Walbrzch, Poland where he was born. Knowing only her first name and circulating a small photograph taken in 1950 of the two, the director explores the urban landscapes of western Poland and the journey involved in their unexpected reunion that recently took place in Ibbenburen, Germany. Valley Premiere. Introduction by Pooja Rangan (Amherst). The director will be present.           </div>
 
            </div>
+            <div class="row vertical-align ">
+
+         
+               <div class="col-md-9 film_text">
+                   <br>
+In 2011, a major change in my personal life brought up feelings of abandonment that were somehow rooted in the emigration from Poland to Israel and also in the loss of that intimate relationship I’d had with a caregiver I couldn’t even remember. I decided to try and find Ilse and make a film about my search. Based on what little I had  to go on, I never imagined that I’d find her.
+Last summer, after months of fruitless leads, an unlikely chain of connections led to a major feature about my film project in the  Gazeta Wyborcza, Poland’s leading daily, coupled with a mention of my project in a monthly newsletter for former residents of Walbrzych now living in Germany. Ilse Gerda Kaiser, 82, saw the newsletter  and immediately recognized herself and me. In a few weeks I was on a Lufthansa flight to Ibbenbüren, Germany.
+ </div>
+   <div class="col-md-3 film_text ">
+               <a target="blank_" href="https://www.hampshire.edu/news/2016/07/26/holding-hands-with-ilse
+"><img src="Pics/holdinghandswithilse/10620222_357173014454394_3415290854176997974_o.jpg" ></a> </div>
+           
+           </div>
+   <div class="row vertical-align ">
+
+  <div class="col-md-3 film_text ">
+               <a target="blank_" href="https://www.hampshire.edu/news/2016/07/26/holding-hands-with-ilse
+"><img src="Pics/holdinghandswithilse/holding%20hands%20with%20ilse.jpg" ></a> </div>         
+               <div class="col-md-9 film_text">
+                   <br>
+Over five days together, Ilse filled  in gaps about my early life. I learned that she looked after me as much as twelve hours a day, six days a week, for two years while my parents ran a grocery store. I learned that her father, a coal miner, had been forced, not asked, to stay in Walbrzych because war-ravaged Poland desperately needed coal. I wasn’t expecting the epiphany of reunion, but the new connections I sensed felt profound. And of course I had more questions for which she had no answers.
+The film, when it’s completed, will expand the tapestry I’ve been trying to weave through all of my work: between the present and the past, between self and family, between a desire to know and the limits of what can be revealed.
+                 <hr>
+   <b>Introduction by Pooja Rangan (Amherst).<br>
+The director will be present.</b>              
+
+
+ </div>
+ 
+           
+           </div>
+
     </div>
     </div>
   <br>
@@ -160,16 +204,10 @@
 
 $('.nav.nav-tabs').responsiveTabs();
     </script>
+<script src="js/imageMapResizer.min.js"></script>
 
     <script>
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
+  imageMapResize();
     </script>
 
 </body>

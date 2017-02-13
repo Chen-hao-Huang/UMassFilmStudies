@@ -45,8 +45,18 @@
 
 <body style="background-color:#7790ad;">
 
-    <!-- Navigation -->
-    <a href="http://www.umass.edu/film/index.html"><img src="Pics/MMFF201-web-banner.jpg" width='100%'></a>
+   <map name="map" id="map">
+  <area shape="rect" coords="0,0,3000,1000"
+      href="index.html"
+      alt="MMFF Home"/>
+  <area shape="rect" coords="3100,0,4000,2222"
+      href="http://www.umass.edu/film/index.html"
+      alt="UMass Film Studies"/>
+</map>
+
+<p><img src="Pics/MMFF201-web-banner.jpg" alt="The Giant Prawn at Ballina"
+usemap="#map" width='100%'></p>
+    
 
 
        <br>
@@ -75,11 +85,15 @@
     </div>
 
 
-  <h3 class="page_title">Decasia</h3>
+  <h3 class="page_title">Decasia<br><small class ="film_info" >
+    Live Score</small></h3>
+    
     <p class="film_info">Directed by Bill Morrison<br>
 Screening Date: March 8, 2017<br>
- 7:30PM, 137 Isenberg SOM<br>
-Run Time: 67 Minutes</p>
+ 7:30pm UMass Amherst
+Fine Arts Center Concert Hall<br>
+        <em>Note special location.</em><br>
+Run Time: 70 Minutes</p>
 
 
 <div class="container">
@@ -96,14 +110,9 @@ Run Time: 67 Minutes</p>
    
            <div class="col-md-6 film_text">
            
-(2002, dir Bill Morrison, USA, 70 min) <hr> A meditation on life and death, endings and beginnings, this mesmerizing, sublime, hypnotic work is a celebration of cinema, temporality, and the ephemeral. Bill Morrison’s work is a singular, poetic montage of decomposing, found movie footage marked by the swirling abstractions of nitrate emulsion and cut together to the stripped-down rhythm of Michael Gordon’s original modern score. Live performance by the UMass Amherst
+(2002, dir Bill Morrison, USA, 70 min) <hr> A meditation on life and death, endings and beginnings, this mesmerizing, sublime, hypnotic work is a celebration of cinema, temporality, and the ephemeral. Bill Morrison’s work is a singular, poetic montage of decomposing, found movie footage marked by the swirling abstractions of nitrate emulsion and cut together to the stripped-down rhythm of Michael Gordon’s original modern score. <br><b>Live performance </b>by the UMass Amherst
 Symphony Orchestra, Tian Hui Ng conducting.
-In collaboration with the UMass
-Department of Music and Dance.
-Introduction by Andrew Ritchey (UMass).
-Conversation and Q&A with Bill Morrison,
-Michael Gordon, Tian Hui Ng, and Shawn
-Shimpach.      </div>
+   </div>
        </div>
 
           <div class=" vertical-align ">
@@ -128,20 +137,29 @@ Shimpach.      </div>
                   <img src="Pics/decasia/decasia%205%20-%20Copy.jpg">
               </div>
               <div class="col-md-6 film_text">
-                  <br>
-                 Synopsis and contextualization of the film provided by critic Jonathan Jones, detailing the backstory of the progress and Morrison’s personal history as a filmmaker. The history of the silent film era and its decline is also discussed throughout the article, giving more clarity to a somewhat puzzling film.
-
+                  
+                 Director Bill Morrison will bepresent with conductor Michael Gordon and full UMass Student Orchestra.<br>Introduction by Andrew Ritchey (UMass).<br> Conversation and Q&A with Bill Morrison, Michael Gordon, Tian Hui Ng, and Shawn Shimpach.
                   <hr>
                   <div class="col-md-8">
                  <p style="font-size:16px;">Bill Morrison is an American, New York-based filmmaker and artist. His films often combine rare archival material set to contemporary music, and have been screened in theaters, cinemas, museums, galleries, and concert halls around the world.</p> </div>
-                  <div class="col-md-4">
-                  <img src="Pics/decasia/bill-morrison.jpg"></div>
+                  <div class="col-md-4" align="middle">
+                  <img src="Pics/decasia/bill-morrison.jpg" ></div>
           </div>
       </div>
           <br>
            <div class="row vertical-align ">
                <div class="col-md-4 ">
-                   <div class="center">   Director Bill Morrison will bepresent with conductor Michael Gordon and full UMass Student Orchestra.</div>
+                   <div class="center">  
+                    <div class="film_text">7:30pm UMass Amherst Fine Arts Center Concert Hall<br>
+<b>Note special location.</b><br>
+                       <em>In collaboration with the UMass
+                           Department of Music and Dance.</em>
+                         <a target="blank_" href="http://www.umass.edu/music/"><img src="Logos/department-music-logo-white.jpg" ></a>
+                       </div>
+                       
+                       
+                   </div>
+                  
                    
                </div>
                  <div class="col-md-8">
@@ -228,7 +246,12 @@ Shimpach.      </div>
 
 $('.nav.nav-tabs').responsiveTabs();
   
+    </script><script src="js/imageMapResizer.min.js"></script>
+
+    <script>
+  imageMapResize();
     </script>
+
 
 
 </body>

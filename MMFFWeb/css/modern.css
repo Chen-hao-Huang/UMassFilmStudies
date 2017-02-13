@@ -79,7 +79,7 @@ body
     position: absolute;
     right: 50%;
     left: 10%;
-    top: 30%;
+    top: 20%;
     outline-width: thick;
     outline-color: black;
     margin-bottom: 0%;
@@ -89,8 +89,17 @@ body
     color: #fff;
     text-align: center;
     overflow: auto;
+    background-color: transparent;
     text-shadow:  1px 1px 5px rgba(1,1,1,1);
-}.flex-center{
+}
+
+.carousel-captionright{
+    right: 10%;
+    left: 50%;
+}
+
+
+.flex-center{
     display: block;
 }
 
@@ -110,6 +119,49 @@ body
 }
 
 
+.carousel-caption p{
+        font-size: 40px;
+}
+.carousel-caption h1{
+        font-size: 80px;
+}
+@media (min-width: 1000px){
+    .carousel-captionright{
+    right: 0%;
+    left: 50%;
+        top: 5%;
+    
+    }.carousel-caption{
+ 
+    }
+    .carousel-caption p{
+        font-size: 30px;
+}
+.carousel-caption h1{
+        font-size: 70px;
+}
+}
+
+
+@media (max-width: 965px){
+    .carousel-captionright{
+    right: 0%;
+    left: 50%;
+        top: 5%;
+    
+    }.carousel-caption{
+ 
+    }
+    .carousel-caption p{
+        font-size: 20px;
+}
+.carousel-caption h1{
+        font-size: 50px;
+}
+}
+
+
+
 @media (max-width: 768px){
     .carousel-caption {
 
@@ -118,9 +170,19 @@ body
     top: 0%;
     padding-bottom: 40px;
         overflow: visible;
-        font-size: smaller;
 
 }
+      .carousel-captionright {
+
+    right: 0%;
+    left: 0%;
+    top: 0%;
+          right: 0%;
+    padding-bottom: 40px;
+        overflow: visible;
+
+}
+    
     .flex-center{
 
     display: block;
@@ -137,8 +199,6 @@ body
 }
 
 }
-
-
 
 
 

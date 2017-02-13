@@ -46,8 +46,18 @@
 <body style="background-color:#7790ad;">
 
     <!-- Navigation -->
-    <a href="http://www.umass.edu/film/index.html"><img src="Pics/MMFF201-web-banner.jpg" width='100%'></a>
+  <map name="map" id="map">
+  <area shape="rect" coords="0,0,3000,1000"
+      href="index.html"
+      alt="MMFF Home"/>
+  <area shape="rect" coords="3100,0,4000,2222"
+      href="http://www.umass.edu/film/index.html"
+      alt="UMass Film Studies"/>
+</map>
 
+<p><img src="Pics/MMFF201-web-banner.jpg" alt="The Giant Prawn at Ballina"
+usemap="#map" width='100%'></p>
+    
 
        <br>
    <div class="container">
@@ -70,7 +80,8 @@
     </div>
 
 
-    <h3 class="page_title">The Revolution Won't Be Televised</h3>
+    <h3 class="page_title">The Revolution Won't Be Televised<br><small class ="film_info" >
+    Director Present</small></h3>
     <p class="film_info">Directed by Rama Thiaw<br>
   Screening Date: April 5, 2017<br>
   7:30PM, 137 Isenberg SOM<br>
@@ -79,18 +90,46 @@
     <div class="container">
     <div class="card">
       <div class="card-block backcard ">
+  <div class="row vertical-align">
 
+         
+          
+               <div class="col-md-6 film_text">
+                   <br>
+(2016, dir Rama Thiaw, Senegal, 110 min, in Wolof & French w/ English subtitles) <hr> In 2011, Senegal’s president, Abdoulaye Wade, announced his intention to run for an unconstitutional third term, sparking a youth-led resistance movement. Three Senegalese rappers used their celebrity to start “Y En A Marre” (“We Are Fed Up”). Filmmaker Rama Thiaw joined the movement to document the group’s events from the inside as they emphasize the importance of voting, face the threat of state-sponsored violence, and inspire a nation with their mixture of political activism and rap music.    </div>
+   <div class="col-md-6 film_text ">
+               <a target="blank_" href="http://boxoffice.hotdocs.ca/WebSales/pages/info.aspx?evtinfo=50818~edeed7b8-5598-4ac6-994a-ca71bc407bc4&epguid=1982376d-17a7-4bb4-9959-f38bb053d10d&"><img src="Pics/therevolution/the-revolution-wont-be-televised-02.jpg" ></a> 
+           </div>
+           </div>
           <div class="row vertical-align">
 
             <div class="col-md-6 film_text ">
-               <a target="blank_" href="http://www.imdb.com/title/tt5143016/"><img src="Pics/the revolution 2.jpg" ></a> 
+               <a target="blank_" href="http://boxoffice.hotdocs.ca/WebSales/pages/info.aspx?evtinfo=50818~edeed7b8-5598-4ac6-994a-ca71bc407bc4&epguid=1982376d-17a7-4bb4-9959-f38bb053d10d&"><img src="Pics/therevolution/the%20revolution%204.png" ></a> 
            </div>
           
                <div class="col-md-6 film_text">
                    <br>
-(2016, dir Rama Thiaw, Senegal, 110 min, in Wolof & French w/ English subtitles) <hr> In 2011, Senegal’s president, Abdoulaye Wade, announced his intention to run for an unconstitutional third term, sparking a youth-led resistance movement. Three Senegalese rappers used their celebrity to start “Y En A Marre” (“We Are Fed Up”). Filmmaker Rama Thiaw joined the movement to document the group’s events from the inside as they emphasize the importance of voting, face the threat of state-sponsored violence, and inspire a nation with their mixture of political activism and rap music. In collaboration with the African Cinema Symposium and Festival. Introduction by Branwen Okpako (Hampshire). The director will be present.           </div>
+
+Introduction by Branwen Okpako (Hampshire).<br>
+The director will be present.
+                   <br>
+                      <hr>
+                  <h4> In collaboration with the African Cinema
+                      Symposium and Festival:</h4>
+                
+Organized by Five College African Studies
+Council and featuring screenings, presentations,
+and conversations with leading
+filmmakers, scholars, directors, and curators
+of film festivals from Africa, Europe, and the
+United States. The April 5 MMFF screening
+launches this event.<br>
+<em>April 6–8 in Gamble Auditorium, Mount
+    Holyoke College. </em>
+              </div>
 
            </div>
+           
     </div>
     </div>
   <br>
@@ -163,6 +202,7 @@
 
 $('.nav.nav-tabs').responsiveTabs();
     </script>
+<script src="js/imageMapResizer.min.js"></script>
 
     <script>
     function myFunction() {
@@ -172,7 +212,7 @@ $('.nav.nav-tabs').responsiveTabs();
         } else {
             x.className = "topnav";
         }
-    }
+    }imageMapResize();
     </script>
 
 </body>

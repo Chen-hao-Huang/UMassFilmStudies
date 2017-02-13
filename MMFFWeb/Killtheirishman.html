@@ -45,10 +45,18 @@
 
 <body style="background-color:#7790ad;">
 
-    <!-- Navigation -->
-    <a href="http://www.umass.edu/film/index.html"><img src="Pics/MMFF201-web-banner.jpg" width='100%'></a>
+  <map name="map" id="map">
+  <area shape="rect" coords="0,0,3000,1000"
+      href="index.html"
+      alt="MMFF Home"/>
+  <area shape="rect" coords="3100,0,4000,2222"
+      href="http://www.umass.edu/film/index.html"
+      alt="UMass Film Studies"/>
+</map>
 
-
+<p><img src="Pics/MMFF201-web-banner.jpg" alt="The Giant Prawn at Ballina"
+usemap="#map" width='100%'></p>
+    
        <br>
    <div class="container">
 
@@ -74,7 +82,8 @@
 
 
 
-  <h3 class="page_title">Kill the Irishman</h3>
+  <h3 class="page_title">Kill the Irishman<br><small class ="film_info" >
+    Producer Present</small></h3>
     <p class="film_info">Directed by Jonathan Hensleigh<br>
 Screening Date: March 22, 2017<br>
  7:30PM, 137 Isenberg SOM<br>
@@ -89,10 +98,22 @@ Screening Date: March 22, 2017<br>
 
       <div class="row ">
              <div class="col-md-6 film_text">
-            
+             (2002, dir Bill Morrison, USA, 70 min)     <hr>
+                 Based on the biography of Danny Greene, a
+tough Irish-American gangster working for
+mobsters in Cleveland during the 1970s who
+stops taking orders and becomes a Robin
+Hood-style folk hero helping poor families
+while surviving many attempts on his life
+and a growing sense of invulnerability as the
+notorious man the mob could not kill.
+Co-written by UMass alum Jonathan
+Hensleigh and co-produced by UMass Alum
+Bart Rosenblatt, this crime biopic stars Ray
+Stevenson, Vincent D’Onofrio, Christopher
+Walken, and Val Kilmer. 
 
-               (2002, dir Bill Morrison, USA, 70 min) <hr> A meditation on life and death, endings and beginnings, this mesmerizing, sublime, hypnotic work is a celebration of cinema, temporality, and the ephemeral. Bill Morrison’s work is a singular, poetic montage of decomposing, found movie footage marked by the swirling abstractions of nitrate emulsion and cut together to the stripped-down rhythm of Michael Gordon’s original modern score.       
-Acclaimed screenwriter Jonathan Hensleigh directs this captivating real-life thriller.
+           
 
                <p>
 
@@ -100,7 +121,8 @@ Acclaimed screenwriter Jonathan Hensleigh directs this captivating real-life thr
           
 
         <div class="col-md-6 film_text ">
-           <a target="blank_"  href="http://billmorrisonfilm.com/feature-length-films/decasia/1"><img src="Pics/killtheirishman/kill-irishman02.jpg" ></a> </div>
+           <a target="blank_"  href="http://www.imdb.com/title/tt1416801/
+"><img src="Pics/killtheirishman/kill-irishman02.jpg" ></a> </div>
       
         
 
@@ -110,19 +132,18 @@ Acclaimed screenwriter Jonathan Hensleigh directs this captivating real-life thr
           <div class="row vertical-align">
 
               <div class="col-md-7">
-                  <img src="Pics/killtheirishman/irishman.jpg">
+                     <a target="blank_"  href="http://www.imdb.com/title/tt1416801/
+"> <img src="Pics/killtheirishman/irishman.jpg"></a> 
+                 
               </div>
 
                        <div class="col-md-5 film_text ">
   <br>
-    <p>Cast<br>
-Ray Stevenson as Danny Greene<br>
-Vincent D'Onofrio[6] as John Nardi<br>
-Val Kilmer as Joe Manditski<br>
-Christopher Walken as Alex "Shondor" Birns</p>          
-
+  A meditation on life and death, endings and beginnings, this mesmerizing, sublime, hypnotic work is a celebration of cinema, temporality, and the ephemeral. Bill Morrison’s work is a singular, poetic montage of decomposing, found movie footage marked by the swirling abstractions of nitrate emulsion and cut together to the stripped-down rhythm of Michael Gordon’s original modern score.       
+Acclaimed screenwriter Jonathan Hensleigh directs this captivating real-life thriller.
+<hr>
               
-                <div class="row"> 
+                <div class="row vertical-align"> 
         
           
                 
@@ -131,9 +152,12 @@ Christopher Walken as Alex "Shondor" Birns</p>
 
 
 
-                  <hr>
                   <div class="col-md-8">
-                 <p style="font-size:16px;">?????????????????</p> </div>
+                      
+                 <p style="font-size:16px;">
+                      Introduction by
+Daniel Pope (UMass).<br>
+                     <br>The producer Bart Rosenblatt will be present.</p> </div>
                   <div class="col-md-4">
 
                   <img src="Pics/killtheirishman/Bart%20Rosenblatt%20panavision.jpg"></div>
@@ -218,6 +242,12 @@ Christopher Walken as Alex "Shondor" Birns</p>
 
 $('.nav.nav-tabs').responsiveTabs();
     </script>
+    <script src="js/imageMapResizer.min.js"></script>
+
+    <script>
+  imageMapResize();
+    </script>
+
 
   
 </body>

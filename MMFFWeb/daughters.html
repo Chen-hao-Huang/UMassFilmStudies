@@ -46,7 +46,19 @@
 <body style="background-color:#7790ad;">
 
     <!-- Navigation -->
-    <a href="http://www.umass.edu/film/index.html"><img src="Pics/MMFF201-web-banner.jpg" width='100%'></a>
+ <map name="map" id="map">
+  <area shape="rect" coords="0,0,3000,1000"
+      href="index.html"
+      alt="MMFF Home"/>
+  <area shape="rect" coords="3100,0,4000,2222"
+      href="http://www.umass.edu/film/index.html"
+      alt="UMass Film Studies"/>
+</map>
+
+<p><img src="Pics/MMFF201-web-banner.jpg" alt="The Giant Prawn at Ballina"
+usemap="#map" width='100%'></p>
+    
+    
 
 
        <br>
@@ -83,12 +95,40 @@
           <div class="row vertical-align">
 
             <div class="col-md-6 film_text ">
-               <a target="blank_" href="http://www.imdb.com/title/tt5143016/"><img src="Pics/daughters of the dust.jpg" ></a> </div>
+               <a target="blank_" href="http://www.cohenmedia.net/films/daughters-of-the-dust"><img src="Pics/daughtersofthedust/daughters%20of%20the%20dust%207.png" ></a> </div>
         
                <div class="col-md-6 film_text">
                    <br>
-(1991, dir Julie Dash, USA, 112 min) <hr> At the dawn of the 20th century, a multi-generational family in the Gullah community on the Sea Islands off of South Carolina— former West African slaves who adopted many of their ancestors’ Yoruba traditions— struggle to maintain their cultural heritage and folklore while contemplating a migration to the mainland. The 25th anniversary restoration of Julie Dash’s landmark film that resonates today as the inspiration for Beyonce’s video album “Lemonade.” Introduction by Yemisi Jimoh (UMass).           </div>
+(1991, dir Julie Dash, USA, 112 min) <hr> At the dawn of the 20th century, a multi-generational family in the Gullah community on the Sea Islands off of South Carolina— former West African slaves who adopted many of their ancestors’ Yoruba traditions— struggle to maintain their cultural heritage and folklore while contemplating a migration to the mainland. The 25th anniversary restoration of Julie Dash’s landmark film that resonates today as the inspiration for Beyonce’s video album “Lemonade.” Introduction by Yemisi Jimoh (UMass).       </div>
 
+           </div>
+ <br>   
+          
+          <div class="row vertical-align">
+   <div class="col-md-9 film_text">
+                   <br>
+At the turn of the century, West African slaves were brought to a small island near South Carolina to labor in the indigo trade. Isolated in the swampy atmosphere, the Gullah community was built based on ancient Yoruba traditions. They spoke in a distinct dialect, a combination of English and West African languages. This unique community is explored in Julie Dash's debut feature Daughters of the Dust, a costume drama about the Peazant family, a fictional group of Gullah natives living on Ido Landing. The secluded family experience conflicts involving religion, industrialization, and tradition. The mystical matriarch Nana (Cora Lee Day) holds true to the beliefs of their ancestors, while Haagar (Kaycee Moore) can't wait to move away. Yellow Mary (Barbara O) returns from a life as a prostitute in Cuba with her girlfriend, and gets morally attacked by the reformed Christian Viola (Cheryl Lynn Bruce). Meanwhile, indifferent Eula (Alva Rogers) is pregnant with a baby that may or may not be the result of a rape. While the story doesn't attempt to follow a standard Eurocentric narrative, the plot revolves around a picnic on the shore in honor of the family members who chose to move to the prosperity of the north. The narrator is a spirit called the Unborn Child, who appears sometimes as a rambunctious little girl. 
+         </div>
+
+            <div class="col-md-3 film_text ">
+               <a target="blank_" href="http://www.cohenmedia.net/films/daughters-of-the-dust"><img src="Pics/daughtersofthedust/daughters%20of%20the%20dust%205.jpg" ></a> </div>
+        
+            
+           </div>
+
+            <div class="row vertical-align">
+                 <div class="col-md-3 film_text ">
+               <a target="blank_" href="http://www.cohenmedia.net/films/daughters-of-the-dust"><img src="Pics/daughtersofthedust/daughters%20of%20the%20dust%208.jpg" ></a> </div>
+                
+   <div class="col-md-6 film_text">
+                   <br>
+Introduction by Yemisi Jimoh (UMass).  <br><br>
+Co-sponsored by:<br> the University Museum of
+Contemporary Art, Amherst. 
+    
+                </div><div class="col-md-3 film_text">       <a target="blank_" href="https://fac.umass.edu/UMCA/"><img src="Logos/UMCALogo.jpg" ></a> </div>
+    
+            
            </div>
 
     </div>
@@ -167,15 +207,10 @@
 $('.nav.nav-tabs').responsiveTabs();
     </script>
 
+<script src="js/imageMapResizer.min.js"></script>
+
     <script>
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
+  imageMapResize();
     </script>
 
 </body>

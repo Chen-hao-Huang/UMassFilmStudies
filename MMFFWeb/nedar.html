@@ -46,8 +46,18 @@
 <body style="background-color:#7790ad;">
 
     <!-- Navigation -->
-    <a href="http://www.umass.edu/film/index.html"><img src="Pics/MMFF201-web-banner.jpg" width='100%'></a>
+   <map name="map" id="map">
+  <area shape="rect" coords="0,0,3000,1000"
+      href="index.html"
+      alt="MMFF Home"/>
+  <area shape="rect" coords="3100,0,4000,2222"
+      href="http://www.umass.edu/film/index.html"
+      alt="UMass Film Studies"/>
+</map>
 
+<p><img src="Pics/MMFF201-web-banner.jpg" alt="The Giant Prawn at Ballina"
+usemap="#map" width='100%'></p>
+    
 
        <br>
    <div class="container">
@@ -73,10 +83,11 @@
 
 
 
-    <h3 class="page_title">Nedar</h3>
+    <h3 class="page_title">Nedar<br><small class ="film_info" >
+    Director Present</small></h3>
     <p class="film_info">Directed by Carla Subirana<br>
   Screening Date: April 4, 2017<br>
-  7:30PM, Integrative Learning Center S404<br>
+  6:30PM, Integrative Learning Center S404<br>
   Run Time: 94 Minutes</p>
 
     <div class="container">
@@ -92,10 +103,39 @@
          
                <div class="col-md-6 film_text">
                    <br>
-(2008, dir Carla Subirana, 94 min) <hr> The fragility of family, history, memory and nation are highlighted as they intertwine in this highly personal film about the lives of three generations of women in the filmmaker’s family pieced together before they are lost and forgotten. In collaboration with the Catalan Film Festival. The director will be present.           </div>
+(2008, dir Carla Subirana, 94 min) <hr> The fragility of family, history, memory and nation are highlighted as they intertwine in this highly personal film about the lives of three generations of women in the filmmaker’s family pieced together before they are lost and forgotten. In collaboration with the Catalan Film Festival.          </div>
 
 
            </div>
+          <br>
+          <div class="row vertical-align">
+          <div class="col-md-6 film_text">
+              The personal identity and the reconstruction of memories and the past are the theme of Carla Subirana's intimate film Nadar. In her first full-length film, the director reflects on the loss of family and collective memory. The film maker succeeds in giving her personal quest a moving universal meaning. Subirana grew up in a world of women. Her anti-Franco grandfather was executed in 1940 after the Spanish Civil War for committing three armed raids. When Subirana embarks on her quest for truth in this issue that has always been surrounded by silence, her grandmother already has Alzheimer's disease and her mother is suffering from the same ailment. In her film, Subirana compares the creative process, that lasts for years, with swimming underwater in danger of drowning.
+
+              </div>
+               <div class="col-md-6 film_text ">
+               <a target="blank_" href="http://www.imdb.com/title/tt1317484/"><img src="Pics/nedar/nedar%203.jpg" ></a> </div>
+               </div>
+          
+          <div class="row vertical-align">
+              <div class="col-md-4 film_text">
+                  <a target="blank_" href="http://www.imdb.com/title/tt1317484/"><img src="Pics/nedar/foto%20Carla%20Subirana.jpeg" ></a> 
+              </div>
+              <div class="col-md-4 film_text">
+                  The director will be present. 
+                  <hr>
+                  Note special screening time and location:<br>
+                  6:30pm UMass Amherst<br>
+Integrative Learning Center S404
+              </div>
+              <div class="col-md-4 film_text" >
+                  In collaboration with the Catalan Film Festival. 
+            
+                  <img src="Logos/CS_1Web.jpg">
+              </div>
+              
+            
+          </div>
     </div>
     </div>
   <br>
@@ -169,6 +209,11 @@
 $('.nav.nav-tabs').responsiveTabs();
     </script>
     
+<script src="js/imageMapResizer.min.js"></script>
+
+    <script>
+  imageMapResize();
+    </script>
 
 
 </body>

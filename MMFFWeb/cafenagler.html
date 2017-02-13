@@ -45,9 +45,18 @@
 
 <body style="background-color:#7790ad;">
 
-    <!-- Navigation -->
-    <a href="http://www.umass.edu/film/index.html"><img src="Pics/MMFF201-web-banner.jpg" width='100%'></a>
+      <map name="map" id="map">
+  <area shape="rect" coords="0,0,3000,1000"
+      href="index.html"
+      alt="MMFF Home"/>
+  <area shape="rect" coords="3100,0,4000,2222"
+      href="http://www.umass.edu/film/index.html"
+      alt="UMass Film Studies"/>
+</map>
 
+<p><img src="Pics/MMFF201-web-banner.jpg" alt="The Giant Prawn at Ballina"
+usemap="#map" width='100%'></p>
+    
 
        <br>
    <div class="container">
@@ -86,16 +95,41 @@ Run Time: 53 Minutes</p>
     <div class="card">
 
 
-      <div class="card-block backcard vertical-align">
-            <div class="col-md-5 film_text ">
-               <a target="blank_" href="http://www.imdb.com/title/tt5143016/"><img src="Pics/cafe nagler.jpg" ></a> </div>
+      <div class="card-block backcard ">
+          <div class="row vertical-align">
+          <div class="col-md-5 film_text ">
+               <a target="blank_" href="http://www.imdb.com/title/tt5143016/"><img src="Pics/cafenagler/cafe_nagler_4.jpg" ></a> </div>
          
     
          
 
                <div class="col-md-7 film_text">
+          (2016, dir Mor Kaplansky, Germany/Israel, 53 min, in German & Hebrew w/English subtitles) <hr> The family china reminds generations of Kaplanskys of their glorious past as former owners of the legendary Nagler Café, a cultural magnet for Albert Einstein, Franz Ka a and Bertolt Brecht in 1920s Berlin. When Mor Kaplansky asks her grandmother, herself a filmmaker for Israeli television, for permission to make a  film about the café, she consents, embarking Mor on a geographical, historical, and genealogical journey of discoveries that contradict the cherished family narrative. With great charm, this original mockumentary interrogates the nature of evidence and documentation and the power of family longing for a different past. 
+           
+                 </div>
+              </div> 
+          <br>
+          <div class="row vertical-align">
+                <div class="col-md-6 film_text vertical-align">
+                      <div class="col-md-4 col-xs-4">
+                           <p>In collaboration with the Pioneer Valley
+Jewish Film Festival.<br>
+                    </p>
+                  <a target="blank_" href="http://pvjff.org/films-by-name/cafe-nagler"><img src="Logos/PVJFF-logo.jpg" ></a> 
+                  
+              </div> <div class="col-md-8  ">
+             
+                    <div >Introduction by Catherine Portuges, Professor of Comparative Literature and Director of the Interdepartmental Program in Film Studies at UMass Amherst. </div>
+              </div>
+              </div>
+            
               
-(2016, dir Mor Kaplansky, Germany/Israel, 53 min, in German & Hebrew w/English subtitles) <hr> The family china reminds generations of Kaplanskys of their glorious past as former owners of the legendary Nagler Café, a cultural magnet for Albert Einstein, Franz Ka a and Bertolt Brecht in 1920s Berlin. When Mor Kaplansky asks her grandmother, herself a filmmaker for Israeli television, for permission to make a  film about the café, she consents, embarking Mor on a geographical, historical, and genealogical journey of discoveries that contradict the cherished family narrative. With great charm, this original mockumentary interrogates the nature of evidence and documentation and the power of family longing for a different past. . In collaboration with the Pioneer Valley Jewish Film Festival. Introduction by Catherine Portuges (UMass).           </div>
+              <div class="col-md-6">
+                
+                  <a target="blank_" href="http://www.imdb.com/title/tt5143016/"><img src="Pics/cafenagler/cafe%20nagler%205.jpg" ></a> 
+              </div>
+            
+          </div>
            </div>
 
            </div>
@@ -170,6 +204,11 @@ Run Time: 53 Minutes</p>
 };
 
 $('.nav.nav-tabs').responsiveTabs();
+    </script>
+<script src="js/imageMapResizer.min.js"></script>
+
+    <script>
+  imageMapResize();
     </script>
 
 </body>

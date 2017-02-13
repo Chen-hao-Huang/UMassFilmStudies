@@ -45,9 +45,18 @@
 
 <body style="background-color:#7790ad;">
 
-    <!-- Navigation -->
-    <a href="http://www.umass.edu/film/index.html"><img src="Pics/MMFF201-web-banner.jpg" width='100%'></a>
+    <!-- Navigation -->   <map name="map" id="map">
+  <area shape="rect" coords="0,0,3000,1000"
+      href="index.html"
+      alt="MMFF Home"/>
+  <area shape="rect" coords="3100,0,4000,2222"
+      href="http://www.umass.edu/film/index.html"
+      alt="UMass Film Studies"/>
+</map>
 
+<p><img src="Pics/MMFF201-web-banner.jpg" alt="The Giant Prawn at Ballina"
+usemap="#map" width='100%'></p>
+    
 
        <br>
    <div class="container">
@@ -100,8 +109,9 @@ Run Time: 86 minutes</p>
            <br>
           
                <div class="col-md-6 film_text">
-                   <br>
-(2016, dir Kimi Takesue, USA, 86 min) <hr> Filmmaker Kimi Takesue captures the cadence of daily life for her grandfather, a retired postal worker born to Japanese immigrants to Hawai’i in the 1910s, in this collaborative inquiry into mortality and the construction of a personal narrative with memories that span almost a century. Shot over six years in Honolulu, this intimate meditation on absence and family expands the vernacular of the “home movie” to consider how history is accumulated in the everyday and how sparks of humor and creativity can animate an ordinary life.
+                   
+(2016, dir Kimi Takesue, USA, 86 min) <hr> Filmmaker Kimi Takesue captures the cadence of daily life for her grandfather, a retired postal worker born to Japanese immigrants to Hawai’i in the 1910s, in this collaborative inquiry into mortality and the construction of a personal narrative with memories that span almost a century. Shot over six years in Honolulu, this intimate meditation on absence and family expands the vernacular of the “home movie” to consider how history is accumulated in the everyday and how sparks of humor and creativity can animate an ordinary life. <b><br>
+The director will be present.</b>  
            </div>
            </div>
 <br>
@@ -109,7 +119,7 @@ Run Time: 86 minutes</p>
 
           <div class="row">
           <div class="vertical-align">
-          <div class="col-md-5   film_text ">
+          <div class="col-md-6   film_text ">
               <br>
            <p>   In 95 and 6 to go, a resilient widower’s memories become intertwined with the fictional screenplay his granddaughter is writing, revealing the fine line between life and art, rumination and imagination.
  Filmmaker Kimi Takesue captures the cadence of daily life for Grandpa Tom, a retired postal worker born to Japanese immigrants to Hawai’i in the 1910’s. Amidst the solitude of his home routines - coupon clipping, rigging an improvised barbecue, lighting firecrackers on the New Year - we glimpse an unexpectedly rich inner life. As his granddaughter queries his history of love and loss, a stalled film project becomes a collaborative inquiry into mortality and how one constructs a personal narrative with memories that span almost a century.
@@ -205,16 +215,12 @@ $('.nav.nav-tabs').responsiveTabs();
    
     </script>
 
+  <script src="js/imageMapResizer.min.js"></script>
+
     <script>
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
+  imageMapResize();
     </script>
+
 
     </body>
 
