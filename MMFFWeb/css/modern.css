@@ -482,14 +482,3 @@ ul.topnav li.icon {display: none;}
     text-align: left;
   }
 }
-
-@media(min-width:1400px){
-    .Mycontainer{    width: 1400px;
-         margin: auto;
-    }
-    .nav{
-    margin-left: auto;
-    }
-}
-
-   
