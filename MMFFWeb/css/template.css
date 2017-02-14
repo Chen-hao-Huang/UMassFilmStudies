@@ -13,6 +13,7 @@ body
 .film_info{
   text-align: center;
         color: white;
+    font-size: 20px;
 }
 
 .embed_vid {
