@@ -311,10 +311,9 @@ faculty supervisor Prof. Anne Ciecko, Communication, UMass
 
         $.fn.responsiveTabs = function() {
   this.addClass('responsive-tabs');
-  this.append($('<span class="glyphicon glyphicon-triangle-bottom"></span>'));
-  this.append($('<span class="glyphicon glyphicon-triangle-top"></span>'));
+ 
 
-  this.on('click', 'li.active > a, span.glyphicon', function() {
+  this.on('click', 'li.active > a', function() {
     this.toggleClass('open');
 
   }.bind(this));
@@ -325,19 +324,9 @@ faculty supervisor Prof. Anne Ciecko, Communication, UMass
 };
 
 $('.nav.nav-tabs').responsiveTabs();
+         imageMapResize();
     </script>
 
-    <script>
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-        imageMapResize();
-    </script>
 
 </body>
 
