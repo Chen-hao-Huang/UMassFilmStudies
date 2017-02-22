@@ -399,11 +399,9 @@ a:hover {
 
 
 .nav-tabs { border-bottom: 2px solid #DDD; }
-<<<<<<< HEAD
-    .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { background: #7790ad; }
-=======
+
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; background: #7790ad; }
->>>>>>> parent of 22424b1... menu
+
     .nav-tabs > li > a { border: none; color: #FFF;   text-shadow: 0.3px 0.5px 0.5px #6b747e; }
         .nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; color: white; !important; background: #000000; opacity: .40;}
         .nav-tabs > li > a::after { content: ""; background: #FFF; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
