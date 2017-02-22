@@ -503,3 +503,11 @@ footer.page-footer{
     color: #fff;
    
 }
+
+.menu{
+    color: white;
+}
+.responsive-tabs.nav-tabs > li > a {
+    margin-right: 20px;
+}
+
