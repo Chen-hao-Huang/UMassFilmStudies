@@ -508,6 +508,7 @@ footer.page-footer{
     color: white;
 }
 .responsive-tabs.nav-tabs > li > a {
-    margin-right: 10px;
+    margin-left: auto;
+    align-content: center;
 }
 
