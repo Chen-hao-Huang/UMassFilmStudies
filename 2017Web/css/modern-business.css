@@ -156,7 +156,7 @@ body {
     margin-bottom: 0;
 }
 a{color: #a70f0f}
-a:link{color: #a70f0f}
+a:link{color: #fff1f1}
 
 a:hover {
     color:brown;
@@ -565,7 +565,7 @@ ul.nav a:hover { color: #a70f0f !important; }
 
 
 .AtaGlancevid{
-    width: 100%;
+    width:100%;
     height: 200px;
    
 }
@@ -693,6 +693,8 @@ h1 {
 .parallax2 { 
       background-image: url("../Pics/index/SEM_0451.JPG");
     min-height: 400px;
+    top:0;
+
  
 }
 
@@ -704,12 +706,14 @@ h1 {
     /* Set a specific height */
       min-height: 400px;
       width: 100%;
+    top:0;
+
 
 }
 .parallaxtext{
     color: #777;
     text-align:center;
-    padding:50px 80px;text-align: justify;
+    padding:50px 80px;
 }
 
 .caption {
@@ -740,7 +744,7 @@ h1 {
     position:absolute;
     top:0;
     right:0;
-    background:rgba(90, 90, 90, 0.75);
+    background:rgba(0, 0, 0, 0.75);
     width:100%;
     height:100%;
     padding:2%;
@@ -789,6 +793,7 @@ footer.page-footer .call-to-action ul li {
 
 footer.page-footer .social-section {
   text-align: center;
+    
 }
 
 footer.page-footer .social-section ul li {
@@ -841,15 +846,18 @@ footer.page-footer .social-section ul li {
 
 @media (max-width: 479px) {
     .navbar-logo {display: none;  }
-
+.parallaxtext{
+    padding:10px 10px;
+}
+    
 }
 
 @media (min-width: 700px) {
 .AtaGlancevid{
-    width: 100%;
+  width: 700px;
     height: 400px;
-   
 }
+    
  .AtaGlancepic> .AtaGlancePicRight{
       position: absolute;
     left: 50%;
@@ -946,6 +954,9 @@ footer.page-footer .social-section ul li {
 }
 /* smaller than 700*/
 @media(max-width:767px) {
+    .navbar-nav li.active:after, .navbar-nav li.active:before {
+        display: none;
+    }
     
     .navbar-nav > li > a{
         padding: 5px;
