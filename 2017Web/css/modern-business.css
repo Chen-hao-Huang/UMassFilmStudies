@@ -757,7 +757,7 @@ h1 {
 
 /* Footer Styles */
 footer.page-footer {
-  margin-top: 20px;
+  margin-top: 0px;
   padding-top: 20px;
   background-color: #2e2e2e;
   color: #fff;
@@ -986,4 +986,8 @@ footer.page-footer .social-section ul li {
   line-height:-10px;      
 }
 
+}
+
+.btn-warning, .btn-warning:hover, .btn-warning:active, .btn-warning:visited {
+    background-color: #a70f0f !important;
 }
