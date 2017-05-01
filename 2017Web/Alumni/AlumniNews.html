@@ -44,13 +44,19 @@ body  {
 }
 </style>
 
-
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+ <link href="//fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,300,300italic|Open+Sans+Condensed:700" rel="stylesheet" type="text/css">
+ <style>html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}body{color:#444;font-family:"Open Sans",Helvetica,Arial,sans-serif;font-weight:400}#page{background:#fff}#umass-banner{padding:1em;background-color:#881c1c}#umass-banner .container,#umass-banner+#metanav .container{max-width:1200px}#umass-banner a#wordmark{background:url(//umass.edu/identity/umass_banner/wordmark.svg) no-repeat;height:1.5em;width:12em;float:left;background-size:contain;font:inherit;margin-top:.1em}#umass-banner a{color:#fff}#umass-banner .metanav-toggle{float:right;padding:.25em 2em 0 0;text-decoration:none;color:#fff;display:block;cursor:pointer}#umass-banner .metanav-toggle:after{content:'\2228';margin-left:.3em;vertical-align:.05em;font-family:Helvetica,Arial}#umass-banner .metanav-toggle.open:after{font-family:Helvetica,Arial;content:' \2227'}#umass-banner form{float:right}#umass-banner+#metanav{clear:both;background:linear-gradient(to bottom,#303030 50%,#444 100%) #303030;text-align:right;padding-right:.5em;transition:all .5s ease;overflow-y:hidden;max-height:0}#umass-banner+#metanav.open{max-height:2em}#umass-banner+#metanav li{display:inline-block}#umass-banner+#metanav a{display:block;color:#fff;padding:.5em 1em;font-size:.8em;text-decoration:none}#umass-banner+#metanav a:hover{text-decoration:none}#umass-banner input{ background-color: white; font-family:inherit;border:none;padding:0.5em;width:12em;}
+.element-invisible,.ir{border:0;overflow:hidden}#umass-banner input[type=submit]{background:url(//umass.edu/identity/umass_banner/search.svg) 0 -2px no-repeat #881c1c;height:1.75em;width:1.75em;background-size:contain;text-indent:-9999px;vertical-align:middle;box-shadow:none}@media only screen and (max-width:34em){#umass-banner a#wordmark,#umass-banner+#metanav{float:none;margin:0 auto;text-align:center;padding:0}#umass-banner .metanav-toggle{float:left;padding-right:1em}#umass-banner a#wordmark{margin-bottom:1.2em}#umass-banner+#metanav.open{max-height:4.5em}#umass-banner+#metanav ul{padding:0}}#umass-footer{min-height:4em;background:#333;padding-top:1em}#umass-footer a,#umass-footer p{color:#ccc;text-decoration:none}#umass-footer p{text-align:center;font-size:.9em}#umass-footer a:focus,#umass-footer a:hover{color:#fff}.ir{display:block!important;text-indent:100%;white-space:nowrap;font:0/0 a;text-shadow:none;color:transparent;background-color:transparent}.element-invisible{clip:rect(1px,1px,1px,1px);height:1px;margin:-1px;padding:0;position:absolute!important;width:1px}.container{margin:0 auto}.clearfix:after{content:"";display:table;clear:both}.clearfix{zoom:1}</style>
+    
 </head>
 
 <body>
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top " role="navigation">
+        <div id="umass-banner" role="complementary" aria-label="UMass Global Banner"> <div class="container clearfix"> <a id="wordmark" class="ir" href="http://umass.edu/" title="UMass Amherst">University of Massachusetts Amherst</a> <form action="http://googlebox.oit.umass.edu/search" method="get"> <h2 class="element-invisible">Search Google Appliance</h2> <label class="element-invisible" for="edit-search-keys">Enter the terms you wish to search for. </label> <input placeholder="Search UMass" id="edit-search-keys" type="text" name="q" size="15" maxlength="256" value=""> <input type="submit" name="button" value="Go"> <input type="hidden" name="site" value="default_collection"> <input type="hidden" name="client" value="default_frontend"> <input type="hidden" name="output" value="xml_no_dtd"> <input type="hidden" name="proxystylesheet" value="default_frontend"> </form> <a id="metanav-toggle" class="metanav-toggle" tabindex="0" onkeydown="event.keyCode==13 ? this.click() : false;" onclick="document.getElementById('metanav').classList.toggle('open');document.getElementById('metanav-toggle').classList.toggle('open');">Links <span class="element-invisible">to common UMass Amherst services and features</span></a> </div></div><div id="metanav" role="navigation" aria-label="UMass Global Links"> <ul class="container clearfix"> <li><a href="http://go.umass.edu/" title="">Go.UMass</a></li><li><a href="http://umass.edu/it/email" title="">Email</a></li><li><a href="http://www.spire.umass.edu/" title="">SPIRE</a></li><li><a href="http://moodle.umass.edu/" title="">Moodle</a></li><li><a href="http://uma.umassonline.net" title="">Blackboard Learn</a></li><li><a href="http://www.umass.edu/it/online-storage-collaboration" title="">Online Storage</a></li><li class="last"><a href="http://umass.edu/peoplefinder/" title="">People Finder</a></li></ul></div>
+        
          <div class="container">
              <!-- Brand and toggle get grouped for better mobile display -->
              <div class="navbar-header">
@@ -192,35 +198,15 @@ body  {
             </div>
         </div>
 
-       <!--Footer-->
-
- <footer class="page-footer center-on-small-only">
+ <!--Footer-->
+    <footer class="page-footer center-on-small-only">
         <!--Footer Links-->
         <div class="container-fluid ">
-            <div class="row">
-
-                <!--First column-->
-                <div class="col-md-2 col-sm-3">
-                    <h4 class="title">Copyright © 2016</h4>
-
-                   <a href="http://www.umass.edu/umhome/policies.html" class="footer_text hvr-grow-shadow target=" >Site Policies</a><br>
-                    <br>
-
-                        <a href="http://www.umass.edu/"  class="footer_text hvr-grow-shadow">University of Massachusetts Amherst</a> <br>
-
-                    <br>
-
-          This site is maintained by the <a href="../index.html" class="footer_text hvr-grow-shadow ">Interdepartmental Program in Film Studies.</a>
-
-                </div>
-
-
-
-                <!--/.First column-->
+            <div class="row container">
 
 
                 <!--Second column-->
-                <div class="col-md-1 col-sm-3 ">
+                <div class="col-md-2 col-sm-3 ">
                     <h4 class="title">about</h4>
                     <ul>
                        <li>
@@ -307,7 +293,7 @@ body  {
                     </ul>
                 </div>
 
-                <div class="col-md-2 col-sm-12">
+                <div class="col-md-3 col-sm-3">
                     <h4 class="title">Opportunities</h4>
                     <ul>
 
@@ -350,6 +336,9 @@ body  {
 
 
             </div>
+            
+            <br>
+                        <div class="container"style="text-align: center">Website Designed by Chenhao Huang && Kyle Tallman</div>             <div class = "container" style="text-align: center"><p>&copy;<?php print date("Y");?> <a href="http://umass.edu"> University of Massachusetts Amherst</a> &middot; <a href="http://umass.edu/site-policies">Site&nbsp;Policies</a> &middot; <a href="mailto:filmstudies@hfa.umass.edu ">Site&nbsp;Contact</a></p></div>
             <br>
             <br>
         </div>
@@ -359,11 +348,11 @@ body  {
 
 
         <!--/.Copyright-->
-            </footer>
+            </footer> 
     <!--/.Footer-->
-
+    
     <!-- Modal -->
-<div class="modal fade" id="Contact" tabindex="-1" role="dialog" aria-labelledby="Contact">
+    <div class="modal fade" id="Contact" tabindex="-1" role="dialog" aria-labelledby="Contact">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -374,13 +363,13 @@ body  {
         <p>
       Interdepartmental Program in <br>
       Film Studies<br>
-      S448 Integrative Learning Center<br>
-      University of Massachusetts Amherst<br>
-      650 North Pleasant Street<br>
-      Amherst, MA 01003<br>
+         S448 Integrative Learning Center<br>
+       &emsp;University of Massachusetts Amherst<br>
+      &emsp;650 North Pleasant Street<br>
+      &emsp;Amherst, MA 01003<br>
       E-mail: <a href="mailto:filmstudies@hfa.umass.edu">filmstudies@hfa.umass.edu</a><br>
-      Tel. (413) 545-3659<br>
-    Fax: (413) 545-0014 </p>
+     Tel: <a href="tel:14135453659">(413) 545-3659</a> <br>
+     Fax: <a href="fax:14135450014">(413) 545-0014</a> </p>
 
       </div>
       <div class="modal-footer">
@@ -390,12 +379,11 @@ body  {
   </div>
 </div>
 
-
-        <!-- Footer -->
-        <header class="navbar-fixed-bottom z-depth-2">
+    <!-- Footer -->
+    <header class="navbar-fixed-bottom z-depth-2">
             <div class="row">
                 <div class="hidden-xs  col-sm-6" >
-                    <p style="margin-left: 0px;margin-top: 0px">Copyright &copy; 2016 <a href="http://www.umass.edu/" target="_blank" class="footer_text"> <br>University of Massachusetts</a></p>
+                    <p style="margin-left: 0px;margin-top: 0px"> <a href="http://www.umass.edu/" target="_blank" class="footer_text"> <br>University of Massachusetts</a></p>
                 </div>
                 <div class="col-xs-12 col-sm-6">
 
