@@ -30,7 +30,7 @@
     height: 10px;
     width: 90%;
     opacity: 0;
-    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+    background: -webkit-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
     background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
     /* W3C */
     -webkit-transition-duration: 0.3s;
@@ -174,9 +174,10 @@ a:hover {
 
 /* Carousel Fading slide */
 .carousel-fade .carousel-inner {
-
     background: #000;
+
 }
+
 
 .carousel-fade .carousel-control {
     z-index: 2;
@@ -261,6 +262,7 @@ a:hover {
     right: 50%;
     left: 10%;
     top: 30%;
+    bottom:10%;
     margin-bottom: 0%;
     z-index: 10;
     padding-top: 20px;
@@ -268,7 +270,24 @@ a:hover {
     color: #fff;
     text-align: center;
     text-shadow: 0 3px 2px rgba(1, 1, 1, .6);
+    overflow:auto;
 
+}
+
+.carousel-caption-right {
+    position: absolute;
+    right: 20%;
+    left: 50%;
+    top: 30%;
+    bottom:10%;
+    margin-bottom: 0%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 3px 2px rgba(1, 1, 1, .6);
+    overflow:auto;
 }
 
 .flex-center {
@@ -276,7 +295,7 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-    .carousel-caption {
+    .carousel-caption .carousel-caption-right{
 
         right: 0%;
         left: 0%;
@@ -291,6 +310,16 @@ a:hover {
 
         display: block;
         position: relative;
+    }
+    .carousel-caption-right {
+
+        right: 0%;
+        left: 0%;
+        top: 0%;
+        padding-bottom: 40px;
+        overflow: visible;
+        font-size: smaller;
+
     }
 }
 
@@ -714,7 +743,6 @@ ul.nav a:hover {
     font-size: 25px;
     letter-spacing: 2px;
 
-    line-height:;
 }
 
 .textinblackbackground {
@@ -740,7 +768,7 @@ h1 {
 
 .parallax1 {
     /* The image used */
-    background-image: url("../Pics/index/DSC_0018.JPG");
+    background-image: url("../Pics/About/our_mission.JPG");
 
     /* Set a specific height */
     height: 500px;
@@ -748,7 +776,7 @@ h1 {
 }
 
 .parallax2 {
-    background-image: url("../Pics/index/SEM_0451.JPG");
+    background-image: url("../Pics/About/our_program.png");
     min-height: 400px;
     height: 300px;
     top: 0;
@@ -757,7 +785,7 @@ h1 {
 
 .parallax3 {
     /* The image used */
-    background-image: url("../Pics/index/SEM_0788.JPG");
+    background-image: url("../Pics/About/your_future.JPG");
 
     /* Set a specific height */
     min-height: 400px;
@@ -922,7 +950,7 @@ footer.page-footer .social-section ul li {
     .AtaGlancepic > .AtaGlancePicRight {
         position: absolute;
         left: 50%;
-        top: 10%;
+        top: 30%;
     }
 
     .AtaGlancepic > h2 > span {
@@ -1019,12 +1047,18 @@ footer.page-footer .social-section ul li {
     .dropdown:hover .dropdown-menu {
         display: block;
     }
+    .carousel-fade .carousel-inner {
+        overflow: hidden;
+
+    }
+
 }
 
 @media (min-width: 768px) {
     .navbar-brand {
         display: none;
     }
+
 }
 
 @media (min-width: 1000px) {
@@ -1063,7 +1097,10 @@ footer.page-footer .social-section ul li {
     .mmffpic > h3 > span {
         font-size: 15px;
         letter-spacing: 0px;
-        line-height: -10px;
+        line-height: 0px;
+    }
+    .carousel-fade .carousel-inner {
+        max-height: 700px;
     }
 
 }
