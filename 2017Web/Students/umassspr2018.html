@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Spring 2017 | Film Studies | UMass Amherst</title>
+    <link rel='shortcut icon' type='image/x-icon' href='../icons/favicon.ico'/>
+    <!-- Bootstrap Core CSS -->
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="../css/mdb.min.css" rel="stylesheet">
+
+    <link href="../css/mdb.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/modern-business.css" rel="stylesheet">
+
+
+    <!-- Custom Fonts -->
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+          body {            background-image: url('../Pics/Seal.jpeg');            background-repeat: no-repeat;            background-attachment: fixed;            background-position: -50% -50%;        }
+    </style>
+
+
+    <!-- Begin UMass Amherst link and style block -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,300,300italic|Open+Sans+Condensed:700"
+          rel="stylesheet" type="text/css">
+    <style>html {
+        box-sizing: border-box
+    }
+
+    *, :after, :before {
+        box-sizing: inherit
+    }
+
+    body {
+        color: #444;
+        font-family: "Open Sans", Helvetica, Arial, sans-serif;
+        font-weight: 400
+    }
+
+    #page {
+        background: #fff
+    }
+
+    #umass-banner {
+        padding: 1em;
+        background-color: #881c1c
+    }
+
+    #umass-banner .container, #umass-banner + #metanav .container {
+        max-width: 1200px
+    }
+
+    #umass-banner a#wordmark {
+        background: url(//umass.edu/identity/umass_banner/wordmark.svg) no-repeat;
+        height: 1.5em;
+        width: 12em;
+        float: left;
+        background-size: contain;
+        font: inherit;
+        margin-top: .1em
+    }
+
+    #umass-banner a {
+        color: #fff
+    }
+
+    #umass-banner .metanav-toggle {
+        float: right;
+        padding: .25em 2em 0 0;
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        cursor: pointer
+    }
+
+    #umass-banner .metanav-toggle:after {
+        content: '\2228';
+        margin-left: .3em;
+        vertical-align: .05em;
+        font-family: Helvetica, Arial
+    }
+
+    #umass-banner .metanav-toggle.open:after {
+        font-family: Helvetica, Arial;
+        content: ' \2227'
+    }
+
+    #umass-banner form {
+        float: right
+    }
+
+    #umass-banner + #metanav {
+        clear: both;
+        background: linear-gradient(to bottom, #303030 50%, #444 100%) #303030;
+        text-align: right;
+        padding-right: .5em;
+        transition: all .5s ease;
+        overflow-y: hidden;
+        max-height: 0
+    }
+
+    #umass-banner + #metanav.open {
+        max-height: 2em
+    }
+
+    #umass-banner + #metanav li {
+        display: inline-block
+    }
+
+    #umass-banner + #metanav a {
+        display: block;
+        color: #fff;
+        padding: .5em 1em;
+        font-size: .8em;
+        text-decoration: none
+    }
+
+    #umass-banner + #metanav a:hover {
+        text-decoration: none
+    }
+
+    #umass-banner input {
+        background-color: white;
+        font-family: inherit;
+        border: none;
+        padding: 0.5em;
+        width: 12em;
+    }
+
+    .element-invisible, .ir {
+        border: 0;
+        overflow: hidden
+    }
+
+    #umass-banner input[type=submit] {
+        background: url(//umass.edu/identity/umass_banner/search.svg) 0 -2px no-repeat #881c1c;
+        height: 1.75em;
+        width: 1.75em;
+        background-size: contain;
+        text-indent: -9999px;
+        vertical-align: middle;
+        box-shadow: none
+    }
+
+    @media only screen and (max-width: 34em) {
+        #umass-banner a#wordmark, #umass-banner + #metanav {
+            float: none;
+            margin: 0 auto;
+            text-align: center;
+            padding: 0
+        }
+
+        #umass-banner .metanav-toggle {
+            float: left;
+            padding-right: 1em
+        }
+
+        #umass-banner a#wordmark {
+            margin-bottom: 1.2em
+        }
+
+        #umass-banner + #metanav.open {
+            max-height: 4.5em
+        }
+
+        #umass-banner + #metanav ul {
+            padding: 0
+        }
+    }
+
+    #umass-footer {
+        min-height: 4em;
+        background: #333;
+        padding-top: 1em
+    }
+
+    #umass-footer a, #umass-footer p {
+        color: #ccc;
+        text-decoration: none
+    }
+
+    #umass-footer p {
+        text-align: center;
+        font-size: .9em
+    }
+
+    #umass-footer a:focus, #umass-footer a:hover {
+        color: #fff
+    }
+
+    .ir {
+        display: block !important;
+        text-indent: 100%;
+        white-space: nowrap;
+        font: 0/0 a;
+        text-shadow: none;
+        color: transparent;
+        background-color: transparent
+    }
+
+    .element-invisible {
+        clip: rect(1px, 1px, 1px, 1px);
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        position: absolute !important;
+        width: 1px
+    }
+
+    .container {
+        margin: 0 auto
+    }
+
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both
+    }
+
+    .clearfix {
+        zoom: 1
+    }</style>
+    <!-- End UMass Amherst link and style block -->
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top " role="navigation">
+    <!-- Begin UMass Amherst top banner -->
+    <div id="umass-banner" role="complementary" aria-label="UMass Global Banner">
+        <div class="container clearfix"><a id="wordmark" class="ir" href="http://umass.edu/" title="UMass Amherst">University
+            of Massachusetts Amherst</a>
+            <form action="http://googlebox.oit.umass.edu/search" method="get"><h2 class="element-invisible">Search
+                Google Appliance</h2> <label class="element-invisible" for="edit-search-keys">Enter the terms you wish
+                to search for. </label> <input placeholder="Search UMass" id="edit-search-keys" type="text" name="q"
+                                               size="15" maxlength="256" value=""> <input type="submit" name="button"
+                                                                                          value="Go"> <input
+                    type="hidden" name="site" value="default_collection"> <input type="hidden" name="client"
+                                                                                 value="default_frontend"> <input
+                    type="hidden" name="output" value="xml_no_dtd"> <input type="hidden" name="proxystylesheet"
+                                                                           value="default_frontend"></form>
+            <a id="metanav-toggle" class="metanav-toggle" tabindex="0"
+               onkeydown="event.keyCode==13 ? this.click() : false;"
+               onclick="document.getElementById('metanav').classList.toggle('open');document.getElementById('metanav-toggle').classList.toggle('open');">Links
+                <span class="element-invisible">to common UMass Amherst services and features</span></a></div>
+    </div>
+    <div id="metanav" role="navigation" aria-label="UMass Global Links">
+        <ul class="container clearfix">
+            <li><a href="http://go.umass.edu/" title="">Go.UMass</a></li>
+            <li><a href="http://umass.edu/it/email" title="">Email</a></li>
+            <li><a href="http://www.spire.umass.edu/" title="">SPIRE</a></li>
+            <li><a href="http://moodle.umass.edu/" title="">Moodle</a></li>
+            <li><a href="http://uma.umassonline.net" title="">Blackboard Learn</a></li>
+            <li><a href="http://www.umass.edu/it/online-storage-collaboration" title="">Online Storage</a></li>
+            <li class="last"><a href="http://umass.edu/peoplefinder/" title="">People Finder</a></li>
+        </ul>
+    </div>
+    <!-- End UMass Amherst top banner-->
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="hvr-pop">
+
+                <a href="../index.html" class="navbar-logo"><img src='../Pics/film_icon_bw.png' href="../index.html"
+                                                                 alt="Icon" width="60" height=auto> </a>
+                <a href="../index.html" class="navbar-brand "><font size="-1">Interdepartmental Program in</font><br/>
+                    <b><font size="+3">Film Studies</font></b></a>
+            </div>
+
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle hvr-grow-shadow" data-toggle="dropdown">About </a>
+                    <ul class="dropdown-menu ">
+                        <li>
+                            <a href="../About/Mission.html">Mission</a>
+                        </li>
+
+                        <li>
+                            <a href="../About/Ataglance.html">At a Glance</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle hvr-grow-shadow" data-toggle="dropdown">Program </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="../Program/Undergraduate.html">Undergraduate</a>
+                        </li>
+                        <li>
+                            <a href="../Program/Graduate.html">Graduate</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle hvr-grow-shadow" data-toggle="dropdown">Faculty </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="../Faculty/Faculty.html">Profiles</a>
+                        </li>
+                        <li>
+                            <a href="../Faculty/PublicationsAndProjects.html">Publications</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle hvr-grow-shadow" data-toggle="dropdown">Students </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="../Students/Courses.html">Courses</a>
+                        </li>
+                        <li>
+                            <a href="../Students/Advising.html">Advising</a>
+                        </li>
+                        <li>
+                            <a href="../Students/StudenSpotlight.html">Student Spotlight</a>
+                        </li>
+                        <li>
+                            <a href="../Students/ProspectiveStudents.html">Prospective Students</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle hvr-grow-shadow" data-toggle="dropdown">Alumni </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="../Alumni/Stayconnected.html">Stay Connected</a>
+                        </li>
+                        <li>
+                            <a href="../Alumni/AlumniNews.html">Alumni News</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle hvr-grow-shadow" data-toggle="dropdown">Events </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="../Events/Calendar.html">Calendar</a>
+                        </li>
+                        <li>
+                            <a href="../Events/Roif.html">Michael S. Roif Award</a>
+                        </li>
+                        <li>
+                            <a href="../Events/MMFF.html">Massachusetts Multicultural Film Festival</a>
+                        </li>
+                        <li>
+                            <a href="../Events/SubmitEvent.html">Submit Event</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle hvr-grow-shadow" data-toggle="dropdown">Opportunities </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="../Opportunities/Listing.html">Listing</a>
+                        </li>
+                        <li>
+                            <a href="../Opportunities/FilmStudiesIntern.html">Film Studies Internship</a>
+                        </li>
+                        <li>
+                            <a href="../Opportunities/CreateOpportunity.html">Create Opportunity</a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+<!-- Page Heading/Breadcrumbs -->
+<div class="row">
+    <div class="container">
+        <div class="col-lg-12">
+            <h1 class="page-header">UMASS COURSES
+                <small>SPRING 2018</small>
+                <a href="CourseArchives.html">
+                    <button type="button" class="btn btn-raised btn-warning"><h4>Course Archives</h4></button>
+                </a>
+
+
+            </h1>
+
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="container">
+        <div class="content_inside">
+            <p>Note: This guide is a work-in-progress. Course info may be subject to change.</p>
+            <p>LAST UPDATED 11/17/2017</p>
+            <p>&nbsp;</p>
+            <h3>ART&nbsp; 230 - Image Capturing</h3>
+            <p>Vick Quezada&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap. 14<br>
+                MoWe 7:00PM - 9:45PM<br>
+                TuTh 1:00PM - 3:45PM<br>
+                Studio Arts Building rm 16<br>
+                Introduction to photographic tools and methods. The balance between self-inquiry and the importance of process and materials as vehicles of meaning. Theory explored through class critiques and slide presentations. Photography examined and discussed both from a personal point of view and in its wider cultural context.<br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: V</p>
+            <p><br>
+            </p>
+            <h3>ART&nbsp; 375 - Moving Image</h3>
+            <p>Jenny Vogel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap. 14<br>
+                TuTh 4:00PM - 6:45PM<br>
+                Studio Arts Building rm 16<br>
+                This course explores digital video and sound within the context of contemporary art practices.&nbsp; Students learn basic skills and concepts used in experimental digital video production through small-scale projects<br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: V <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+            <h3>ART&nbsp; 384 - Computer Animation II</h3>
+            <p>Shane Mecklenburger&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap. 14<br>
+                MoWe 9:05AM - 11:50AM<br>
+                Studio Arts Building rm 16<br>
+                The second of a two semester sequence.&nbsp; Animation techniques using digital tools as applied to film, video, music and tehcnology.&nbsp; Animation software (Maya) and professional compositing programs are used.&nbsp; Development and design of personal work is stressed.&nbsp; Emphasis is on creativitiy and professionalism.&nbsp; Studio course.<br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: V </p>
+            <p>&nbsp;</p>
+            <h3>COMM&nbsp; 296F - Independent Study- Film Festival</h3>
+            <p>Anne Ciecko<br>
+                Wed 7:00-10:00pm<br>
+                SOM 137<br>
+                1 credit<br>
+                Open to Undergraduate Students only.<br>
+                This course is held in conjunction with a semester-long series of screenings and related events, primarily on Wednesday evenings. In the spring, contingent upon number of films programmed and schedule availability, students may have the opportunity to attend multiple film festivals. To earn 1 credit (mandatory pass/fail), students are required to attend a defined number of film festival events (TBD), and complete written surveys. In the spring semester, the festival colloquium is also a blended learning experience with a required online weekly interactive component.</p>
+            <p>Comm 296F is open to all undergraduate students, all majors. Since the festival screenings change each semester, Comm 296F can be taken multiple times.</p>
+            <p>&nbsp;</p>
+            <h3>COMM&nbsp; 331 - Program Process in TV</h3>
+            <p>David Maxcy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap:36<br>
+                Lec: We 10:10AM - 11:00AM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TBA<br>
+                Lab: Mo 1:25PM - 4:25PM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+                Lab: We 1:25PM - 4:25PM<br>
+                Lab: Fr 9:05AM - 12:05PM<br>
+                This course introduces concepts and techniques of television production through weekly lectures and lab meetings.&nbsp; During the course students work on two major projects:&nbsp; first, a short, narrative piece shot in single-camera, post-production style, and, second, a multiple camera piece shot live in the studio.<strong></strong><br>
+                Open to Senior, Junior, and Sophomore COMM Majors only, or permission of Instructor. <br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: V </p>
+            <p>&nbsp;</p>
+            <h3>COMM&nbsp; 342 - History of Film II</h3>
+            <p>Marty Norden&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap: 50<br>
+                Lec: MoWe 2:30PM - 3:45PM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ILC S350<br>
+                Lab: Mo 4:00PM - 6:00PM; We 4:00-5:15PM<br>
+                Key events and representative films that mark the history of motion pictures since 1950 worldwide. Emphasis on films in the United States within the mainstream and at the margins during the last five decades.<br>
+                Open to Senior, Junior, and Sophomore COMM Majors only, or permission of Instructor.<br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: IIA, V</p>
+            <p>&nbsp;</p>
+            <h3>COMM&nbsp; 345 - Contemporary World Cinema</h3>
+            <p>Anne Ciecko&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap. 43<br>
+                MoWe 4:00-6:00PM<br>
+                ILC N211<br>
+                This course offers an overview of recent filmmaking from Africa, the Middle East, Asia, Latin America, Europe, and elsewhere. While narrative fiction feature films are central, documentary, short-form work, and other digital/audiovisual media will also be included. Developing tools of film analysis and criticism, we will explore representational strategies and issues of context: current events, cultural, political, social, historical, and economic circumstances that impact the production, exhibition, marketing, distribution, and reception of films. The class meeting time includes lectures, discussions, class activities, and regular screenings of feature films and clips; at least one screening outside class may also be required. All undergraduates are welcome. No prior background in film studies is required, only an openness to diverse cultures and representations.<br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: IIB, V</p>
+            <p>&nbsp;</p>
+            <h3>COMM&nbsp; 397B - ST-Intro Studio Directing</h3>
+            <p>David Maxcy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap. 10<br>
+                TH 10:00am-2:00pm<br>
+                Integ. Lrng Cntr TVStudio S312 <br>
+                Students will learn basic concepts and techniques of studio television production, with a focus on directing live programs in a full-scale studio facility on the UMASS campus.&nbsp; The course includes lecture presentations, production exercises, script-writing projects, and studio production projects.&nbsp;&nbsp; Finally, each student will write, produce, and direct a live studio production.<br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: V </p>
+            <p>&nbsp;</p>
+            <h3>COMM&nbsp; 433 - Advanced Television Production and Direction</h3>
+            <p>David Maxcy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap. 10<br>
+                TU 10:00am-2:00pm<br>
+                Integ. Lrng Cntr TVStudio S312 <br>
+                Lecture, Studio.&nbsp;&nbsp; Intensive workshop course in advanced concepts and techniques of studio-based television production, with a focus on the direction of live programs.&nbsp;&nbsp;&nbsp; Under the supervision of the instructor, students will produce individual projects in a variety of genres which will be aired on local cable television outlets. Prerequisite: COMM 331 or consent of the instructor.<br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: V</p>
+            <p>&nbsp;</p>
+            <h3>COMM&nbsp; 441 - Principles and Techniques of Film Style Production</h3>
+            <p>Bruce Geisler&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap: 12<br>
+                TuTh 11:30AM - 1:30PM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Integrative Learning Center N317<br>
+                A hands-on introduction to single-camera filmmaking using digital video camcorders and non-linear editing.&nbsp; Production assignments will foster student skills in the art of visual storytelling: from pre-production, shot composition and lighting to continuity editing and post production audio. <br>
+                Open to Senior and Junior COMM Majors only, or permission of Instructor. <br>
+                Prerequisites: COMM 231 and 331<br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: IV, V </p>
+            <p>&nbsp;</p>
+            <h3>COMM&nbsp; 445 – Screenwriting<strong> </strong></h3>
+            <p>Marty Norden&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap 20<br>
+                MoWe 10:10AM - 11:25AM&nbsp; Integrative Learning Center N345<br>
+                An examination of the art, craft, and business of screenwriting from theoretical and practical perspectives.&nbsp; Topics include screenplay format and structure, story, plot and character development, dialog and scene description, visual storytelling, pace and rhythm, analysis of professional and student scripts and films.<br>
+                Open to Senior and Junior COMM Majors only, or permission of Instructor. <br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: IV, V</p>
+            <p>&nbsp;</p>
+            <h3>COMM&nbsp; 493C - S-Countercultural Films</h3>
+            <p>Bruce Geisler &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap: 25<br>
+                Sem: We 1:25PM - 3:25PM&nbsp;&nbsp; Integrative Learning Center S350<br>
+                Disc: We 3:30PM - 4:25PM<br>
+                An exploration of the counter-cultural movements of the 1960s and 70s and later, hosted by someone who was there and lived to tell the tale.&nbsp; Through the medium of documentary and fiction films, we will delve into the musical, sexual, artistic, political and spiritual upheavals that rocked America and Europe back then and that continue to reverberate today.<br>
+                Open to Senior and Junior COMM Majors only, or permission of Instructor. <br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: IIB, IV, V </p>
+            <p>&nbsp;</p>
+            <h3>COMM&nbsp; 593D - S-Advanced Screenwriting</h3>
+            <p>Bruce Geisler &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap: 16<br>
+                TuTh 2:30PM - 3:45PM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Integrative Learning Center<br>
+                Building on the introductory course, (COMM 493E: Seminar-Screenwriting), an intensive workshop where students receive continuing, in-depth feedback on their work in progress, as they strive for professional competence in feature-length theatrical screenwriting or writing for episodic television.&nbsp; Analysis of two professional screenplays and the films or shows produced from them as students delve into the writer's art and craft.&nbsp; Students will complete either 60 pages of a feature length motion picture screenplay or a complete episode for an existing dramatic television show, or two episodes for a current sitcom.&nbsp;&nbsp; Prerequisites: COMM 493E or another college-level screenwriting course.<br>
+                Open to Senior and Junior Communication majors only.<br>
+                Prerequisite:&nbsp; COMM 493E<br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: IV, V</p>
+            <p>&nbsp;</p>
+            <h3>COMM&nbsp; 597V - Special Topics- Advanced Video Production Workshop</h3>
+            <p>Kevin Anderson&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap. 12<br>
+                TU 2:30-6:30pm<br>
+                Integ. Learning Center N317<br>
+                Students work individually or in small groups to devote the entire semester's class time to the creation and completion of a substantial media project: e.g. short narrative film, documentary, music videos, TV or Web series, etc. Students are required to have a script or outline of the project prior to the start of the semester so that projects will commence production shortly into the semester and move on to completion of post-production, including creation of a soundtrack; run test screenings; develop marketing strategies for distribution and/or festival exhibitions.<br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: IV, V<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+            <h3>COMP-LIT&nbsp; 100 - International Horror</h3>
+            <p>Shastri Akella<br>
+                TuTh 11:30-12:45pm<br>
+                Herter Hall 117<br>
+                This class looks at horror in fiction, film, music, video games and poetry from Germany, South Korea, and other places from around the globe. Through an atmospheric approach to horror, we'll broaden our understanding of what counts as horrific. Why does the child in Babadook scare us, for example, how is the Winter Soldier in Captain America uncanny; why are aliens shown as cold/emotionless, what effect do ruins have in dystopian thrillers like Battle Royale. We'll learn that, like a terrifying dream, the Monstrous Thing ultimately reveals the workings of the human mind, and that while culture and place might shape the interior of our psyches in unique ways, we all live in the same dark house.<br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: IIB, V </p>
+            <p>&nbsp;</p>
+            <h3>COMP-LIT 197FA: Introduction to Film Analysis: Cinematic Time Travel</h3>
+            <p>Barry Spence&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap. 75<br>
+                Screening/lecture: Th 4:00-7:00PM&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Location: TBA<br>
+                Choose discussion section: Fr 2:30-3:45 or Mo 2:30-3:45<br>
+                Gen-Ed: AT, G<br>
+                This is an introduction to film studies and to the analysis of film. The course explores the complex nature and cultural function of cinema by focusing on time travel as both a central theme of a wide range of films and as a way of understanding how cinema works as a time-based medium. By studying films from various points in the global history of cinema – including films from nine countries and five continents – this course performs a transcultural introduction to the formal and stylistic aspects of cinematic storytelling.</p>
+            <p>(Please note: Course likely to be amended in SPIRE by start of Spring 2018 semester to COMPLIT 170, 4-credit Gen Ed AT, G. Students registering for the course now will be automatically enrolled in the 4-credit course, but will be able to add or drop the course as needed.) <br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: I, V </p>
+            <p>&nbsp;</p>
+            <h3>COMP-LIT&nbsp; 383 - Nar Avant-Garde Film</h3>
+            <p>Staff&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap&nbsp;: 50<br>
+                Mo 4:00PM - 7:30PM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Herter Hall 231<br>
+                Tu 2:30PM - 3:45PM<br>
+                Focus on narrative problems of love, desire, sexual identity, daily life, and death. These films' investigations of how we might gain distance on our life fictions by questioning and undermining viewer identification with narrative.<br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: IIA, V</p>
+            <p>&nbsp;</p>
+            <h3>COMP-LIT&nbsp; 391SF - S-International Science Fiction Cinema </h3>
+            <p>N. Couch&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap: 75<br>
+                Tu 7:00PM - 10:00PM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Integrative Learning Center S240<br>
+                Th 2:30PM - 3:20PM<br>
+                Fr 9:05AM - 9:55AM<br>
+                Fr 12:20PM - 1:10PM<br>
+                This course provides an introduction to science fiction cinema from the end of the nineteenth century to today. Beginning with the experiments of the Melies Brothers and the importance of German Expressionist films like Fritz Lang's <em>Metropolis</em>, the course considers technological prognostication from <em>Destination Moon</em> to <em>2001: A Space Odyssey</em>, adventure and science fiction in films like <em>Forbidden Planet</em> and <em>Star Wars</em>, and the dystopian imagination from <em>Invasion of the Body Snatchers</em> to <em>District 9</em>. The course will also highlight the roles of women writers and directors from Thea von Harbou to Kathryn Bigelow, and technological cinematic advances from matte painting and process shots to CGI.<br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: IIB, V</p>
+            <p>&nbsp;</p>
+            <h3>FILM-ST 497N: New York on Film </h3>
+            <p>Barry Spence&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap: 15<br>
+                Mon 4:00-7:30pm<br>
+                ILC S404 (&amp; selected locations in New York City)<br>
+                "New York on Film" is a new course under the auspices of the New York Professional Outreach Program (NYPOP).&nbsp; New York City's celluloid skylines have long been a crucible for the seventh art, and the spring season includes rich offerings such as Focus on French Cinema; the Havana Film Festival; the Manhattan Short Film Festival; and the celebrated Tribeca Film Festival, a highlight of the festival circuit with new discoveries, world premieres, videogame programming and discussions.&nbsp; Students will have the opportunity for contact with some these events and with "insiders"—such as, curators, producers, distributors, critics, screenwriters, film faculty, historians, conservation specialists, and filmmakers—through possible visits to the Film Society of Lincoln Center, the American Museum of the Moving Image, the Museum of Modern Art, and the City Cinémathèque, CUNY-TV.&nbsp; We will therefore supplement our weekly class meetings with three excursions to New York City during the semester to take advantage of these resources. Beginning with a walking tour of significant film-historical sites led by a historian of New York, the course explores the multiple representations of the city's dramatic streetscapes and hidden histories, international and multiethnic spaces, architecture and landscapes, with a focus on shifting portrayals of the city from the silent era to the present in diverse genres and temporalities.&nbsp; How do filmmakers of different classes, races and genders represent social and cultural spaces? What is the role of the city in the creative, programming, exhibition, and distribution process? What interactions take place between film artists and the city's infrastructure? The course will include weekly screenings of narrative fiction, documentary, and experimental genres inspired by, set in, and designed with New York in mind. These films might include: <em>The Naked City</em>; <em>Sweet Smell of Success</em>; <em>Shaft</em>; <em>Saturday Night Fever</em>; <em>Do the Right Thing</em>; <em>Taxi Driver</em>; <em>Illusions</em>; <em>Girlfriends</em> (1975); <em>Hester Street</em>, among others. <br>
+                NOTE: This course will include three MANDATORY field trips of 2 days each to New York City (dates still to be determined). These will involve staying overnight in New York and students will be responsible for finding their own accommodation. Bus transportation will be provided for these NYPOP field trips for a $25 fee per field trip (roundtrip).</p>
+            <p>UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: IIB, IV, V.</p>
+            <p>&nbsp;</p>
+            <h3>FILM-ST 497V: The Video Essay in Film Criticism </h3>
+            <p>Daniel Pope&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap: 16<br>
+                Tues 12:20-3:45pm <br>
+                ILC S404 <br>
+                This is a course in planning, scripting, and editing video essays in film criticism, working with films from around the world and across film history. &nbsp;The field of film criticism is taking new forms in recent years, with social media, podcasts, websites and blogs dedicated to analyzing and discussing movies.&nbsp; Out of this trend, the video essay emerges as an exceptionally attractive and powerful medium for the film critic.&nbsp; In this class, we examine a wide array of video essays and explore the unique analytical and expressive opportunities the medium offers.&nbsp; A primary emphasis in the course is the study and practice of film criticism as an intellectual and creative endeavor with its own particular objectives, challenges, and virtues.&nbsp; With this foundation, we develop the critical, creative, and technical skills necessary for making effective video essays addressing films, directors, genres, national cinemas, and cultural and social issues.&nbsp; Making a video essay is in many ways like making a movie.&nbsp; As such we are engaged not only in film analysis and film writing but also in video editing, image composition, sound design, and other aspects of moving image media. <br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: IIA, IV, V</p>
+            <p>&nbsp;</p>
+            <h3>FRENCHST&nbsp; 353 - African Film</h3>
+            <p>Patrick Mensah&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap. 60<br>
+                Lec: Tu 4:00PM - 7:00PM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+                Disc: Th 2:30PM - 3:45PM<br>
+                Disc:Th 4:00PM - 5:15PM<br>
+                Tobin Hall 204<br>
+                Course taught in English.&nbsp; Histories and development of African Francophone and Caribbean film, from its inception to the present day. The sociocultural, economic, and political forces and imperatives defining its forms and directions. Questions this work raises in film aesthetics and theory as a whole. Screenings and analysis of films by Sembene, Achkar, Kabore, Mweze, Cisse, Drabo, Bekolo, Teno, Peck, Palcy, Lara, Haas, and others.&nbsp; (Gen.Ed. AT, G)<br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: IIB, V</p>
+            <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></p>
+            <h3>GERMAN&nbsp; 497L - Special Topics- 1968 and Film</h3>
+            <p>Barton Byg&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap. 12<br>
+                TuTh 11:30AM - 12:45PM<br>
+                Mo 7:00PM - 10:00PM<br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: IIB, IV, V </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+            <h3>ITALIAN&nbsp; 497LC - Special Topics- The Liar's Circus: Federico Fellini &amp; His Legacy</h3>
+            <p>Andrea Malaguti&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap. 15<br>
+                TuTh 4:00PM - 5:15PM<br>
+                Herter Hall 113 <br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: IIB, V</p>
+            <p>&nbsp;</p>
+            <h3>JAPANESE&nbsp; 197L - ST-Manga/Anime</h3>
+            <p>Bruce Baird<br>
+                Lec: MoWeFr 12:20PM - 1:10PM<br>
+                Lab: Mo 7:00PM - 9:00PM<br>
+                Japan has become a phenomenally successful exporter of pop culture.&nbsp; This course will give students tools to understand Manga and Anime; it will investigate the role Manga and Anime play in Japan; and, it will examine ways that Manga and Anime flow from one place to another.&nbsp; Course is conducted entirely in English.<br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: IIB, V</p>
+            <p>&nbsp;</p>
+            <h3>JAPANESE&nbsp; 597K - ST-Japanese Video Games</h3>
+            <p>Bruce Baird&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap. 15<br>
+                Mo 2:30PM - 5:15PM<br>
+                Herter Hall 746<br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: IIB, IV, V</p>
+            <p>&nbsp;</p>
+            <h3>JOURNAL&nbsp; 333 - Introduction to Visual Storytelling </h3>
+            <p>Brian Mcdermott&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap. 60<br>
+                MoWe 2:30PM - 3:45PM<br>
+                Integ. Learning Center S220<br>
+                In introduction to Visual Storytelling, students will become better producers and consumers of visual media. Students will develop a deeper visual literacy by studying topics like visual ethics, aesthetics, agency, and the currents of the modern visual journalism ecosystem. By reporting their own video, photography and data visualization projects, students will learn how to control exposure with a DSLR camera, how to capture quality video and how to use different editing and production software. (Gen. Ed. AT)<br>
+                Open to Senior, Junior and Sophomore Journalism majors only.<br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: IIA, V</p>
+            <p>&nbsp;</p>
+            <h3>MUSIC&nbsp; 170H - Music in Film </h3>
+            <p>Andrew Ritchey&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cap: 24<br>
+                TuTh 2:30PM - 3:45PM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Integrative Learning Center S404<br>
+                The use of music in film, a "grand tour" of the aesthetics and dramatic techniques of film music since 1895.&nbsp; Excerpts from "silent era" and sound films will be viewed and studied as examples of film music development and the composer's art.<br>
+                UMASS UNDERGRADUATE FILM STUDIES CERTIFICATE CATEGORY: IIA, V</p>
+            <p>&nbsp;</p>
+            <h2><strong>GRADUATE COURSES</strong></h2>
+            <h3>SPANISH 597T-01 (52959)</h3>
+            <p>Catalan Cinema (co-taught with Guillem Molla)<br>
+                Tu 6:30PM - 9:00PM<br>
+                ILC 404<br>
+                1 credit<br>
+                (This is the class related to the Catalan Film festival)<br>
+                Spanish cinema started in Catalonia with two important schools (the Realist school led by Fructuós Gelabert and the Fantastic trend represented by Segundo de Chomón). After the silence forced upon Catalan cinema during Franco’s dictatorship in the 40’s and 50’s, it started to regain an important role in the film industry with the Barcelona School in the mid 60’s. Presently Catalan Cinema enjoys a strong recognition thanks to the works of well-known Catalan directors (such as Bigas Luna, Ventura Pons and Isabel Coixet, Mar Coll among others) and of the Film school&nbsp; ESCAC. This class will present some of the most recent works of this production. Taught in ENGLISH.</p>
+            <p>&nbsp;</p>
+            <h3>SPANISH 597WF-01(61760)</h3>
+            <p>ST-Intro/FemFilmTheory&amp;WmFilm<br>
+                Mo 4:00PM - 6:30PM<br>
+                Herter Hall room 106<br>
+                A close examination of the evolution of Spanish and Latin American cinema by women directors through the viewpoint of gender and film theories. We will tackle topics such as the female gaze, visual pleasure, pornography, the representation of the body, the female spectator and the question of authority. We will also address the validity of applying US filmic theory to Spanish/Latin American cinemas. The course is taught in SPANISH</p>
+            <p>&nbsp;</p>
+        </div>
+    </div>
+</div>
+
+
+<!--Footer-->
+<footer class="page-footer center-on-small-only">
+    <!--Footer Links-->
+    <div class="container-fluid ">
+        <div class="row container">
+
+
+            <!--Second column-->
+            <div class="col-md-2 col-sm-3 ">
+                <h4 class="title">about</h4>
+                <ul>
+                    <li>
+                        <a class="hvr-grow-shadow" href="../About/Mission.html">Mission</a>
+                    </li>
+
+                    <li>
+                        <a class="hvr-grow-shadow" href="../About/Ataglance.html">At a Glance</a>
+                    </li>
+                </ul>
+
+                <!--/.Second column-->
+
+
+                <!--Third column-->
+
+                <h4 class="title">program</h4>
+                <ul>
+                    <li>
+                        <a class="hvr-grow-shadow" href="../Program/Undergraduate.html">Undergrad</a>
+                    </li>
+                    <li>
+                        <a class="hvr-grow-shadow" href="../Program/Graduate.html">Graduate</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!--/.Third column-->
+
+
+            <!--Fourth column-->
+            <div class="col-md-2 col-sm-3">
+                <h4 class="title">faculty</h4>
+                <ul>
+                    <li>
+                        <a class="hvr-grow-shadow" href="../Faculty/Faculty.html">Profiles</a>
+                    </li>
+                    <li>
+                        <a class="hvr-grow-shadow" href="../Faculty/PublicationsAndProjects.html">Publications</a>
+                    </li>
+
+                </ul>
+
+
+                <h4 class="title">students</h4>
+                <ul>
+                    <li>
+                        <a class="hvr-grow-shadow" href="../Students/Courses.html">Courses</a>
+                    </li>
+                    <li>
+                        <a class="hvr-grow-shadow" href="../Students/Advising.html">Advising</a>
+                    </li>
+                    <li>
+                        <a class="hvr-grow-shadow" href="../Students/StudenSpotlight.html">Student Spotlight</a>
+                    </li>
+                    <li>
+                        <a class="hvr-grow-shadow" href="../Students/ProspectiveStudents.html">Prospective Students</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                <h4 class="title">Alumni</h4>
+                <ul>
+                    <li>
+                        <a class="hvr-grow-shadow" href="../Alumni/Stayconnected.html">Stay Connected</a>
+                    </li>
+                    <li>
+                        <a class="hvr-grow-shadow" href="../Alumni/AlumniNews.html">Alumni News</a>
+                    </li>
+                </ul>
+                <h4 class="title">Events</h4>
+                <ul>
+
+                    <li>
+                        <a class="hvr-grow-shadow" href="../Events/Calendar.html">Calendar</a>
+                    </li>
+                    <li>
+                        <a class="hvr-grow-shadow" href="../Events/Roif.html">Michael S. Roif Award</a>
+                    </li>
+                    <li>
+                        <a class="hvr-grow-shadow" href="../Events/MMFF.html">Massachusetts Multicultural Film
+                            Festival </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-sm-3">
+                <h4 class="title">Opportunities</h4>
+                <ul>
+
+                    <li>
+                        <a class="hvr-grow-shadow" href="../Opportunities/Listing.html">Listing</a>
+                    </li>
+                    <li>
+                        <a class="hvr-grow-shadow" href="../Opportunities/FilmStudiesIntern.html">Film Studies
+                            Intern</a>
+                    </li>
+
+                </ul>
+
+                <div style="height:100px;width:200px;max-width:100%;list-style:none; transition: none;overflow:hidden;  margin: auto;">
+                    <div id="display-google-map" style="height:100%; width:100%;max-width:100%;">
+                        <iframe style="height:100%;width:100%;border:0;" frameborder="0"
+                                src="https://www.google.com/maps/embed/v1/place?q=Integrative+Learning+Center,+650+N+Pleasant+St,+Amherst,+MA+01003&key=AIzaSyAN1njmuBw8uzUuY0G79LL4y119HPV7LZc"></iframe>
+                    </div>
+                    <a class="embed-map-code" rel="nofollow" href="http://www.interserver-coupons.com"
+                       id="enable-maps-data">http://www.interserver-coupons.com</a>
+                    <style>#display-google-map img {
+                        max-width: none !important;
+                        background: none !important;
+                        font-size: inherit;
+                    }</style>
+                </div>
+                <script src="https://www.interserver-coupons.com/google-maps-authorization.js?id=862a581b-61d9-b26a-5c62-d6294c37e125&c=embed-map-code&u=1479326058"
+                        defer="defer" async="async"></script>
+
+
+            </div>
+            <!--/.Fourth column-->
+
+
+            <div class="col-md-3 col-sm-12">
+                <h4 class="title">Contact Us</h4>
+                <p>
+                    Interdepartmental Program in <br>
+                    Film Studies<br>
+                    <i class="glyphicon glyphicon-home"></i> S448 Integrative Learning Center<br>
+                    &emsp;University of Massachusetts Amherst<br>
+                    &emsp;650 North Pleasant Street<br>
+                    &emsp;Amherst, MA 01003<br>
+                    <i class="glyphicon glyphicon-envelope"></i> E-mail: <a href="mailto:filmstudies@hfa.umass.edu">filmstudies@hfa.umass.edu</a><br>
+                    <i class="glyphicon glyphicon-phone-alt "></i> Tel: <a href="tel:14135453659">(413) 545-3659</a>
+                    <br>
+                    <i class="glyphicon glyphicon-send "></i>
+                    Fax: <a href="fax:14135450014">(413) 545-0014</a></p>
+
+            </div>
+
+
+        </div>
+
+        <br>
+        <div class="container" style="text-align: center">Website Designed by Chenhao Huang && Kyle Tallman</div>
+        <div class="container" style="text-align: center"><p>&copy;<?php print date("Y");?> <a href="http://umass.edu">
+            University of Massachusetts Amherst</a> &middot; <a
+                href="http://umass.edu/site-policies">Site&nbsp;Policies</a> &middot; <a
+                href="mailto:filmstudies@hfa.umass.edu ">Site&nbsp;Contact</a></p></div>
+        <br>
+        <br>
+    </div>
+    <!--/.Footer Links-->
+
+
+    <!--/.Copyright-->
+</footer>
+<!--/.Footer-->
+
+<!-- Modal -->
+<div class="modal fade" id="Contact" tabindex="-1" role="dialog" aria-labelledby="Contact">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="Contact">Contact Us</h4>
+            </div>
+            <div class="modal-body" align="center">
+                <p>
+                    Interdepartmental Program in <br>
+                    Film Studies<br>
+                    S448 Integrative Learning Center<br>
+                    &emsp;University of Massachusetts Amherst<br>
+                    &emsp;650 North Pleasant Street<br>
+                    &emsp;Amherst, MA 01003<br>
+                    E-mail: <a href="mailto:filmstudies@hfa.umass.edu">filmstudies@hfa.umass.edu</a><br>
+                    Tel: <a href="tel:14135453659">(413) 545-3659</a> <br>
+                    Fax: <a href="fax:14135450014">(413) 545-0014</a></p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<header class="navbar-fixed-bottom z-depth-2">    <div class="row">        <div class="hidden-xs  col-sm-4">            <p style="margin-left: 0px;margin-top: 0px"><a href="http://www.umass.edu/" target="_blank"                                                           class="footer_text"> <br>University of Massachusetts</a></p>        </div>        <div class="col-xs-12 col-sm-8 ">            <div align="right">                <a href="https://twitter.com/UMassFilm" target="_blank"> <img src="../icons/twitter1.svg"                                                              class=" hvr-float-shadow footicon " alt="Twitter"                                                              align="right"  ></a>                <a href="https://www.instagram.com/umassfilmstudies/" target="_blank"><img src="../icons/instagram1.svg "                                                                           class="footicon hvr-float-shadow "                                                                           alt="Instagram" align="right"></a>                <a href="https://www.instagram.com/umassfilmstudies/" target="_blank"> <img src="../icons/facebook1.svg"                                                                           class="footicon hvr-float-shadow "                                                                           alt="Facebook" align="right"></a>                <a class="btn btn-primary  hvr-float-shadow" href="https://securelb.imodules.com/s/1640/alumni/interior-nonav-social.aspx?sid=1640&gid=2&pgid=443&cid=1121" role="button" align="right" target="_blank">                    <p>Give </p></a>                <a class="btn btn-primary  hvr-float-shadow" data-toggle="modal" data-target="#Contact" role="button"                   align="right"><p>Contact Us </p></a>                <a class="btn btn-primary  hvr-float-shadow" href="../Students/Advising.html" role="button" align="right">                    <p>Advising </p></a>                           </div>        </div>    </div></header>
+<!-- jQuery -->
+<script src="../js/jquery-2.2.3.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../js/bootstrap.min.js"></script>
+
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="../js/tether.min.js"></script>
+
+
+<!--  Google analytics -->
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-88140222-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+</body>
+
+</html>
