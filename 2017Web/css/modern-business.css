@@ -154,9 +154,15 @@ body {
 }
 
 /*profile card*/
-.card-block p {
+.card-block p1 {
     margin-bottom: 0;
+    background-color: rgba(28, 30, 38, 0.5);
+
 }
+
+
+
+
 
 a {
     color: #a70f0f
@@ -271,6 +277,7 @@ a:hover {
     text-align: center;
     text-shadow: 0 3px 2px rgba(1, 1, 1, .6);
     overflow:auto;
+    min-height: 30%;
 
 }
 
@@ -292,10 +299,11 @@ a:hover {
 
 .flex-center {
     display: block;
+    overflow:auto;
 }
 
 @media (max-width: 768px) {
-    .carousel-caption .carousel-caption-right{
+    .carousel-caption{
 
         right: 0%;
         left: 0%;
@@ -310,6 +318,7 @@ a:hover {
 
         display: block;
         position: relative;
+        min-height:190px;
     }
     .carousel-caption-right {
 
@@ -649,7 +658,7 @@ ul.nav a:hover {
 
 .AtaGlancevid {
     width: 100%;
-    height: 200px;
+    height: 300px;
 
 }
 
@@ -688,7 +697,7 @@ ul.nav a:hover {
 
 .AtaGlancepic > .AtaGlancePicRight {
     position: absolute;
-    top: 15%;
+    top: 35%;
     margin-bottom: 0%;
     z-index: 10;
     padding-top: 20px;
@@ -721,13 +730,33 @@ ul.nav a:hover {
 
 }
 
-.mmffpic > h3 {
+
+
+
+.mmffpic > h3 > span {
+
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+
+}
+
+
+.internpic > h3  {
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+
+}
+
+
+.internpic > h3 {
 
     position: absolute;
     left: 10%;
     right: 10%;
-    top: 20%;
-    bottom: 20% !important;
+    top: 5%;
+    bottom: 0% !important;
     margin-bottom: 0%;
     z-index: 10;
     padding-top: 20px;
@@ -735,14 +764,27 @@ ul.nav a:hover {
     color: #fff;
     text-align: center;
     text-shadow: 0 3px 2px rgba(1, 1, 1, .6);
-    overflow: auto
-}
-
-.mmffpic > h3 > span {
-    color: white;
+    overflow: auto;
     font-size: 25px;
     letter-spacing: 2px;
+}
 
+.mmffpic > h3 {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 5%;
+    bottom: auto;
+    margin-bottom: 0%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 3px 2px rgba(1, 1, 1, .6);
+    overflow: auto;
+    font-size: 25px;
+    letter-spacing: 2px;
 }
 
 .textinblackbackground {
@@ -805,7 +847,7 @@ h1 {
 .caption {
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 60%;
     width: 100%;
     text-align: center;
     color: #000;
@@ -941,7 +983,7 @@ footer.page-footer .social-section ul li {
 
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1100px) {
     .AtaGlancevid {
         width: 700px;
         height: 400px;
@@ -1015,6 +1057,10 @@ footer.page-footer .social-section ul li {
     .responsiveCalAgenda {
         display: none;
     }
+    .card-group{
+        display: flex;
+    }
+
 }
 
 @media (max-width: 759px) {
@@ -1089,22 +1135,40 @@ footer.page-footer .social-section ul li {
         padding: 20px;
     }
 
-    .mmffpic > h3 {
+
+    .internpic > h3 {
         top: 5%;
         bottom: 5% !important;
+    }
+
+    .internpic > h3 {
+        font-size: 15px;
+        letter-spacing: 0px;
+        line-height: 0px;
+    }
+
+    .carousel-fade .carousel-inner {
+        padding-top: 30px;
+        max-height: 700px;
+    }
+
+}
+@media (max-width: 900px) {
+    .mmffpic > h3 {
+        top: 20%;
+        bottom: auto;
     }
 
     .mmffpic > h3 > span {
         font-size: 15px;
         letter-spacing: 0px;
-        line-height: 0px;
     }
-    .carousel-fade .carousel-inner {
-        max-height: 700px;
-    }
-
 }
 
 .btn-warning, .btn-warning:hover, .btn-warning:active, .btn-warning:visited {
     background-color: #a70f0f !important;
+}
+
+.white-text{
+    text-shadow: 0 3px 2px rgba(1, 1, 1, .7);
 }
