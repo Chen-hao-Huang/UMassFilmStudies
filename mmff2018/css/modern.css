@@ -1,0 +1,509 @@
+body
+/* Carousel Fading slide */
+.carousel-fade .carousel-inner {
+
+    background: #000; }
+.carousel-fade .carousel-control { z-index: 2; }
+.carousel-fade .item {
+
+    width: 100%;
+    height: 100%;
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  }
+
+
+  .carousel-fade .next.left,
+  .carousel-fade .prev.right,
+  .carousel-fade .item.active { opacity: 1; }
+.carousel-fade .item >.img{
+    display: none;
+}
+
+  .carousel-fade .active.left,
+  .carousel-fade .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+    }
+
+.item > .item.img{
+    display: none;
+}
+
+/* Safari Fix */
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+
+
+
+
+/* Carousel Control custom */
+.carousel-control .control-icon {
+  font-size: 48px;
+  height: 30px;
+  margin-top: -15px;
+  width: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  }
+  .carousel-control .prev { margin-left:  -15px;  left: 50%; } /* Prev */
+  .carousel-control .next { margin-right: -15px; right: 50%; } /* Next */
+
+
+.carousel-caption {
+    position: absolute;
+    right: 50%;
+    left: 10%;
+    top: 20%;
+    outline-width: thick;
+    outline-color: black;
+    margin-bottom: 0%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    overflow: auto;
+    background-color: transparent;
+    text-shadow:  1px 1px 5px rgba(1,1,1,1);
+}
+
+.carousel-captionright{
+    right: 10%;
+    left: 50%;
+}
+
+
+.flex-center{
+    display: block;
+}
+
+.carousel-captionVid {
+    position: absolute;
+
+    left: 60%;
+    top: 70%;
+    margin-bottom: 0%;
+    z-index: 10;
+
+    color: #fff;
+    text-align: center;
+    overflow: auto;
+    text-shadow: 0 3px 2px rgba(1,1,1,.6);
+
+}
+
+
+.carousel-caption p{
+        font-size: 40px;
+}
+.carousel-caption h1{
+        font-size: 80px;
+}
+@media (min-width: 1000px){
+    .carousel-captionright{
+    right: 0%;
+    left: 50%;
+        top: 5%;
+    
+    }.carousel-caption{
+ 
+    }
+    .carousel-caption p{
+        font-size: 30px;
+}
+.carousel-caption h1{
+        font-size: 70px;
+}
+}
+
+
+@media (max-width: 965px){
+    .carousel-captionright{
+    right: 0%;
+    left: 50%;
+        top: 5%;
+    
+    }.carousel-caption{
+ 
+    }
+    .carousel-caption p{
+        font-size: 20px;
+}
+.carousel-caption h1{
+        font-size: 50px;
+}
+}
+
+
+
+@media (max-width: 768px){
+    .carousel-caption {
+
+    right: 0%;
+    left: 0%;
+    top: 0%;
+    padding-bottom: 40px;
+        overflow: visible;
+
+}
+      .carousel-captionright {
+
+    right: 0%;
+    left: 0%;
+    top: 20%;
+          right: 0%;
+    padding-bottom: 40px;
+        overflow: visible;
+
+}
+    
+    .flex-center{
+
+    display: block;
+    position: relative;
+}
+    .carousel-captionVid {
+     right: 0%;
+    left: 0%;
+    top: 0%;
+    padding-bottom: 40px;
+        overflow: visible;
+        font-size: smaller;
+
+}
+
+}
+
+
+
+/* Removing BS background */
+.carousel .control-box { opacity: 0; }
+a.carousel-control.left  { left: 0; background: none; border: 0;}
+a.carousel-control.right { right: 0; background: none; border: 0;}
+
+
+
+/* Animation */
+.control-box, a.carousel-control, .carousel-indicators li {
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  transition: all 250ms ease;
+  /* hardware acceleration causes Bootstrap carousel controlbox margin error in webkit */
+  /* Assigning animation to indicator li will make slides flicker */
+  }
+
+
+/* Hover animation */
+.carousel:hover .control-box { opacity: 1; }
+.carousel:hover a.carousel-control.left { left: 15px; }
+.carousel:hover a.carousel-control.right { right: 15px; }
+
+
+/* Carouse Indicator */
+.carousel-indicators li.active,
+.carousel-indicators li { border: 0; }
+
+.carousel-indicators li {
+  background: #666;
+  margin: 0 3px;
+  width: 12px;
+  height: 12px;
+  }
+
+.carousel-indicators li.active {
+  background: #fff;
+  margin: 0 3px;
+  }
+
+.footer_text{
+    text-align: center;
+}
+
+.page-footer{
+        text-align: center;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.footicon{
+      height: 38px;
+}
+/* Float Shadow */
+.hvr-float-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-float-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img{
+    width: 100%;
+
+
+}
+
+
+
+.tab-pane {
+  padding: 5px 5px;
+}
+.responsive-tabs.nav-tabs {
+  padding: 5px 0px 5px 0px;
+}
+@media (min-width: 768px) {
+  .responsive-tabs.nav-tabs {
+    border-bottom:none;
+  }
+}
+.responsive-tabs.nav-tabs span.glyphicon {
+  position: absolute;
+
+}
+.responsive-tabs.nav-tabs span.glyphicon.glyphicon-triangle-top {
+  display: none;
+}
+@media (min-width: 768px) {
+  .responsive-tabs.nav-tabs span.glyphicon {
+    display: none;
+  }
+}
+.responsive-tabs.nav-tabs > li {
+  display: none;
+  float: none;
+  text-align: center;
+}
+.responsive-tabs.nav-tabs > li:last-of-type > a {
+  margin-right: 0;
+}
+.responsive-tabs.nav-tabs > li > a {
+  margin-right: 0;
+
+}
+@media (min-width: 768px) {
+  .responsive-tabs.nav-tabs > li > a {
+    margin-right: 4px;
+  }
+    
+}
+@media(min-width:992px){
+     .vertical-align{
+        display: flex;
+    align-items: center;
+}
+}
+.responsive-tabs.nav-tabs > li.active {
+  display: block;
+}
+.responsive-tabs.nav-tabs > li.active a {
+}
+@media (min-width: 768px) {
+  .responsive-tabs.nav-tabs > li.active a {
+    border-bottom-color: transparent;
+  }
+}
+@media (min-width: 768px) {
+  .responsive-tabs.nav-tabs > li {
+    display: block;
+    float: left;
+  }
+}
+.responsive-tabs.nav-tabs.open span.glyphicon.glyphicon-triangle-top {
+  display: block;
+}
+@media (min-width: 768px) {
+  .responsive-tabs.nav-tabs.open span.glyphicon.glyphicon-triangle-top {
+    display: none;
+  }
+}
+.responsive-tabs.nav-tabs.open span.glyphicon.glyphicon-triangle-bottom {
+  display: none;
+}
+.responsive-tabs.nav-tabs.open > li {
+  display: block;
+}
+.responsive-tabs.nav-tabs.open > li a {
+  border-radius: 0;
+}
+.responsive-tabs.nav-tabs.open > li:first-of-type a {
+  border-radius: 2px 2px 0 0;
+}
+.responsive-tabs.nav-tabs.open > li:last-of-type a {
+  border-radius: 0 0 2px 2px;
+}
+
+
+
+.nav-tabs { border-bottom: 2px solid #DDD; }
+
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; background: #7790ad; }
+
+    .nav-tabs > li > a { border: none; color: #FFF;   text-shadow: 0.3px 0.5px 0.5px #6b747e; }
+        .nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; color: white; !important; background: #000000; opacity: .40;}
+        .nav-tabs > li > a::after { content: ""; background: #FFF; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
+    .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
+.tab-nav > li > a::after { background: #21527d none repeat scroll 0% 0%; color: transparent; }
+.tab-pane { padding: 15px 0; }
+.tab-content{padding:20px}
+
+.backcard{
+    background-color: #FFF;
+    color: rgba(66,67,67,1.00);
+    text-align: left;
+    outline-style: none;
+    
+
+}
+.backcard1{
+     background-color: rgba(82,84,84,1.00);
+     outline-style: none;
+    color: white;
+    outline-width: 10px;
+}
+
+.film_text{
+    font-size: 17px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 0.8;
+}
+
+ul.topnav li {float: left; }
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #555;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+@media(min-width:1400px){
+    .Mycontainer{    width: 1400px;
+         margin: auto;
+    }
+    .nav{
+    margin-left: auto;
+    }
+}
+footer.page-footer{
+    margin-top: 0;
+}
+   
+.footer_text{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+.SponcersLink  a {
+    color: #fff;
+   
+}
+
+.menu{
+    color: white;
+}
+

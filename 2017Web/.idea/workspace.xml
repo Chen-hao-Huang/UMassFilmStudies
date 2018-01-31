@@ -13,33 +13,6 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="newindex.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/newindex.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4830">
-                  <caret line="733" column="33" lean-forward="false" selection-start-line="733" selection-start-column="33" selection-end-line="733" selection-end-column="33" />
-                  <folding>
-                    <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#2;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Listing.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Opportunities/Listing.html">
               <provider selected="true" editor-type-id="text-editor">
@@ -52,11 +25,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="MMFF.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="MMFF.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Events/MMFF.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="532">
-                  <caret line="448" column="10" lean-forward="true" selection-start-line="448" selection-start-column="10" selection-end-line="448" selection-end-column="10" />
+                <state relative-caret-position="729">
+                  <caret line="469" column="34" lean-forward="true" selection-start-line="467" selection-start-column="8" selection-end-line="469" selection-end-column="34" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -64,10 +37,20 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="MMFFArchive.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Events/MMFFArchive.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="415">
+                  <caret line="435" column="0" lean-forward="true" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="Calendar.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Events/Calendar.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6150">
+                <state relative-caret-position="15">
                   <caret line="410" column="38" lean-forward="false" selection-start-line="410" selection-start-column="38" selection-end-line="410" selection-end-column="38" />
                   <folding />
                 </state>
@@ -314,7 +297,6 @@
         <option value="$PROJECT_DIR$/About/TRASH--PublicationsAndProjects.html" />
         <option value="$PROJECT_DIR$/Alumni/AlumniNews.html" />
         <option value="$PROJECT_DIR$/Alumni/Stayconnected.html" />
-        <option value="$PROJECT_DIR$/Events/MMFFArchive.html" />
         <option value="$PROJECT_DIR$/Events/Roif.html" />
         <option value="$PROJECT_DIR$/About/AtaGlance.html" />
         <option value="$PROJECT_DIR$/About/Mission.html" />
@@ -334,6 +316,7 @@
         <option value="$PROJECT_DIR$/Opportunities/Listing.html" />
         <option value="$PROJECT_DIR$/css/modern-business.css" />
         <option value="$PROJECT_DIR$/Events/MMFF.html" />
+        <option value="$PROJECT_DIR$/Events/MMFFArchive.html" />
       </list>
     </option>
   </component>
@@ -558,12 +541,12 @@
       <workItem from="1516734130077" duration="1996000" />
       <workItem from="1516989137250" duration="2923000" />
       <workItem from="1517247719343" duration="2273000" />
-      <workItem from="1517415554299" duration="780000" />
+      <workItem from="1517415554299" duration="1451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52015000" />
+    <option name="totallyTimeSpent" value="52686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -871,13 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Events/MMFFArchive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="51" lean-forward="false" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/About/TRASH--Faculty.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -936,14 +912,6 @@
             <element signature="n#style#0;n#div#2;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#5;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Events/Calendar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6150">
-          <caret line="410" column="38" lean-forward="false" selection-start-line="410" selection-start-column="38" selection-end-line="410" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1115,13 +1083,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Events/Calendar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="410" column="38" lean-forward="false" selection-start-line="410" selection-start-column="38" selection-end-line="410" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Events/MMFF.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="448" column="10" lean-forward="true" selection-start-line="448" selection-start-column="10" selection-end-line="448" selection-end-column="10" />
+        <state relative-caret-position="729">
+          <caret line="469" column="34" lean-forward="true" selection-start-line="467" selection-start-column="8" selection-end-line="469" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#div#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Events/MMFFArchive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="435" column="0" lean-forward="true" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
