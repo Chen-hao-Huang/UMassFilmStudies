@@ -128,6 +128,7 @@ html, body {
     margin: 0px;
     padding: 0px 0px 0px 0px;
 
+
 }
 
 .full-screen {
@@ -137,7 +138,10 @@ html, body {
 }
 
 body {
-    padding-top: 130px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 130px;
+    overflow-x:hidden;
+
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .img-portfolio {
@@ -933,6 +937,7 @@ footer.page-footer .social-section ul li {
     .navbar > .container .navbar-logo,
     .navbar > .container-fluid .navbar-logo {
         margin-left: -15px;
+
     }
 
 }
@@ -1170,6 +1175,8 @@ footer.page-footer .social-section ul li {
 }
 
 body::-webkit-scrollbar {
+
+    overflow-y: overlay;
     width: 1em;
 }
 
