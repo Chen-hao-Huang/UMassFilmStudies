@@ -13,16 +13,6 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="TRASH--PublicationsAndProjects.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/About/TRASH--PublicationsAndProjects.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="36" column="51" lean-forward="false" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="newindex.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/newindex.html">
               <provider selected="true" editor-type-id="text-editor">
@@ -53,9 +43,23 @@
           <file leaf-file-name="Listing.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Opportunities/Listing.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="424">
+                  <caret line="433" column="0" lean-forward="true" selection-start-line="433" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
+                  <folding>
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MMFF.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Events/MMFF.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="532">
+                  <caret line="448" column="10" lean-forward="true" selection-start-line="448" selection-start-column="10" selection-end-line="448" selection-end-column="10" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -80,10 +84,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Undergraduate.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Undergraduate.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Program/Undergraduate.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
+                <state relative-caret-position="8835">
                   <caret line="618" column="34" lean-forward="false" selection-start-line="618" selection-start-column="34" selection-end-line="618" selection-end-column="34" />
                   <folding>
                     <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -144,11 +148,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="modern-business.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="modern-business.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/modern-business.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17160">
-                  <caret line="1144" column="20" lean-forward="false" selection-start-line="1144" selection-start-column="20" selection-end-line="1144" selection-end-column="20" />
+                <state relative-caret-position="590">
+                  <caret line="1166" column="0" lean-forward="false" selection-start-line="1166" selection-start-column="0" selection-end-line="1166" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -193,11 +197,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Faculty.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Faculty.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Faculty/Faculty.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="506">
-                  <caret line="453" column="47" lean-forward="false" selection-start-line="453" selection-start-column="47" selection-end-line="453" selection-end-column="47" />
+                <state relative-caret-position="17130">
+                  <caret line="1588" column="1723" lean-forward="false" selection-start-line="1588" selection-start-column="1703" selection-end-line="1588" selection-end-column="1723" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#div#0;n#div#1;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -250,8 +254,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>inner</find>
-      <find>\&lt;header class\=\&quot;navbar\-fixed\-bottom z\-depth\-2\&quot;\&gt;    \&lt;div class\=\&quot;row\&quot;\&gt;        \&lt;div class\=\&quot;hidden\-xs  col\-sm\-4\&quot;\&gt;            \&lt;p style\=\&quot;margin\-left\: 0px\;margin\-top\: 0px\&quot;\&gt;\&lt;a href\=\&quot;http\:\/\/www\.umass\.edu\/\&quot; target\=\&quot;_blank\&quot;                                                           class\=\&quot;footer_text\&quot;\&gt; \&lt;br\&gt;University of Massachusetts\&lt;\/a\&gt;\&lt;\/p\&gt;        \&lt;\/div\&gt;        \&lt;div class\=\&quot;col\-xs\-12 col\-sm\-8 \&quot;\&gt;            \&lt;div align\=\&quot;right\&quot;\&gt;                \&lt;a href\=\&quot;https\:\/\/twitter\.com\/UMassFilm\&quot; target\=\&quot;_blank\&quot;\&gt; \&lt;img src\=\&quot;icons\/twitter1\.svg\&quot;                                                              class\=\&quot; hvr\-float\-shadow footicon \&quot; alt\=\&quot;Twitter\&quot;                                                              align\=\&quot;right\&quot;  \&gt;\&lt;\/a\&gt;                \&lt;a href\=\&quot;https\:\/\/www\.instagram\.com\/umassfilmstudies\/\&quot; target\=\&quot;_blank\&quot;\&gt;\&lt;img src\=\&quot;icons\/instagram1\.svg \&quot;                                                                           class\=\&quot;footicon hvr\-float\-shadow \&quot;                                                                           alt\=\&quot;Instagram\&quot; align\=\&quot;right\&quot;\&gt;\&lt;\/a\&gt;                \&lt;a href\=\&quot;https\:\/\/www\.instagram\.com\/umassfilmstudies\/\&quot; target\=\&quot;_blank\&quot;\&gt; \&lt;img src\=\&quot;icons\/facebook1\.svg\&quot;                                                                           class\=\&quot;footicon hvr\-float\-shadow \&quot;                                                                           alt\=\&quot;Facebook\&quot; align\=\&quot;right\&quot;\&gt;\&lt;\/a\&gt;                \&lt;a class\=\&quot;btn btn\-primary  hvr\-float\-shadow\&quot; href\=\&quot;https\:\/\/securelb\.imodules\.com\/s\/1640\/alumni\/interior\-nonav\-social\.aspx\?sid\=1640\&amp;gid\=2\&amp;pgid\=443\&amp;cid\=1121\&quot; role\=\&quot;button\&quot; align\=\&quot;right\&quot; target\=\&quot;_blank\&quot;\&gt;                    \&lt;p\&gt;Give \&lt;\/p\&gt;\&lt;\/a\&gt;                \&lt;a class\=\&quot;btn btn\-primary  hvr\-float\-shadow\&quot; data\-toggle\=\&quot;modal\&quot; data\-target\=\&quot;\#Contact\&quot; role\=\&quot;button\&quot;                   align\=\&quot;right\&quot;\&gt;\&lt;p\&gt;Contact Us \&lt;\/p\&gt;\&lt;\/a\&gt;                \&lt;a class\=\&quot;btn btn\-primary  hvr\-float\-shadow\&quot; href\=\&quot;Students\/Advising\.html\&quot; role\=\&quot;button\&quot; align\=\&quot;right\&quot;\&gt;                    \&lt;p\&gt;Advising \&lt;\/p\&gt;\&lt;\/a\&gt;                           \&lt;\/div\&gt;        \&lt;\/div\&gt;    \&lt;\/div\&gt;\&lt;\/header\&gt;\n</find>
       <find>../St</find>
       <find>../Students/a</find>
       <find>=“</find>
@@ -280,6 +282,8 @@
       <find>&lt;spam&gt;Share your graet events with us!&lt;/spam&gt;</find>
       <find>pope</find>
       <find>Jacqueline</find>
+      <find>Contact</find>
+      <find>Contact Us</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -312,10 +316,8 @@
         <option value="$PROJECT_DIR$/Alumni/Stayconnected.html" />
         <option value="$PROJECT_DIR$/Events/MMFFArchive.html" />
         <option value="$PROJECT_DIR$/Events/Roif.html" />
-        <option value="$PROJECT_DIR$/Events/MMFF.html" />
         <option value="$PROJECT_DIR$/About/AtaGlance.html" />
         <option value="$PROJECT_DIR$/About/Mission.html" />
-        <option value="$PROJECT_DIR$/css/modern-business.css" />
         <option value="$PROJECT_DIR$/newindex.html" />
         <option value="$PROJECT_DIR$/Events/Calendar.html" />
         <option value="$PROJECT_DIR$/Events/EventArchives.html" />
@@ -329,6 +331,9 @@
         <option value="$PROJECT_DIR$/Undergraduate.html" />
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/Faculty/Faculty.html" />
+        <option value="$PROJECT_DIR$/Opportunities/Listing.html" />
+        <option value="$PROJECT_DIR$/css/modern-business.css" />
+        <option value="$PROJECT_DIR$/Events/MMFF.html" />
       </list>
     </option>
   </component>
@@ -357,8 +362,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -375,18 +378,17 @@
             <path>
               <item name="2017Web" type="b2602c69:ProjectViewProjectNode" />
               <item name="2017Web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2017Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2017Web" type="462c0819:PsiDirectoryNode" />
+              <item name="Events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2017Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2017Web" type="462c0819:PsiDirectoryNode" />
               <item name="Faculty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2017Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017Web" type="462c0819:PsiDirectoryNode" />
-              <item name="font" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2017Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017Web" type="462c0819:PsiDirectoryNode" />
-              <item name="font" type="462c0819:PsiDirectoryNode" />
-              <item name="roboto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2017Web" type="b2602c69:ProjectViewProjectNode" />
@@ -407,7 +409,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -553,12 +557,13 @@
       <workItem from="1512198364596" duration="1058000" />
       <workItem from="1516734130077" duration="1996000" />
       <workItem from="1516989137250" duration="2923000" />
-      <workItem from="1517247719343" duration="683000" />
+      <workItem from="1517247719343" duration="2273000" />
+      <workItem from="1517415554299" duration="780000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49645000" />
+    <option name="totallyTimeSpent" value="52015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -887,25 +892,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Events/MMFF.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2130">
-          <caret line="379" column="55" lean-forward="false" selection-start-line="379" selection-start-column="55" selection-end-line="379" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/About/Mission.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5895">
           <caret line="393" column="16" lean-forward="false" selection-start-line="393" selection-start-column="16" selection-end-line="393" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Opportunities/Listing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1009,27 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Program/Undergraduate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="618" column="34" lean-forward="false" selection-start-line="618" selection-start-column="34" selection-end-line="618" selection-end-column="34" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/modern-business.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17160">
-          <caret line="1144" column="20" lean-forward="false" selection-start-line="1144" selection-start-column="20" selection-end-line="1144" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Students/umassspr2017.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1095,10 +1064,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Program/Undergraduate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8835">
+          <caret line="618" column="34" lean-forward="false" selection-start-line="618" selection-start-column="34" selection-end-line="618" selection-end-column="34" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Faculty/Faculty.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="453" column="47" lean-forward="false" selection-start-line="453" selection-start-column="47" selection-end-line="453" selection-end-column="47" />
+        <state relative-caret-position="17130">
+          <caret line="1588" column="1723" lean-forward="false" selection-start-line="1588" selection-start-column="1703" selection-end-line="1588" selection-end-column="1723" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1111,6 +1093,34 @@
             <element signature="n#div#1;n#div#0;n#div#5;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/modern-business.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="1166" column="0" lean-forward="false" selection-start-line="1166" selection-start-column="0" selection-end-line="1166" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opportunities/Listing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="433" column="0" lean-forward="true" selection-start-line="433" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Events/MMFF.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="448" column="10" lean-forward="true" selection-start-line="448" selection-start-column="10" selection-end-line="448" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
