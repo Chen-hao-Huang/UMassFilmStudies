@@ -128,7 +128,6 @@ html, body {
     margin: 0px;
     padding: 0px 0px 0px 0px;
 
-
 }
 
 .full-screen {
@@ -139,7 +138,10 @@ html, body {
 
 body {
     padding-top: 130px;
-    overflow-x:hidden;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+
 
     /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
@@ -164,10 +166,6 @@ body {
 
 }
 
-
-
-
-
 a {
     color: #a70f0f
 }
@@ -187,7 +185,6 @@ a:hover {
     background: #000;
 
 }
-
 
 .carousel-fade .carousel-control {
     z-index: 2;
@@ -272,7 +269,7 @@ a:hover {
     right: 50%;
     left: 10%;
     top: 30%;
-    bottom:10%;
+    bottom: 10%;
     margin-bottom: 0%;
     z-index: 10;
     padding-top: 20px;
@@ -280,7 +277,7 @@ a:hover {
     color: #fff;
     text-align: center;
     text-shadow: 0 3px 2px rgba(1, 1, 1, .6);
-    overflow:auto;
+    overflow: auto;
     min-height: 30%;
 
 }
@@ -290,7 +287,7 @@ a:hover {
     right: 20%;
     left: 50%;
     top: 30%;
-    bottom:10%;
+    bottom: 10%;
     margin-bottom: 0%;
     z-index: 10;
     padding-top: 20px;
@@ -298,16 +295,28 @@ a:hover {
     color: #fff;
     text-align: center;
     text-shadow: 0 3px 2px rgba(1, 1, 1, .6);
-    overflow:auto;
+    overflow: auto;
 }
 
 .flex-center {
     display: block;
-    overflow:auto;
+    overflow: auto;
+}
+
+.carousel-caption-black {
+    color: white;
+    text-shadow: 0 0px 0px rgba(1, 1, 1, .6);
+
+}
+.carousel-caption-black > p {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel-caption-black > h3 {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 768px) {
-    .carousel-caption{
+    .carousel-caption {
 
         right: 0%;
         left: 0%;
@@ -322,8 +331,9 @@ a:hover {
 
         display: block;
         position: relative;
-        min-height:190px;
+        min-height: 190px;
     }
+
     .carousel-caption-right {
 
         right: 0%;
@@ -332,6 +342,13 @@ a:hover {
         padding-bottom: 40px;
         overflow: visible;
         font-size: smaller;
+
+    }
+
+    .carousel-caption-black {
+        color: white;
+
+
 
     }
 }
@@ -415,7 +432,7 @@ header.navbar-fixed-bottom {
 
 /* quote card */
 .quote-card {
-    background: #70b2c9;
+    background: #2e2e2e;
     color: #222222;
     padding: 20px;
     padding-left: 50px;
@@ -711,14 +728,34 @@ ul.nav a:hover {
     text-shadow: 0 3px 2px rgba(1, 1, 1, .6);
 }
 
+.AtaGlancepic > .MMFFRight {
+    position: absolute;
+    top: 15%;
+    margin-bottom: 0%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 3px 2px rgba(1, 1, 1, .6);
+}
+
 .AtaGlancepic > h2 > span {
     color: white;
-    font-size: 25px;
+    font-size: 24px;
     letter-spacing: 3px;
     background: rgb(0, 0, 0); /* fallback color */
     background: rgba(0, 0, 0, 0.7);
     padding: 0px;
     line-height: 10px;
+}
+.table>tbody>tr>td{
+    padding: 20px;
+}
+
+.table-title{
+    background-color: #881c1c;
+    color: white;
 }
 
 .mmffpic {
@@ -734,9 +771,6 @@ ul.nav a:hover {
 
 }
 
-
-
-
 .mmffpic > h3 > span {
 
     color: white;
@@ -745,14 +779,12 @@ ul.nav a:hover {
 
 }
 
-
-.internpic > h3  {
+.internpic > h3 {
     color: white;
     font-size: 25px;
     letter-spacing: 2px;
 
 }
-
 
 .internpic > h3 {
 
@@ -1000,11 +1032,17 @@ footer.page-footer .social-section ul li {
         top: 30%;
     }
 
+    .AtaGlancepic > .MMFFRight {
+        position: absolute;
+        left: 60%;
+        top: 10%;
+    }
+
     .AtaGlancepic > h2 > span {
         color: white;
         font-size: 35px;
         letter-spacing: 3px;
-        padding: 8px;
+        padding: 4px;
         line-height: 60px;
     }
 
@@ -1062,7 +1100,8 @@ footer.page-footer .social-section ul li {
     .responsiveCalAgenda {
         display: none;
     }
-    .card-group{
+
+    .card-group {
         display: flex;
     }
 
@@ -1098,6 +1137,7 @@ footer.page-footer .social-section ul li {
     .dropdown:hover .dropdown-menu {
         display: block;
     }
+
     .carousel-fade .carousel-inner {
         overflow: hidden;
 
@@ -1140,7 +1180,6 @@ footer.page-footer .social-section ul li {
         padding: 20px;
     }
 
-
     .internpic > h3 {
         top: 5%;
         bottom: 5% !important;
@@ -1158,6 +1197,7 @@ footer.page-footer .social-section ul li {
     }
 
 }
+
 @media (max-width: 900px) {
     .mmffpic > h3 {
         top: 20%;
@@ -1175,13 +1215,14 @@ footer.page-footer .social-section ul li {
 }
 
 body::-webkit-scrollbar {
-
     overflow-y: overlay;
+
     width: 1em;
 }
 
+
 body::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     margin-top: 30%;
     margin-bottom: 100px;
 }
@@ -1192,6 +1233,14 @@ body::-webkit-scrollbar-thumb {
     outline: 1px solid slategrey;
 }
 
-.white-text{
+.white-text {
     text-shadow: 0 3px 2px rgba(1, 1, 1, .7);
+}
+
+.btn span.glyphicon {
+    opacity: 0;
+}
+
+.btn.active span.glyphicon {
+    opacity: 1;
 }
