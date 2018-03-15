@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<body style="background-image: url(Pics/silver.png);  background-repeat: repeat;
+  background-size: 100%;">
+<nav id="ddmenu">
+<map name="map" id="map">
+    <area shape="rect" coords="0,0,3000,1000"
+          href="index.html"
+          alt="MMFF Home"/>
+    <area shape="rect" coords="3100,0,4000,2222"
+          href="http://www.umass.edu/film/index.html" target="_blank"
+          alt="UMass Film Studies"/>
+</map>
+
+<p><img src="Pics/MMFF201-web-banner.jpg" alt="The Giant Prawn at Ballina"
+        usemap="#map" width='100%'></p>
+
+<div class="container" align="middle">
+
+    <div
+            align="middle">
+        <p class="menu">
+
+            <a href="Sponsors.html" class="menu">Sponsors</a> &nbsp;|&nbsp; <a href="http://www.umass.edu/film/mmff/mmff2017/MMFF2017_brochure.pdf" target="_blank" class="menu"> Brochure </a> &nbsp;|&nbsp; <a href="http://www.umass.edu/film/index.html" target="_blank" class="menu">Film&nbsp;Studies&nbsp;Website</a>
+
+            &nbsp;|&nbsp;<a href="Trailer.html" class="menu">Trailer</a>
+
+        </p>
+
+
+    </div>
+
+    <ul class="nav nav-tabs responsive-tabs" >
+
+
+        <li ><a href="index.html"> <br>Schedule </a></li>
+        <li><a href="95and6togo.html">95 and 6  <br>to Go (3/1)</a></li>
+        <li  class="active"><a >Decasia<br> (3/8)</a></li>
+        <li><a href="Killtheirishman.html">Kill the <br>Irishman (3/22)</a></li>
+        <li><a href="cafenagler.html">Café Nagler<br> (3/29)</a></li>
+        <li><a href="nedar.html">Nedar<br> (4/4)</a></li>
+        <li><a href="therevolution.html">The Revolution Won’t<br>Be Televised (4/5)</a></li>
+        <li><a href="daughters.html">Daughters of <br>the Dust (4/12)</a></li>
+        <li><a href="holdinghands.html">Holding Hands <br>with Ilse (4/19)</a></li>
+
+    </ul>
+
+
+</div>
+
+</nav>
+
+
+ <footer class="page-footer ">
+     <a href="https://www.facebook.com/UMassFilmStudies/" target="_blank"> <img src="icons/facebook1.svg" class="footicon hvr-float-shadow " alt="Facebook" align="middle"></a>
+     <a href="https://twitter.com/UMassFilm" target="_blank"> <img src="icons/twitter1.svg" class=" hvr-float-shadow footicon " alt="Twitter" ></a>
+     <a href="https://www.instagram.com/umassfilmstudies/" target="_blank"><img src="icons/instagram1.svg " class="footicon hvr-float-shadow " alt="Instagram" ></a>
+
+     <p class="footer_text">Copyright © 2017 <a href="http://www.umass.edu/" target="_blank" class="footer_text">University of Massachusetts Amherst</a> | <a href="http://www.umass.edu/umhome/policies.html" target="_blank" >Site&nbsp;Policies</a><br>
+    This site is maintained by the <a href="http://www.umass.edu/film/index.html" target="_blank" class="footer_text">Interdepartmental Program in Film&nbsp;Studies</a>. </p>
+
+                  </footer>
+    <!--/.Footer-->
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.2.3.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+<script src="js/imageMapResizer.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+
+
+        <!--  Google analytics -->
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-88140222-1', 'auto');
+      ga('send', 'pageview');
+
+        $.fn.responsiveTabs = function() {
+  this.addClass('responsive-tabs');
+
+
+  this.on('click', 'li.active > a', function() {
+    this.toggleClass('open');
+
+  }.bind(this));
+
+  this.on('click', 'li:not(.active) > a', function() {
+    this.removeClass('open');
+  }.bind(this));
+};
+
+$('.nav.nav-tabs').responsiveTabs();
+         imageMapResize();
+    </script>
+
+
+</body>
+
+</html>
