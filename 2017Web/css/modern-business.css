@@ -924,8 +924,17 @@ h1 {
 footer.page-footer {
     margin-top: 0px;
     padding-top: 20px;
-    background-color: #2e2e2e;
+    background-color: #333333;
     color: #fff;
+}
+
+footer.page-footer-umass {
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    background-color: #999999;
+    color: #000000;
 }
 
 footer.page-footer .footer-copyright {
@@ -943,7 +952,7 @@ footer.page-footer a {
 
 footer.page-footer .title {
     text-transform: uppercase;
-    color: azure;
+    color: #b3b995;
 }
 
 footer.page-footer .call-to-action {
@@ -1011,6 +1020,14 @@ footer.page-footer .social-section ul li {
     margin-left: -9px;
     z-index: 1;
 }
+
+
+.nav>li>a {
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
 
 @media (max-width: 479px) {
     .navbar-logo {
