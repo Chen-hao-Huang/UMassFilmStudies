@@ -167,11 +167,12 @@ body {
 }
 
 a {
-    color: #a70f0f
+    color: #881c1c
 }
 
 a:link {
-    color: #a70f0f
+    color: #881c1c
+
 }
 
 a:hover {
@@ -670,7 +671,7 @@ header.navbar-fixed-bottom {
 }
 
 ul.nav a:hover {
-    color: #a70f0f !important;
+    color: #881c1c !important;
 }
 
 .navbar-logo > img {
@@ -1211,7 +1212,7 @@ footer.page-footer .social-section ul li {
 }
 
 .btn-warning, .btn-warning:hover, .btn-warning:active, .btn-warning:visited {
-    background-color: #a70f0f !important;
+    background-color: #881c1c !important;
 }
 
 body::-webkit-scrollbar {
