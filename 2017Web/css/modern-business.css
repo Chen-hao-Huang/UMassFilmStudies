@@ -137,7 +137,6 @@ html, body {
 }
 
 body {
-    padding-top: 130px;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     overflow-y: scroll;
@@ -429,6 +428,7 @@ header.navbar-fixed-bottom {
     color: #f5f5f5;
     font-size-adjust: auto;
 
+
 }
 
 /* quote card */
@@ -615,7 +615,9 @@ header.navbar-fixed-bottom {
 
 /* navbar Styles */
 .navbar {
-    min-height: 70px !important
+    min-height: 70px !important;
+    margin-bottom: 0px;
+
 }
 
 .dropdown-menu {
@@ -1193,7 +1195,6 @@ footer.page-footer .social-section ul li {
     }
 
     .carousel-fade .carousel-inner {
-        padding-top: 30px;
         max-height: 700px;
     }
 
@@ -1214,7 +1215,7 @@ footer.page-footer .social-section ul li {
 .btn-warning, .btn-warning:hover, .btn-warning:active, .btn-warning:visited {
     background-color: #881c1c !important;
 }
-
+/*
 body::-webkit-scrollbar {
     overflow-y: overlay;
 
@@ -1233,7 +1234,7 @@ body::-webkit-scrollbar-thumb {
     background-color: darkgrey;
     outline: 1px solid slategrey;
 }
-
+*/
 .white-text {
     text-shadow: 0 3px 2px rgba(1, 1, 1, .7);
 }
