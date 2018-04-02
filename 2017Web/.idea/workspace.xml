@@ -13,15 +13,13 @@
     <splitter split-orientation="horizontal" split-proportion="0.50674534">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Give.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Give.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Give.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="533">
-                  <caret line="656" column="9" lean-forward="false" selection-start-line="656" selection-start-column="9" selection-end-line="656" selection-end-column="9" />
+                <state relative-caret-position="6225">
+                  <caret line="415" column="14" lean-forward="false" selection-start-line="415" selection-start-column="14" selection-end-line="415" selection-end-column="14" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -34,13 +32,12 @@
           <file leaf-file-name="Calendar.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Events/Calendar.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="741">
+                <state relative-caret-position="6840">
                   <caret line="644" column="9" lean-forward="false" selection-start-line="644" selection-start-column="9" selection-end-line="644" selection-end-column="9" />
                   <folding>
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <marker date="1521579915000" expanded="false" signature="15378:15392" ph="..." />
                   </folding>
@@ -51,7 +48,7 @@
           <file leaf-file-name="EventArchives.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Events/EventArchives.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="741">
+                <state relative-caret-position="6585">
                   <caret line="634" column="9" lean-forward="false" selection-start-line="634" selection-start-column="9" selection-end-line="634" selection-end-column="9" />
                   <folding>
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -67,8 +64,8 @@
           <file leaf-file-name="SubmitEvent.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Events/SubmitEvent.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="331">
-                  <caret line="350" column="25" lean-forward="true" selection-start-line="350" selection-start-column="25" selection-end-line="350" selection-end-column="25" />
+                <state relative-caret-position="5250">
+                  <caret line="350" column="25" lean-forward="false" selection-start-line="350" selection-start-column="25" selection-end-line="350" selection-end-column="25" />
                   <folding>
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -80,32 +77,25 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AtaGlance 1.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/About/AtaGlance 1.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="98">
-                  <caret line="610" column="0" lean-forward="true" selection-start-line="610" selection-start-column="0" selection-end-line="610" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="139">
-                  <caret line="870" column="13" lean-forward="true" selection-start-line="870" selection-start-column="13" selection-end-line="1079" selection-end-column="11" />
+                <state relative-caret-position="6090">
+                  <caret line="406" column="24" lean-forward="false" selection-start-line="406" selection-start-column="24" selection-end-line="406" selection-end-column="24" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -122,11 +112,28 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="Online2018.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Program/Online2018.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2867">
+                  <caret line="725" column="26" lean-forward="true" selection-start-line="725" selection-start-column="26" selection-end-line="725" selection-end-column="26" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#div#1;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#2;n#div#0;n#div#8;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#0;n#div#10;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#2;n#div#0;n#div#11;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="MMFF.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Events/MMFF.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="741">
-                  <caret line="686" column="9" lean-forward="false" selection-start-line="686" selection-start-column="9" selection-end-line="686" selection-end-column="9" />
+                <state relative-caret-position="7140">
+                  <caret line="476" column="22" lean-forward="false" selection-start-line="476" selection-start-column="16" selection-end-line="476" selection-end-column="22" />
                   <folding>
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -141,7 +148,7 @@
           <file leaf-file-name="MMFFArchive.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Events/MMFFArchive.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="741">
+                <state relative-caret-position="10470">
                   <caret line="893" column="9" lean-forward="false" selection-start-line="893" selection-start-column="9" selection-end-line="893" selection-end-column="9" />
                   <folding>
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -157,13 +164,12 @@
           <file leaf-file-name="Roif.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Events/Roif.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="741">
-                  <caret line="711" column="9" lean-forward="false" selection-start-line="711" selection-start-column="9" selection-end-line="711" selection-end-column="9" />
+                <state relative-caret-position="7785">
+                  <caret line="519" column="45" lean-forward="false" selection-start-line="519" selection-start-column="45" selection-end-line="519" selection-end-column="45" />
                   <folding>
-                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#style#0;n#div#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
@@ -173,7 +179,7 @@
           <file leaf-file-name="RoifArchive.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Events/RoifArchive.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="741">
+                <state relative-caret-position="10425">
                   <caret line="890" column="9" lean-forward="false" selection-start-line="890" selection-start-column="9" selection-end-line="890" selection-end-column="9" />
                   <folding>
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -190,59 +196,25 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="AlumniNews.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Alumni/AlumniNews.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="770">
-                  <caret line="616" column="9" lean-forward="false" selection-start-line="616" selection-start-column="9" selection-end-line="616" selection-end-column="9" />
-                  <folding>
-                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Stayconnected.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Alumni/Stayconnected.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="770">
-                  <caret line="614" column="9" lean-forward="false" selection-start-line="614" selection-start-column="9" selection-end-line="614" selection-end-column="9" />
-                  <folding>
-                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Faculty.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Faculty/Faculty.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="741">
-                  <caret line="1804" column="9" lean-forward="false" selection-start-line="1804" selection-start-column="9" selection-end-line="1804" selection-end-column="9" />
+                <state relative-caret-position="26265">
+                  <caret line="1751" column="54" lean-forward="false" selection-start-line="1751" selection-start-column="54" selection-end-line="1751" selection-end-column="54" />
                   <folding>
                     <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="e#58288#58295#0" expanded="true" />
-                    <element signature="e#58363#58370#0" expanded="true" />
-                    <element signature="e#67168#67175#0" expanded="true" />
-                    <element signature="e#67260#67267#0" expanded="true" />
-                    <element signature="e#67279#67286#0" expanded="true" />
-                    <element signature="e#67360#67367#0" expanded="true" />
+                    <element signature="e#58318#58325#0" expanded="true" />
+                    <element signature="e#58393#58400#0" expanded="true" />
+                    <element signature="e#67198#67205#0" expanded="true" />
+                    <element signature="e#67290#67297#0" expanded="true" />
+                    <element signature="e#67309#67316#0" expanded="true" />
+                    <element signature="e#67390#67397#0" expanded="true" />
                     <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#7;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <marker date="1521579970000" expanded="true" signature="10113:10117" ph="..." />
+                    <marker date="1522090373000" expanded="true" signature="10113:10117" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -251,45 +223,12 @@
           <file leaf-file-name="PublicationsAndProjects.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Faculty/PublicationsAndProjects.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="741">
-                  <caret line="1023" column="9" lean-forward="false" selection-start-line="1023" selection-start-column="9" selection-end-line="1023" selection-end-column="9" />
+                <state relative-caret-position="12585">
+                  <caret line="839" column="94" lean-forward="false" selection-start-line="839" selection-start-column="91" selection-end-line="839" selection-end-column="94" />
                   <folding>
-                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CreateOpportunity.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Opportunities/CreateOpportunity.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="741">
-                  <caret line="617" column="9" lean-forward="false" selection-start-line="617" selection-start-column="9" selection-end-line="617" selection-end-column="9" />
-                  <folding>
-                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="FilmStudiesIntern.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Opportunities/FilmStudiesIntern.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="741">
-                  <caret line="715" column="9" lean-forward="false" selection-start-line="715" selection-start-column="9" selection-end-line="715" selection-end-column="9" />
-                  <folding>
-                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
@@ -299,8 +238,8 @@
           <file leaf-file-name="Listing.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Opportunities/Listing.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="741">
-                  <caret line="669" column="9" lean-forward="false" selection-start-line="669" selection-start-column="9" selection-end-line="669" selection-end-column="9" />
+                <state relative-caret-position="7065">
+                  <caret line="471" column="0" lean-forward="false" selection-start-line="471" selection-start-column="0" selection-end-line="670" selection-end-column="0" />
                   <folding>
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -312,48 +251,67 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Graduate.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Program/Graduate.html">
+          <file leaf-file-name="Online.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Program/Online.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="208">
-                  <caret line="603" column="0" lean-forward="true" selection-start-line="603" selection-start-column="0" selection-end-line="603" selection-end-column="0" />
+                <state relative-caret-position="240">
+                  <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="47" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Online18.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Program/Online18.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="770" column="36" lean-forward="false" selection-start-line="770" selection-start-column="36" selection-end-line="770" selection-end-column="36" />
                   <folding>
+                    <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#div#1;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#2;n#div#0;n#div#8;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#0;n#div#10;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#2;n#div#0;n#div#11;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="e#32885#32891#0" expanded="true" />
-                    <element signature="e#32950#32956#0" expanded="true" />
-                    <element signature="e#33005#33011#0" expanded="true" />
-                    <element signature="n#style#0;n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="e#33790#33796#0" expanded="true" />
-                    <element signature="e#33877#33885#0" expanded="true" />
-                    <element signature="e#33961#33969#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Ataglance.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/About/Ataglance.html">
+          <file leaf-file-name="ProspectiveStudents.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Students/ProspectiveStudents.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
-                  <caret line="449" column="13" lean-forward="true" selection-start-line="449" selection-start-column="13" selection-end-line="646" selection-end-column="9" />
+                <state relative-caret-position="6375">
+                  <caret line="425" column="18" lean-forward="false" selection-start-line="425" selection-start-column="18" selection-end-line="425" selection-end-column="18" />
                   <folding>
-                    <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#h2#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Undergraduate.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Program/Undergraduate.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="10635">
+                  <caret line="709" column="1051" lean-forward="false" selection-start-line="709" selection-start-column="1048" selection-end-line="709" selection-end-column="1051" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Contact.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/About/Contact.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="10605">
+                  <caret line="707" column="9" lean-forward="false" selection-start-line="707" selection-start-column="9" selection-end-line="707" selection-end-column="9" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -361,13 +319,11 @@
           <file leaf-file-name="Mission.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/About/Mission.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="770">
-                  <caret line="654" column="9" lean-forward="false" selection-start-line="654" selection-start-column="9" selection-end-line="654" selection-end-column="9" />
+                <state relative-caret-position="6555">
+                  <caret line="437" column="6" lean-forward="false" selection-start-line="437" selection-start-column="6" selection-end-line="437" selection-end-column="6" />
                   <folding>
-                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
@@ -380,13 +336,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Online18</find>
-      <find>financial-ais</find>
-      <find>jew</find>
-      <find>../</find>
-      <find>film theo</find>
-      <find>497S</find>
-      <find>requir</find>
       <find>cost</find>
       <find>give</find>
       <find>how to</find>
@@ -410,6 +359,13 @@
       <find>!--Footer--&gt;</find>
       <find>\n\&lt;\!\-\- Footer \-\-\&gt;\n\&lt;header class\=\&quot;navbar\-fixed\-bottom z\-depth\-2\&quot;\&gt;\n    \&lt;div class\=\&quot;row\&quot;\&gt;\n        \&lt;div class\=\&quot;hidden\-xs  col\-sm\-4\&quot;\&gt;\&lt;p style\=\&quot;margin\-left\: 0px\;margin\-top\: 0px\&quot;\&gt;\&lt;a href\=\&quot;http\:\/\/www\.umass\.edu\/\&quot;\n                                                                                        target\=\&quot;_blank\&quot;\n                                                                                        class\=\&quot;footer_text\&quot;\&gt; \&lt;br\&gt;University\n            of Massachusetts\&lt;\/a\&gt;\&lt;\/p\&gt;\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;col\-xs\-12 col\-sm\-8 \&quot;\&gt;\n            \&lt;div align\=\&quot;right\&quot;\&gt;\&lt;a href\=\&quot;https\:\/\/twitter\.com\/UMassFilm\&quot; target\=\&quot;_blank\&quot;\&gt; \&lt;img src\=\&quot;\.\.\/icons\/twitter1\.svg\&quot;\n                                                                                             class\=\&quot; hvr\-float\-shadow footicon \&quot;\n                                                                                             alt\=\&quot;Twitter\&quot;\n                                                                                             align\=\&quot;right\&quot;\&gt;\&lt;\/a\&gt; \&lt;a\n                    href\=\&quot;https\:\/\/www\.instagram\.com\/umassfilmstudies\/\&quot; target\=\&quot;_blank\&quot;\&gt;\&lt;img\n                    src\=\&quot;\.\.\/icons\/instagram1\.svg \&quot; class\=\&quot;footicon hvr\-float\-shadow \&quot; alt\=\&quot;Instagram\&quot; align\=\&quot;right\&quot;\&gt;\&lt;\/a\&gt;\n                \&lt;a href\=\&quot;https\:\/\/www\.facebook\.com\/UMassFilmStudies\/\&quot; target\=\&quot;_blank\&quot;\&gt; \&lt;img src\=\&quot;\.\.\/icons\/facebook1\.svg\&quot;                                                                                            class\=\&quot;footicon hvr\-float\-shadow \&quot;\n                                                                                            alt\=\&quot;Facebook\&quot;\n                                                                                            align\=\&quot;right\&quot;\&gt;\&lt;\/a\&gt; \&lt;a\n                        class\=\&quot;btn btn\-warning  hvr\-float\-shadow\&quot;\n                        href\=\&quot;https\:\/\/securelb\.imodules\.com\/s\/1640\/alumni\/index\.aspx\?sid\=1640\&amp;gid\=2\&amp;pgid\=443\&amp;cid\=1121\&amp;dids\=1812\&amp;bledit\=1\&quot;\n                        role\=\&quot;button\&quot; align\=\&quot;right\&quot; target\=\&quot;_blank\&quot;\&gt;\&lt;p\&gt;Give \&lt;\/p\&gt;\&lt;\/a\&gt; \&lt;a\n                        class\=\&quot;btn btn\-warning  hvr\-float\-shadow\&quot; data\-toggle\=\&quot;modal\&quot; data\-target\=\&quot;\#Contact\&quot;\n                        role\=\&quot;button\&quot; align\=\&quot;right\&quot;\&gt;\&lt;p\&gt;Contact Us \&lt;\/p\&gt;\&lt;\/a\&gt; \&lt;a class\=\&quot;btn btn\-warning  hvr\-float\-shadow\&quot;\n                                                                              href\=\&quot;\.\.\/Students\/Advising\.html\&quot;\n                                                                              role\=\&quot;button\&quot; align\=\&quot;right\&quot;\&gt;\&lt;p\&gt;\n                    Advising \&lt;\/p\&gt;\&lt;\/a\&gt;\&lt;\/div\&gt;\n        \&lt;\/div\&gt;\n    \&lt;\/div\&gt;\n\&lt;\/header\&gt;</find>
       <find>\&lt;footer class\=\&quot;page\-footer center\-on\-small\-only\&quot;\&gt;\n    \&lt;\!\-\-Footer Links\-\-\&gt;\n    \&lt;div class\=\&quot;container\-fluid \&quot;\&gt;\n        \&lt;div class\=\&quot;row container\&quot;\&gt;\n\n\n            \&lt;\!\-\-Second column\-\-\&gt;\n            \&lt;div class\=\&quot;col\-md\-2 col\-sm\-3 \&quot;\&gt;\n                \&lt;h4 class\=\&quot;title\&quot;\&gt;about\&lt;\/h4\&gt;\n                \&lt;ul\&gt;\n                    \&lt;li\&gt;\n                        \&lt;a class\=\&quot;hvr\-grow\-shadow\&quot; href\=\&quot;\.\.\/About\/Mission\.html\&quot;\&gt;Mission\&lt;\/a\&gt;\n                    \&lt;\/li\&gt;\n\n                    \&lt;li\&gt;\&lt;a class\=\&quot;hvr\-grow\-shadow\&quot; href\=\&quot;\.\.\/About\/Ataglance\.html\&quot;\&gt;At a Glance\&lt;\/a\&gt;\&lt;\/li\&gt;\n                    \&lt;li\&gt;\&lt;a class\=\&quot;hvr\-grow\-shadow\&quot; href\=\&quot;\.\.\/About\/Contact\.html\&quot;\&gt;Contact\&lt;\/a\&gt;\&lt;\/li\&gt;\n                    \&lt;li\&gt;\&lt;a class\=\&quot;hvr\-grow\-shadow\&quot; href\=\&quot;\.\.\/Give\.html\&quot;\&gt;Give\&lt;\/a\&gt;\&lt;\/li\&gt;\n                \&lt;\/ul\&gt;\n\n                \&lt;\!\-\-\/\.Second column\-\-\&gt;\n\n\n                \&lt;\!\-\-Third column\-\-\&gt;\n\n                \&lt;h4 class\=\&quot;title\&quot;\&gt;program\&lt;\/h4\&gt;\n                \&lt;ul\&gt;\n                    \&lt;li\&gt;\n                        \&lt;a class\=\&quot;hvr\-grow\-shadow\&quot; href\=\&quot;\.\.\/Program\/Undergraduate\.html\&quot;\&gt;Undergrad\&lt;\/a\&gt;\n                    \&lt;\/li\&gt;\n                    \&lt;li\&gt;\&lt;a class\=\&quot;hvr\-grow\-shadow\&quot; href\=\&quot;\.\.\/Program\/Graduate\.html\&quot;\&gt;Graduate\&lt;\/a\&gt;\&lt;\/li\&gt;\n                    \&lt;li\&gt;\&lt;a class\=\&quot;hvr\-grow\-shadow\&quot; href\=\&quot;\.\.\/Program\/Online\.html\&quot;\&gt;Online\&lt;\/a\&gt;\n                    \&lt;\/li\&gt;\n\n                \&lt;\/ul\&gt;\n            \&lt;\/div\&gt;\n            \&lt;\!\-\-\/\.Third column\-\-\&gt;\n\n\n            \&lt;\!\-\-Fourth column\-\-\&gt;\n            \&lt;div class\=\&quot;col\-md\-2 col\-sm\-3\&quot;\&gt;\n                \&lt;h4 class\=\&quot;title\&quot;\&gt;faculty\&lt;\/h4\&gt;\n                \&lt;ul\&gt;\n                    \&lt;li\&gt;\n                        \&lt;a class\=\&quot;hvr\-grow\-shadow\&quot; href\=\&quot;\.\.\/Faculty\/Faculty\.html\&quot;\&gt;Profiles\&lt;\/a\&gt;\n                    \&lt;\/li\&gt;\n                    \&lt;li\&gt;\n                        \&lt;a class\=\&quot;hvr\-grow\-shadow\&quot; href\=\&quot;\.\.\/Faculty\/PublicationsAndProjects\.html\&quot;\&gt;Publications\&lt;\/a\&gt;\n                    \&lt;\/li\&gt;\n\n                \&lt;\/ul\&gt;\n\n\n                \&lt;h4 class\=\&quot;title\&quot;\&gt;students\&lt;\/h4\&gt;\n                \&lt;ul\&gt;\n                    \&lt;li\&gt;\n                        \&lt;a class\=\&quot;hvr\-grow\-shadow\&quot; href\=\&quot;\.\.\/Students\/Courses\.html\&quot;\&gt;Courses\&lt;\/a\&gt;\n                    \&lt;\/li\&gt;\n                    \&lt;li\&gt;\n                        \&lt;a class\=\&quot;hvr\-grow\-shadow\&quot; href\=\&quot;\.\.\/Students\/Advising\.html\&quot;\&gt;Advising\&lt;\/a\&gt;\n                    \&lt;\/li\&gt;\n                    \&lt;li\&gt;\n                        \&lt;a class\=\&quot;hvr\-grow\-shadow\&quot; href\=\&quot;\.\.\/Students\/StudenSpotlight\.html\&quot;\&gt;Student Spotlight\&lt;\/a\&gt;\n                    \&lt;\/li\&gt;\n                    \&lt;li\&gt;\n                        \&lt;a class\=\&quot;hvr\-grow\-shadow\&quot; href\=\&quot;\.\.\/Students\/ProspectiveStudents\.html\&quot;\&gt;Prospective Students\&lt;\/a\&gt;\n                    \&lt;\/li\&gt;\n                \&lt;\/ul\&gt;\n            \&lt;\/div\&gt;\n            \&lt;div class\=\&quot;col\-md\-2 col\-sm\-3\&quot;\&gt;\n                \&lt;h4 class\=\&quot;title\&quot;\&gt;Alumni\&lt;\/h4\&gt;\n                \&lt;ul\&gt;\n                    \&lt;li\&gt;\n                        \&lt;a class\=\&quot;hvr\-grow\-shadow\&quot; href\=\&quot;\.\.\/Alumni\/Stayconnected\.html\&quot;\&gt;Stay Connected\&lt;\/a\&gt;\n                    \&lt;\/li\&gt;\n                    \&lt;li\&gt;\n                        \&lt;a class\=\&quot;hvr\-grow\-shadow\&quot; href\=\&quot;\.\.\/Alumni\/AlumniNews\.html\&quot;\&gt;Alumni News\&lt;\/a\&gt;\n                    \&lt;\/li\&gt;\n                \&lt;\/ul\&gt;\n                \&lt;h4 class\=\&quot;title\&quot;\&gt;Events\&lt;\/h4\&gt;\n                \&lt;ul\&gt;\n\n                    \&lt;li\&gt;\n                        \&lt;a class\=\&quot;hvr\-grow\-shadow\&quot; href\=\&quot;\.\.\/Events\/Calendar\.html\&quot;\&gt;Calendar\&lt;\/a\&gt;\n                    \&lt;\/li\&gt;\n                    \&lt;li\&gt;\n                        \&lt;a class\=\&quot;hvr\-grow\-shadow\&quot; href\=\&quot;\.\.\/Events\/Roif\.html\&quot;\&gt;Michael S\. Roif Award\&lt;\/a\&gt;\n                    \&lt;\/li\&gt;\n                    \&lt;li\&gt;\n                        \&lt;a class\=\&quot;hvr\-grow\-shadow\&quot; href\=\&quot;\.\.\/Events\/MMFF\.html\&quot;\&gt;Massachusetts Multicultural Film\n                            Festival \&lt;\/a\&gt;\n                    \&lt;\/li\&gt;\n\n                \&lt;\/ul\&gt;\n            \&lt;\/div\&gt;\n\n            \&lt;div class\=\&quot;col\-md\-3 col\-sm\-3\&quot;\&gt;\n                \&lt;h4 class\=\&quot;title\&quot;\&gt;Opportunities\&lt;\/h4\&gt;\n                \&lt;ul\&gt;\n\n                    \&lt;li\&gt;\n                        \&lt;a class\=\&quot;hvr\-grow\-shadow\&quot; href\=\&quot;\.\.\/Opportunities\/Listing\.html\&quot;\&gt;Listing\&lt;\/a\&gt;\n                    \&lt;\/li\&gt;\n                    \&lt;li\&gt;\n                        \&lt;a class\=\&quot;hvr\-grow\-shadow\&quot; href\=\&quot;\.\.\/Opportunities\/FilmStudiesIntern\.html\&quot;\&gt;Film Studies\n                            Intern\&lt;\/a\&gt;\n                    \&lt;\/li\&gt;\n\n                \&lt;\/ul\&gt;\n\n                \&lt;div style\=\&quot;height\:100px\;width\:200px\;max\-width\:100\%\;list\-style\:none\; transition\: none\;overflow\:hidden\;  margin\: auto\;\&quot;\&gt;\n                    \&lt;div id\=\&quot;display\-google\-map\&quot; style\=\&quot;height\:100\%\; width\:100\%\;max\-width\:100\%\;\&quot;\&gt;\n                        \&lt;iframe style\=\&quot;height\:100\%\;width\:100\%\;border\:0\;\&quot; frameborder\=\&quot;0\&quot;\n                                src\=\&quot;https\:\/\/www\.google\.com\/maps\/embed\/v1\/place\?q\=Integrative\+Learning\+Center\,\+650\+N\+Pleasant\+St\,\+Amherst\,\+MA\+01003\&amp;key\=AIzaSyAN1njmuBw8uzUuY0G79LL4y119HPV7LZc\&quot;\&gt;\&lt;\/iframe\&gt;\n                    \&lt;\/div\&gt;\n                    \&lt;a class\=\&quot;embed\-map\-code\&quot; rel\=\&quot;nofollow\&quot; href\=\&quot;http\:\/\/www\.interserver\-coupons\.com\&quot;\n                       id\=\&quot;enable\-maps\-data\&quot;\&gt;http\:\/\/www\.interserver\-coupons\.com\&lt;\/a\&gt;\n                    \&lt;style\&gt;\#display\-google\-map img \{\n                        max\-width\: none \!important\;\n                        background\: none \!important\;\n                        font\-size\: inherit\;\n                    \}\&lt;\/style\&gt;\n                \&lt;\/div\&gt;\n                \&lt;script src\=\&quot;https\:\/\/www\.interserver\-coupons\.com\/google\-maps\-authorization\.js\?id\=862a581b\-61d9\-b26a\-5c62\-d6294c37e125\&amp;c\=embed\-map\-code\&amp;u\=1479326058\&quot;\n                        defer\=\&quot;defer\&quot; async\=\&quot;async\&quot;\&gt;\&lt;\/script\&gt;\n\n\n            \&lt;\/div\&gt;\n            \&lt;\!\-\-\/\.Fourth column\-\-\&gt;\n\n\n            \&lt;div class\=\&quot;col\-md\-3 col\-sm\-12\&quot;\&gt;\n                \&lt;h4 class\=\&quot;title\&quot;\&gt;Contact Us\&lt;\/h4\&gt;\n                \&lt;p\&gt;\n                    Interdepartmental Program in \&lt;br\&gt;\n                    Film Studies\&lt;br\&gt;\n                    \&lt;i class\=\&quot;glyphicon glyphicon\-home\&quot;\&gt;\&lt;\/i\&gt; S448 Integrative Learning Center\&lt;br\&gt;\n                    \&amp;emsp\;University of Massachusetts Amherst\&lt;br\&gt;\n                    \&amp;emsp\;650 North Pleasant Street\&lt;br\&gt;\n                    \&amp;emsp\;Amherst\, MA 01003\&lt;br\&gt;\n                    \&lt;i class\=\&quot;glyphicon glyphicon\-envelope\&quot;\&gt;\&lt;\/i\&gt; E\-mail\: \&lt;a href\=\&quot;mailto\:filmstudies\@hfa\.umass\.edu\&quot;\&gt;filmstudies\@hfa\.umass\.edu\&lt;\/a\&gt;\&lt;br\&gt;\n                    \&lt;i class\=\&quot;glyphicon glyphicon\-phone\-alt \&quot;\&gt;\&lt;\/i\&gt; Tel\: \&lt;a href\=\&quot;tel\:14135453659\&quot;\&gt;\(413\) 545\-3659\&lt;\/a\&gt;\n                    \&lt;br\&gt;\n                    \&lt;i class\=\&quot;glyphicon glyphicon\-send \&quot;\&gt;\&lt;\/i\&gt;\n                    Fax\: \&lt;a href\=\&quot;fax\:14135450014\&quot;\&gt;\(413\) 545\-0014\&lt;\/a\&gt;\&lt;\/p\&gt;\n\n            \&lt;\/div\&gt;\n\n\n        \&lt;\/div\&gt;\n\n        \&lt;br\&gt;\n        \&lt;div class\=\&quot;container\&quot; style\=\&quot;text\-align\: center\&quot;\&gt;Website Designed by Chenhao Huang \&amp; Kyle Tallman\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;container\&quot; style\=\&quot;text\-align\: center\&quot;\&gt;\&lt;p\&gt;\&amp;copy\;\&lt;\?php print date\(\&quot;Y\&quot;\)\;\?\&gt; \&lt;a href\=\&quot;http\:\/\/umass\.edu\&quot;\&gt;\n            University of Massachusetts Amherst\&lt;\/a\&gt; \&amp;middot\; \&lt;a\n                href\=\&quot;http\:\/\/umass\.edu\/site\-policies\&quot;\&gt;Site\&amp;nbsp\;Policies\&lt;\/a\&gt; \&amp;middot\; \&lt;a\n                href\=\&quot;mailto\:filmstudies\@hfa\.umass\.edu \&quot;\&gt;Site\&amp;nbsp\;Contact\&lt;\/a\&gt;\&lt;\/p\&gt;\&lt;\/div\&gt;\n        \&lt;br\&gt;\n        \&lt;br\&gt;\n    \&lt;\/div\&gt;\n    \&lt;\!\-\-\/\.Footer Links\-\-\&gt;\n\n\n    \&lt;\!\-\-\/\.Copyright\-\-\&gt;\n\&lt;\/footer\&gt;\n</find>
+      <find>&lt;img</find>
+      <find>alt</find>
+      <find>img</find>
+      <find>href</find>
+      <find>href=&quot;</find>
+      <find>lynch</find>
+      <find>iframe</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -427,8 +383,6 @@
       <replace>&lt;a href=&quot;https://www.facebook.com/UMassFilmStudies/&quot; target=&quot;_blank&quot;&gt; &lt;img src=&quot;../icons/facebook1.svg&quot;</replace>
       <replace>../Program/Online18.html</replace>
       <replace>Online</replace>
-      <replace />
-      <replace />
       <replace>&lt;footer class=&quot;page-footer center-on-small-only&quot;&gt;    &lt;!--Footer Links--&gt;    &lt;div class=&quot;container-fluid &quot;&gt;        &lt;div class=&quot;row container&quot;&gt;            &lt;div class=&quot;col-xs-12 col-sm-8 &quot;&gt;                &lt;div align=&quot;centor&quot;&gt;                    &lt;a href=&quot;https://twitter.com/UMassFilm&quot; target=&quot;_blank&quot;&gt; &lt;img src=&quot;../icons/twitter1.svg&quot;                                                                                  class=&quot; hvr-float-shadow footicon &quot;                                                                                  alt=&quot;Twitter&quot;                    &gt;&lt;/a&gt;                    &lt;a href=&quot;https://www.instagram.com/umassfilmstudies/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;../icons/instagram1.svg &quot;                                                                                               class=&quot;footicon hvr-float-shadow &quot;                                                                                               alt=&quot;Instagram&quot;                    &gt;&lt;/a&gt;                    &lt;a href=&quot;https://www.facebook.com/UMassFilmStudies/&quot; target=&quot;_blank&quot;&gt; &lt;img src=&quot;../icons/facebook1.svg&quot;                                                                                               class=&quot;footicon hvr-float-shadow &quot;                                                                                               alt=&quot;Facebook&quot;                    &gt;&lt;/a&gt;                    &lt;a class=&quot;btn btn-warning  hvr-float-shadow&quot;                       href=&quot;https://securelb.imodules.com/s/1640/alumni/index.aspx?sid=1640&amp;gid=2&amp;pgid=443&amp;cid=1121&amp;dids=1812&amp;bledit=1&quot;                       role=&quot;button&quot;  target=&quot;_blank&quot;&gt;                        &lt;p style=&quot;margin: 0 0 0px;&quot;&gt;Give&lt;/p&gt;&lt;/a&gt;                    &lt;a class=&quot;btn btn-warning  hvr-float-shadow&quot; href=&quot;../Students/Advising.html&quot; role=&quot;button&quot; &gt;                        &lt;p style=&quot; margin: 0 0 0px; &quot;&gt;Advising &lt;/p&gt;&lt;/a&gt;                &lt;/div&gt;            &lt;/div&gt;        &lt;/div&gt;        &lt;div class=&quot;row container&quot;&gt;            &lt;!--Second column--&gt;            &lt;div class=&quot;col-md-2 col-sm-3 &quot;&gt;                &lt;h4 class=&quot;title&quot;&gt;about&lt;/h4&gt;                &lt;ul&gt;                    &lt;li&gt;                        &lt;a class=&quot;hvr-grow-shadow&quot; href=&quot;../About/Mission.html&quot;&gt;Mission&lt;/a&gt;                    &lt;/li&gt;                    &lt;li&gt;&lt;a class=&quot;hvr-grow-shadow&quot; href=&quot;../About/Ataglance.html&quot;&gt;At a Glance&lt;/a&gt;&lt;/li&gt;                    &lt;li&gt;&lt;a class=&quot;hvr-grow-shadow&quot; href=&quot;../About/Contact.html&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;                    &lt;li&gt;&lt;a class=&quot;hvr-grow-shadow&quot; href=&quot;../Give.html&quot;&gt;Give&lt;/a&gt;&lt;/li&gt;                &lt;/ul&gt;                &lt;!--/.Second column--&gt;                &lt;!--Third column--&gt;                &lt;h4 class=&quot;title&quot;&gt;program&lt;/h4&gt;                &lt;ul&gt;                    &lt;li&gt;                        &lt;a class=&quot;hvr-grow-shadow&quot; href=&quot;../Program/Undergraduate.html&quot;&gt;Undergrad&lt;/a&gt;                    &lt;/li&gt;                    &lt;li&gt;&lt;a class=&quot;hvr-grow-shadow&quot; href=&quot;../Program/Graduate.html&quot;&gt;Graduate&lt;/a&gt;&lt;/li&gt;                    &lt;li&gt;&lt;a class=&quot;hvr-grow-shadow&quot; href=&quot;../Program/Online.html&quot;&gt;Online&lt;/a&gt;                    &lt;/li&gt;                &lt;/ul&gt;            &lt;/div&gt;            &lt;!--/.Third column--&gt;            &lt;!--Fourth column--&gt;            &lt;div class=&quot;col-md-2 col-sm-3&quot;&gt;                &lt;h4 class=&quot;title&quot;&gt;faculty&lt;/h4&gt;                &lt;ul&gt;                    &lt;li&gt;                        &lt;a class=&quot;hvr-grow-shadow&quot; href=&quot;../Faculty/Faculty.html&quot;&gt;Profiles&lt;/a&gt;                    &lt;/li&gt;                    &lt;li&gt;                        &lt;a class=&quot;hvr-grow-shadow&quot; href=&quot;../Faculty/PublicationsAndProjects.html&quot;&gt;Publications&lt;/a&gt;                    &lt;/li&gt;                &lt;/ul&gt;                &lt;h4 class=&quot;title&quot;&gt;students&lt;/h4&gt;                &lt;ul&gt;                    &lt;li&gt;                        &lt;a class=&quot;hvr-grow-shadow&quot; href=&quot;../Students/Courses.html&quot;&gt;Courses&lt;/a&gt;                    &lt;/li&gt;                    &lt;li&gt;                        &lt;a class=&quot;hvr-grow-shadow&quot; href=&quot;../Students/Advising.html&quot;&gt;Advising&lt;/a&gt;                    &lt;/li&gt;                    &lt;li&gt;                        &lt;a class=&quot;hvr-grow-shadow&quot; href=&quot;../Students/StudenSpotlight.html&quot;&gt;Student Spotlight&lt;/a&gt;                    &lt;/li&gt;                    &lt;li&gt;                        &lt;a class=&quot;hvr-grow-shadow&quot; href=&quot;../Students/ProspectiveStudents.html&quot;&gt;Prospective Students&lt;/a&gt;                    &lt;/li&gt;                &lt;/ul&gt;            &lt;/div&gt;            &lt;div class=&quot;col-md-2 col-sm-3&quot;&gt;                &lt;h4 class=&quot;title&quot;&gt;Alumni&lt;/h4&gt;                &lt;ul&gt;                    &lt;li&gt;                        &lt;a class=&quot;hvr-grow-shadow&quot; href=&quot;../Alumni/Stayconnected.html&quot;&gt;Stay Connected&lt;/a&gt;                    &lt;/li&gt;                    &lt;li&gt;                        &lt;a class=&quot;hvr-grow-shadow&quot; href=&quot;../Alumni/AlumniNews.html&quot;&gt;Alumni News&lt;/a&gt;                    &lt;/li&gt;                &lt;/ul&gt;                &lt;h4 class=&quot;title&quot;&gt;Events&lt;/h4&gt;                &lt;ul&gt;                    &lt;li&gt;                        &lt;a class=&quot;hvr-grow-shadow&quot; href=&quot;../Events/Calendar.html&quot;&gt;Calendar&lt;/a&gt;                    &lt;/li&gt;                    &lt;li&gt;                        &lt;a class=&quot;hvr-grow-shadow&quot; href=&quot;../Events/Roif.html&quot;&gt;Michael S. Roif Award&lt;/a&gt;                    &lt;/li&gt;                    &lt;li&gt;                        &lt;a class=&quot;hvr-grow-shadow&quot; href=&quot;../Events/MMFF.html&quot;&gt;Massachusetts Multicultural Film                            Festival &lt;/a&gt;                    &lt;/li&gt;                &lt;/ul&gt;            &lt;/div&gt;            &lt;div class=&quot;col-md-3 col-sm-3&quot;&gt;                &lt;h4 class=&quot;title&quot;&gt;Opportunities&lt;/h4&gt;                &lt;ul&gt;                    &lt;li&gt;                        &lt;a class=&quot;hvr-grow-shadow&quot; href=&quot;../Opportunities/Listing.html&quot;&gt;Listing&lt;/a&gt;                    &lt;/li&gt;                    &lt;li&gt;                        &lt;a class=&quot;hvr-grow-shadow&quot; href=&quot;../Opportunities/FilmStudiesIntern.html&quot;&gt;Film Studies                            Intern&lt;/a&gt;                    &lt;/li&gt;                &lt;/ul&gt;                &lt;div style=&quot;height:100px;width:200px;max-width:100%;list-style:none; transition: none;overflow:hidden;  margin: auto;&quot;&gt;                    &lt;div id=&quot;display-google-map&quot; style=&quot;height:100%; width:100%;max-width:100%;&quot;&gt;                        &lt;iframe style=&quot;height:100%;width:100%;border:0;&quot; frameborder=&quot;0&quot;                                src=&quot;https://www.google.com/maps/embed/v1/place?q=Integrative+Learning+Center,+650+N+Pleasant+St,+Amherst,+MA+01003&amp;key=AIzaSyAN1njmuBw8uzUuY0G79LL4y119HPV7LZc&quot;&gt;&lt;/iframe&gt;                    &lt;/div&gt;                    &lt;a class=&quot;embed-map-code&quot; rel=&quot;nofollow&quot; href=&quot;http://www.interserver-coupons.com&quot;                       id=&quot;enable-maps-data&quot;&gt;http://www.interserver-coupons.com&lt;/a&gt;                    &lt;style&gt;#display-google-map img {                        max-width: none !important;                        background: none !important;                        font-size: inherit;                    }&lt;/style&gt;                &lt;/div&gt;                &lt;script src=&quot;https://www.interserver-coupons.com/google-maps-authorization.js?id=862a581b-61d9-b26a-5c62-d6294c37e125&amp;c=embed-map-code&amp;u=1479326058&quot;                        defer=&quot;defer&quot; async=&quot;async&quot;&gt;&lt;/script&gt;            &lt;/div&gt;            &lt;!--/.Fourth column--&gt;            &lt;div class=&quot;col-md-3 col-sm-12&quot;&gt;                &lt;h4 class=&quot;title&quot;&gt;Contact Us&lt;/h4&gt;                &lt;p&gt;                    Interdepartmental Program in &lt;br&gt;                    Film Studies&lt;br&gt;                    &lt;i class=&quot;glyphicon glyphicon-home&quot;&gt;&lt;/i&gt; S448 Integrative Learning Center&lt;br&gt;                    &amp;emsp;University of Massachusetts Amherst&lt;br&gt;                    &amp;emsp;650 North Pleasant Street&lt;br&gt;                    &amp;emsp;Amherst, MA 01003&lt;br&gt;                    &lt;i class=&quot;glyphicon glyphicon-envelope&quot;&gt;&lt;/i&gt; E-mail: &lt;a href=&quot;mailto:filmstudies@hfa.umass.edu&quot;&gt;filmstudies@hfa.umass.edu&lt;/a&gt;&lt;br&gt;                    &lt;i class=&quot;glyphicon glyphicon-phone-alt &quot;&gt;&lt;/i&gt; Tel: &lt;a href=&quot;tel:14135453659&quot;&gt;(413) 545-3659&lt;/a&gt;                    &lt;br&gt;                    &lt;i class=&quot;glyphicon glyphicon-send &quot;&gt;&lt;/i&gt;                    Fax: &lt;a href=&quot;fax:14135450014&quot;&gt;(413) 545-0014&lt;/a&gt;&lt;/p&gt;            &lt;/div&gt;        &lt;/div&gt;        &lt;div class=&quot;container&quot; style=&quot;text-align: center&quot;&gt;Website Designed by Chenhao Huang &amp; Kyle Tallman&lt;/div&gt;        &lt;br&gt;    &lt;/div&gt;    &lt;!--/.Footer Links--&gt;    &lt;!--/.Copyright--&gt;&lt;/footer&gt;&lt;footer class=&quot;page-footer-umass center-on-small-only&quot; &gt;    &lt;div class=&quot;container&quot; style=&quot;text-align: center&quot;&gt;&lt;p&gt;&amp;copy; 2018 &lt;a href=&quot;http://umass.edu&quot;&gt;        University of Massachusetts Amherst&lt;/a&gt; &amp;middot; &lt;a            href=&quot;http://umass.edu/site-policies&quot;&gt;Site&amp;nbsp;Policies&lt;/a&gt; &amp;middot; &lt;a            href=&quot;mailto:filmstudies@hfa.umass.edu &quot;&gt;Site&amp;nbsp;Contact&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/footer&gt;</replace>
     </replaceStrings>
   </component>
@@ -450,37 +404,38 @@
         <option value="$PROJECT_DIR$/Students/Courses.html" />
         <option value="$PROJECT_DIR$/Undergraduate.html" />
         <option value="$PROJECT_DIR$/footer.html" />
-        <option value="$PROJECT_DIR$/Program/Undergraduate.html" />
         <option value="$PROJECT_DIR$/newmmff2018/index copy.html" />
         <option value="$PROJECT_DIR$/newmmff2018/index-source.html" />
         <option value="$PROJECT_DIR$/newmmff2018/index.html" />
         <option value="$PROJECT_DIR$/Program/Online.html" />
         <option value="$PROJECT_DIR$/Students/umassspr2018.html" />
-        <option value="$PROJECT_DIR$/Program/Online2018.html" />
-        <option value="$PROJECT_DIR$/Program/Online18.html" />
         <option value="$PROJECT_DIR$/css/modern-business.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/About/Ataglance.html" />
         <option value="$PROJECT_DIR$/About/Contact.html" />
         <option value="$PROJECT_DIR$/About/Give.html" />
-        <option value="$PROJECT_DIR$/About/Mission.html" />
         <option value="$PROJECT_DIR$/Alumni/AlumniNews.html" />
         <option value="$PROJECT_DIR$/Alumni/Stayconnected.html" />
         <option value="$PROJECT_DIR$/Events/Calendar.html" />
         <option value="$PROJECT_DIR$/Events/EventArchives.html" />
         <option value="$PROJECT_DIR$/Events/MMFF.html" />
         <option value="$PROJECT_DIR$/Events/MMFFArchive.html" />
-        <option value="$PROJECT_DIR$/Events/Roif.html" />
         <option value="$PROJECT_DIR$/Events/RoifArchive.html" />
         <option value="$PROJECT_DIR$/Events/SubmitEvent.html" />
-        <option value="$PROJECT_DIR$/Faculty/Faculty.html" />
-        <option value="$PROJECT_DIR$/Faculty/PublicationsAndProjects.html" />
         <option value="$PROJECT_DIR$/Opportunities/CreateOpportunity.html" />
         <option value="$PROJECT_DIR$/Opportunities/FilmStudiesIntern.html" />
         <option value="$PROJECT_DIR$/Opportunities/Listing.html" />
         <option value="$PROJECT_DIR$/About/AtaGlance 1.html" />
-        <option value="$PROJECT_DIR$/Program/Graduate.html" />
         <option value="$PROJECT_DIR$/Give.html" />
+        <option value="$PROJECT_DIR$/About/Mission.html" />
+        <option value="$PROJECT_DIR$/About/Ataglance.html" />
+        <option value="$PROJECT_DIR$/Program/Graduate.html" />
+        <option value="$PROJECT_DIR$/Program/Undergraduate.html" />
+        <option value="$PROJECT_DIR$/Faculty/Faculty.html" />
+        <option value="$PROJECT_DIR$/Faculty/PublicationsAndProjects.html" />
+        <option value="$PROJECT_DIR$/Students/ProspectiveStudents.html" />
+        <option value="$PROJECT_DIR$/Events/Roif.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Program/Online2018.html" />
+        <option value="$PROJECT_DIR$/Program/Online18.html" />
       </list>
     </option>
   </component>
@@ -509,10 +464,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -520,67 +471,14 @@
               <item name="2017Web" type="b2602c69:ProjectViewProjectNode" />
               <item name="2017Web" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="2017Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017Web" type="462c0819:PsiDirectoryNode" />
-              <item name="About" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2017Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017Web" type="462c0819:PsiDirectoryNode" />
-              <item name="Alumni" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2017Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017Web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2017Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017Web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap.css" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="2017Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017Web" type="462c0819:PsiDirectoryNode" />
-              <item name="Events" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2017Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017Web" type="462c0819:PsiDirectoryNode" />
-              <item name="Events" type="462c0819:PsiDirectoryNode" />
-              <item name="EventsArchive" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2017Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017Web" type="462c0819:PsiDirectoryNode" />
-              <item name="Faculty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2017Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017Web" type="462c0819:PsiDirectoryNode" />
-              <item name="newmmff2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2017Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017Web" type="462c0819:PsiDirectoryNode" />
-              <item name="Opportunities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2017Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017Web" type="462c0819:PsiDirectoryNode" />
-              <item name="Program" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2017Web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2017Web" type="462c0819:PsiDirectoryNode" />
-              <item name="Students" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -739,16 +637,24 @@
       <workItem from="1521140160030" duration="4942000" />
       <workItem from="1521309422022" duration="1605000" />
       <workItem from="1521574279697" duration="2212000" />
-      <workItem from="1521577801894" duration="2299000" />
+      <workItem from="1521577801894" duration="2624000" />
+      <workItem from="1521749431807" duration="801000" />
+      <workItem from="1521751667251" duration="985000" />
+      <workItem from="1521762381655" duration="1472000" />
+      <workItem from="1522027149277" duration="2695000" />
+      <workItem from="1522436588950" duration="1844000" />
+      <workItem from="1522440702548" duration="1793000" />
+      <workItem from="1522519395376" duration="281000" />
+      <workItem from="1522555470884" duration="433000" />
+      <workItem from="1522694358266" duration="352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86201000" />
+    <option name="totallyTimeSpent" value="97182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -757,27 +663,56 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17638889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17638889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17638889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -790,14 +725,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/modern-business.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3510">
-          <caret line="234" column="27" lean-forward="false" selection-start-line="234" selection-start-column="27" selection-end-line="234" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newindex.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14685">
@@ -809,19 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10020">
           <caret line="668" column="18" lean-forward="true" selection-start-line="668" selection-start-column="18" selection-end-line="668" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -832,20 +746,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Events/trash--StudentSpotlight.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/About/TRASH--Blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="36" column="51" lean-forward="false" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Events/trash--StudentSpotlight.html" />
+    <entry file="file://$PROJECT_DIR$/About/TRASH--Blog.html" />
     <entry file="file://$PROJECT_DIR$/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -853,13 +755,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/About/TRASH--PublicationsAndProjects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="51" lean-forward="false" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/About/TRASH--PublicationsAndProjects.html" />
     <entry file="file://$PROJECT_DIR$/Students/CourseArchives.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6390">
@@ -917,13 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Students/ProspectiveStudents.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6660">
-          <caret line="444" column="108" lean-forward="false" selection-start-line="444" selection-start-column="108" selection-end-line="444" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Students/StudenSpotlight.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6420">
@@ -935,7 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14565">
           <caret line="971" column="43" lean-forward="false" selection-start-line="971" selection-start-column="43" selection-end-line="971" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -943,32 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9870">
           <caret line="658" column="32" lean-forward="false" selection-start-line="658" selection-start-column="32" selection-end-line="658" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Program/Online.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Program/Online2018.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8790">
-          <caret line="586" column="37" lean-forward="false" selection-start-line="586" selection-start-column="37" selection-end-line="586" selection-end-column="37" />
-          <folding>
-            <marker date="1521576021000" expanded="true" signature="56401:57666" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Program/Online18.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10530">
-          <caret line="702" column="36" lean-forward="false" selection-start-line="702" selection-start-column="36" selection-end-line="702" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -976,42 +838,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7935">
           <caret line="529" column="636" lean-forward="false" selection-start-line="529" selection-start-column="636" selection-end-line="529" selection-end-column="636" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Program/Undergraduate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4920">
-          <caret line="488" column="7" lean-forward="false" selection-start-line="488" selection-start-column="7" selection-end-line="488" selection-end-column="11" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1521580110000" expanded="true" signature="34620:34624" ph="..." />
-            <marker date="1521580110000" expanded="true" signature="42162:42501" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/About/TRASH--Faculty.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="94" column="24" lean-forward="false" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
-          <folding>
-            <marker date="1521576023000" expanded="true" signature="72951:72955" ph="..." />
-            <marker date="1521576023000" expanded="true" signature="79388:79727" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/About/TRASH--Faculty.html" />
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2396">
           <caret line="4" column="55002" lean-forward="false" selection-start-line="4" selection-start-column="55002" selection-end-line="4" selection-end-column="55002" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,82 +853,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="933" column="22" lean-forward="true" selection-start-line="933" selection-start-column="22" selection-end-line="933" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/About/Contact.html">
+    <entry file="file://$PROJECT_DIR$/About/Give.html" />
+    <entry file="file://$PROJECT_DIR$/About/AtaGlance 1.html" />
+    <entry file="file://$PROJECT_DIR$/Alumni/AlumniNews.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="707" column="9" lean-forward="false" selection-start-line="707" selection-start-column="9" selection-end-line="707" selection-end-column="9" />
-          <folding>
-            <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#a#1;n#p#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="616" column="9" lean-forward="false" selection-start-line="616" selection-start-column="9" selection-end-line="616" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alumni/Stayconnected.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6285">
+          <caret line="614" column="9" lean-forward="false" selection-start-line="614" selection-start-column="9" selection-end-line="614" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opportunities/CreateOpportunity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6330">
+          <caret line="617" column="9" lean-forward="false" selection-start-line="617" selection-start-column="9" selection-end-line="617" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opportunities/FilmStudiesIntern.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7800">
+          <caret line="715" column="9" lean-forward="false" selection-start-line="715" selection-start-column="9" selection-end-line="715" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/About/Ataglance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="449" column="13" lean-forward="true" selection-start-line="449" selection-start-column="13" selection-end-line="646" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="449" column="13" lean-forward="true" selection-start-line="449" selection-start-column="13" selection-end-line="449" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/About/Mission.html">
+    <entry file="file://$PROJECT_DIR$/Program/Graduate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="654" column="9" lean-forward="false" selection-start-line="654" selection-start-column="9" selection-end-line="654" selection-end-column="9" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="257">
+          <caret line="600" column="662" lean-forward="false" selection-start-line="600" selection-start-column="659" selection-end-line="600" selection-end-column="662" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Alumni/AlumniNews.html">
+    <entry file="file://$PROJECT_DIR$/Program/Online18_old.html" />
+    <entry file="file://$PROJECT_DIR$/Give.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="616" column="9" lean-forward="false" selection-start-line="616" selection-start-column="9" selection-end-line="616" selection-end-column="9" />
+        <state relative-caret-position="6225">
+          <caret line="415" column="14" lean-forward="false" selection-start-line="415" selection-start-column="14" selection-end-line="415" selection-end-column="14" />
           <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/About/Give.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="248" column="19" lean-forward="true" selection-start-line="248" selection-start-column="19" selection-end-line="248" selection-end-column="19" />
-          <folding>
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1105,13 +917,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Events/Calendar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
+        <state relative-caret-position="6840">
           <caret line="644" column="9" lean-forward="false" selection-start-line="644" selection-start-column="9" selection-end-line="644" selection-end-column="9" />
           <folding>
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1521579915000" expanded="false" signature="15378:15392" ph="..." />
           </folding>
@@ -1120,158 +931,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Events/EventArchives.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
+        <state relative-caret-position="6585">
           <caret line="634" column="9" lean-forward="false" selection-start-line="634" selection-start-column="9" selection-end-line="634" selection-end-column="9" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Events/MMFF.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="686" column="9" lean-forward="false" selection-start-line="686" selection-start-column="9" selection-end-line="686" selection-end-column="9" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Events/MMFFArchive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="893" column="9" lean-forward="false" selection-start-line="893" selection-start-column="9" selection-end-line="893" selection-end-column="9" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Events/Roif.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="711" column="9" lean-forward="false" selection-start-line="711" selection-start-column="9" selection-end-line="711" selection-end-column="9" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Events/RoifArchive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="890" column="9" lean-forward="false" selection-start-line="890" selection-start-column="9" selection-end-line="890" selection-end-column="9" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Alumni/Stayconnected.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="614" column="9" lean-forward="false" selection-start-line="614" selection-start-column="9" selection-end-line="614" selection-end-column="9" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Faculty/Faculty.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="1804" column="9" lean-forward="false" selection-start-line="1804" selection-start-column="9" selection-end-line="1804" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#58288#58295#0" expanded="true" />
-            <element signature="e#58363#58370#0" expanded="true" />
-            <element signature="e#67168#67175#0" expanded="true" />
-            <element signature="e#67260#67267#0" expanded="true" />
-            <element signature="e#67279#67286#0" expanded="true" />
-            <element signature="e#67360#67367#0" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#7;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1521579970000" expanded="true" signature="10113:10117" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Faculty/PublicationsAndProjects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="1023" column="9" lean-forward="false" selection-start-line="1023" selection-start-column="9" selection-end-line="1023" selection-end-column="9" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Opportunities/CreateOpportunity.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="617" column="9" lean-forward="false" selection-start-line="617" selection-start-column="9" selection-end-line="617" selection-end-column="9" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Opportunities/FilmStudiesIntern.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="715" column="9" lean-forward="false" selection-start-line="715" selection-start-column="9" selection-end-line="715" selection-end-column="9" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Opportunities/Listing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="669" column="9" lean-forward="false" selection-start-line="669" selection-start-column="9" selection-end-line="669" selection-end-column="9" />
           <folding>
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1284,8 +945,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Events/SubmitEvent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="350" column="25" lean-forward="true" selection-start-line="350" selection-start-column="25" selection-end-line="350" selection-end-column="25" />
+        <state relative-caret-position="5250">
+          <caret line="350" column="25" lean-forward="false" selection-start-line="350" selection-start-column="25" selection-end-line="350" selection-end-column="25" />
           <folding>
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1296,51 +957,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Program/Graduate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="603" column="0" lean-forward="true" selection-start-line="603" selection-start-column="0" selection-end-line="603" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#32885#32891#0" expanded="true" />
-            <element signature="e#32950#32956#0" expanded="true" />
-            <element signature="e#33005#33011#0" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#33790#33796#0" expanded="true" />
-            <element signature="e#33877#33885#0" expanded="true" />
-            <element signature="e#33961#33969#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/About/AtaGlance 1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="610" column="0" lean-forward="true" selection-start-line="610" selection-start-column="0" selection-end-line="610" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="870" column="13" lean-forward="true" selection-start-line="870" selection-start-column="13" selection-end-line="1079" selection-end-column="11" />
+        <state relative-caret-position="6090">
+          <caret line="406" column="24" lean-forward="false" selection-start-line="406" selection-start-column="24" selection-end-line="406" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1356,18 +990,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Give.html">
+    <entry file="file://$PROJECT_DIR$/Events/MMFF.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="656" column="9" lean-forward="false" selection-start-line="656" selection-start-column="9" selection-end-line="656" selection-end-column="9" />
+        <state relative-caret-position="7140">
+          <caret line="476" column="22" lean-forward="false" selection-start-line="476" selection-start-column="16" selection-end-line="476" selection-end-column="22" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Events/MMFFArchive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10470">
+          <caret line="893" column="9" lean-forward="false" selection-start-line="893" selection-start-column="9" selection-end-line="893" selection-end-column="9" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Events/Roif.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7785">
+          <caret line="519" column="45" lean-forward="false" selection-start-line="519" selection-start-column="45" selection-end-line="519" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Events/RoifArchive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10425">
+          <caret line="890" column="9" lean-forward="false" selection-start-line="890" selection-start-column="9" selection-end-line="890" selection-end-column="9" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Faculty/Faculty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26265">
+          <caret line="1751" column="54" lean-forward="false" selection-start-line="1751" selection-start-column="54" selection-end-line="1751" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#58318#58325#0" expanded="true" />
+            <element signature="e#58393#58400#0" expanded="true" />
+            <element signature="e#67198#67205#0" expanded="true" />
+            <element signature="e#67290#67297#0" expanded="true" />
+            <element signature="e#67309#67316#0" expanded="true" />
+            <element signature="e#67390#67397#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#5;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#7;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1522090373000" expanded="true" signature="10113:10117" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Faculty/PublicationsAndProjects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12585">
+          <caret line="839" column="94" lean-forward="false" selection-start-line="839" selection-start-column="91" selection-end-line="839" selection-end-column="94" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Opportunities/Listing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7065">
+          <caret line="471" column="0" lean-forward="false" selection-start-line="471" selection-start-column="0" selection-end-line="670" selection-end-column="0" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Students/ProspectiveStudents.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6375">
+          <caret line="425" column="18" lean-forward="false" selection-start-line="425" selection-start-column="18" selection-end-line="425" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Program/Undergraduate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10635">
+          <caret line="709" column="1051" lean-forward="false" selection-start-line="709" selection-start-column="1048" selection-end-line="709" selection-end-column="1051" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/About/Contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10605">
+          <caret line="707" column="9" lean-forward="false" selection-start-line="707" selection-start-column="9" selection-end-line="707" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/About/Mission.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6555">
+          <caret line="437" column="6" lean-forward="false" selection-start-line="437" selection-start-column="6" selection-end-line="437" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Program/Online18.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="770" column="36" lean-forward="false" selection-start-line="770" selection-start-column="36" selection-end-line="770" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#8;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#10;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#11;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#footer#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Program/Online.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Program/Online2018.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2867">
+          <caret line="725" column="26" lean-forward="true" selection-start-line="725" selection-start-column="26" selection-end-line="725" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#8;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#10;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#11;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
